@@ -1,0 +1,1689 @@
+fileFormatVersion: 2
+guid: 4ef7bf4cb1a4c5e468d1dc9c5875b76e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1170
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8b73e436227f9459be7332cdb0d6db
+      internalID: -454161470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1170
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a877b032e385f84d99a892956ed1f09
+      internalID: 305508777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1158
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c8da81f8728674aa10ad14d539b3c6
+      internalID: -490964604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_3
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1059
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f830d234c0c38242bc87c47b0427c0e
+      internalID: 1452430966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 970
+        width: 257
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69664b6cf885ab140bd9c91067af631a
+      internalID: 1178657535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 971
+        width: 170
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f791458493019b643848d57a72b5bea3
+      internalID: -286357910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 880
+        width: 257
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d953049aa43361249a1f27893e3bd532
+      internalID: -1184004539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_7
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 879
+        width: 170
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12861c3b72db49a4b952dd6db583e8e0
+      internalID: -1021262178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 758
+        width: 428
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13da956694e8fe40ae27981c8d294fe
+      internalID: -1491917978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 634
+        width: 257
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d86a8883fba6e49bfa8bf70c433842
+      internalID: -371242481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_10
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 635
+        width: 170
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75560b8a3ee30874a9142306cf1e144d
+      internalID: 1626875574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 505
+        width: 63
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e13a5cf8511094b9c3474c68b6cfd7
+      internalID: 653228143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 505
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b89730b8d10ba46895ed5594d6891e
+      internalID: 616018497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 505
+        width: 109
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc91dec33dc5a0740a35e38691d6b220
+      internalID: -1611516365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_14
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 505
+        width: 66
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda1d6853094afa41b663438a0e3070b
+      internalID: -1415632134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_15
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 507
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ea4627a0991084eb1240f2ee41c2e3
+      internalID: 1239986017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 442
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d465e04ff23b7f41a7cb8f26cd1533b
+      internalID: -61273216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 442
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25cd545631ddda46afdeab0c5be14e5
+      internalID: 368146568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 433
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7204a282b113aa5468c086b9882a263e
+      internalID: 1449327014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 440
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b127396db5cc54eaf3e22b5d17736a
+      internalID: -176337604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 445
+        width: 67
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c890e1af22a40c4b83f6632053aa7cb
+      internalID: 1591649559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_21
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 442
+        width: 71
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76f9f295dd474b45be819859cbe1979
+      internalID: -1568055815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_22
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 439
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aac6cd8835e4ed428bbb82012800053
+      internalID: -1905324205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 377
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245ab113254f7a14e9ff7f1cf08a76b1
+      internalID: 1103462769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_24
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 369
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0eaa726b8a79142988c132d7342e22
+      internalID: 11352269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 367
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15036102322a64e4ca0f679bfdbd6d3b
+      internalID: -1504456867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_26
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 376
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84434ef1402e97740adcee163ec4f1af
+      internalID: 842326415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 379
+        width: 69
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118463e2b708e3944a7fe15d596a79d4
+      internalID: -1583915177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_28
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 384
+        width: 70
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8a81b2ebea6a54da4e060958ec1077
+      internalID: -666580845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 375
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39136046062d412438c7220124dc66a5
+      internalID: -300047926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 307
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d40ae8f896410c4c97b4a7b0b54d4ee
+      internalID: -1060603895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_31
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 301
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2434ac9a4a653949a90df6844dbf13b
+      internalID: 1618502088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_32
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 292
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c8c994ef1804f44948c709a5410895
+      internalID: -952778327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_33
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 305
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32691dbecca7b4d4fa523eb0f8b1265d
+      internalID: 1047265839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_34
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 307
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f2b42e17aeb7441bd52fd751daf6cf
+      internalID: -1364603632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_35
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 305
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aec3e89a187c2842ab985854142dd2e
+      internalID: -1283564540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_36
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 305
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47767d6f79d70be4c8dd5e37e46d3e02
+      internalID: -1510972975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_37
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 308
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c60561e42f84c4fb4b4f9555c88f17
+      internalID: -1733825954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_38
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 173
+        width: 147
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fdc21c3f89cbe48a19dc7f031824fa
+      internalID: 356672532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 194
+        width: 37
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1182af7a36733459fce80342ec6acd
+      internalID: -2114575268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_40
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 177
+        width: 166
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090f72786942d594d8637da3b318fbcd
+      internalID: -640217572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 170
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cc959a200ad9542bd0af9bd48b4838
+      internalID: -513787939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_42
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 111
+        width: 93
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7325384800f37714b8f66d0284116eea
+      internalID: -430645316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_43
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 35
+        width: 138
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c61f85414bf87418250a733b0c06ba
+      internalID: -1268865595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 43
+        width: 80
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09cb67bd01406449ae782894d345cf7
+      internalID: -2086296185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 430
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0952a47e7724ab04fbd95f12c1bf909f
+      internalID: -1723464216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_46
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1063
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273c3c388bfedd94d9a22a8a86166eb0
+      internalID: 1518657923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_47
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1063
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5288d92ef30bf4f933842cbaf6a5f2
+      internalID: 807084560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_48
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1063
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94d67a834365c84db43a1034bd16c1a
+      internalID: -35929870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_49
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1066
+        width: 83
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a85cbcee8915804185597adc2b2ee58
+      internalID: -219277974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_50
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1122
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48733285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ba1fd45eee27849acb54b8f08eb5ba
+      internalID: 1954411914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_51
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1122
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607ce6c86a46c004387b5eec0a60e2e3
+      internalID: 489013999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_52
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1123
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29235424812acac4bbcdf755ff03b035
+      internalID: 743920066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_53
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1095
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b016663748ea1c8409bb5e2b266eb1e7
+      internalID: -799425935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_54
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1095
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44a239d5127ac848bc63957dcd421af
+      internalID: -116825431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_55
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1095
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda299e04854e214bb7241eb804b9fe1
+      internalID: -1547911400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_56
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1065
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c3c3c42c0c7064f8a46beddbf59fc5
+      internalID: -669510365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_57
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1065
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50450ee23ca41fa489f59e7b140e59ee
+      internalID: -1081398053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_58
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1065
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823dc91a90a9e364a8544f3f90c26d11
+      internalID: 212458450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_59
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a403a4394363c9489a17bbf6ab9ad55
+      internalID: -1000965215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_60
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1094
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d552adf92dbea424caf8f6c5c4c29ba4
+      internalID: 980092715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_61
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1091
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ac58000d97c5041871e288a97ac685
+      internalID: -182213770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_62
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1094
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7646b9a466ed6147a092e4cf5ff44a6
+      internalID: 1549219833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_63
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1092
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b22568f1ee139049ac4b0b733d8de42
+      internalID: -647199249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_64
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48538fdba95814419c8e5a342ce92c0
+      internalID: 560330320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_65
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 647
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3dfa92c0103e44f94470e20c7ae571
+      internalID: 1423365167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_66
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 647
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31892faf1ce9104b8470300c1f634a4
+      internalID: 99918090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_67
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 647
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bb2853d10ceda4a805a6b559adb3a8
+      internalID: -518851773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_68
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f6585f3beacda4cabf4b396782e54a
+      internalID: 1862900128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_69
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b309e5b263c66d64d842954fe7b60b98
+      internalID: -182432218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClinicSettingBGAsset_70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b08a44dd2a24fc47b985c98136e2b30
+      internalID: -1311912385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ClinicSettingBGAsset_0: -454161470
+      ClinicSettingBGAsset_1: 305508777
+      ClinicSettingBGAsset_10: 1626875574
+      ClinicSettingBGAsset_11: 653228143
+      ClinicSettingBGAsset_12: 616018497
+      ClinicSettingBGAsset_13: -1611516365
+      ClinicSettingBGAsset_14: -1415632134
+      ClinicSettingBGAsset_15: 1239986017
+      ClinicSettingBGAsset_16: -61273216
+      ClinicSettingBGAsset_17: 368146568
+      ClinicSettingBGAsset_18: 1449327014
+      ClinicSettingBGAsset_19: -176337604
+      ClinicSettingBGAsset_2: -490964604
+      ClinicSettingBGAsset_20: 1591649559
+      ClinicSettingBGAsset_21: -1568055815
+      ClinicSettingBGAsset_22: -1905324205
+      ClinicSettingBGAsset_23: 1103462769
+      ClinicSettingBGAsset_24: 11352269
+      ClinicSettingBGAsset_25: -1504456867
+      ClinicSettingBGAsset_26: 842326415
+      ClinicSettingBGAsset_27: -1583915177
+      ClinicSettingBGAsset_28: -666580845
+      ClinicSettingBGAsset_29: -300047926
+      ClinicSettingBGAsset_3: 1452430966
+      ClinicSettingBGAsset_30: -1060603895
+      ClinicSettingBGAsset_31: 1618502088
+      ClinicSettingBGAsset_32: -952778327
+      ClinicSettingBGAsset_33: 1047265839
+      ClinicSettingBGAsset_34: -1364603632
+      ClinicSettingBGAsset_35: -1283564540
+      ClinicSettingBGAsset_36: -1510972975
+      ClinicSettingBGAsset_37: -1733825954
+      ClinicSettingBGAsset_38: 356672532
+      ClinicSettingBGAsset_39: -2114575268
+      ClinicSettingBGAsset_4: 1178657535
+      ClinicSettingBGAsset_40: -640217572
+      ClinicSettingBGAsset_41: -513787939
+      ClinicSettingBGAsset_42: -430645316
+      ClinicSettingBGAsset_43: -1268865595
+      ClinicSettingBGAsset_44: -2086296185
+      ClinicSettingBGAsset_45: -1723464216
+      ClinicSettingBGAsset_46: 1518657923
+      ClinicSettingBGAsset_47: 807084560
+      ClinicSettingBGAsset_48: -35929870
+      ClinicSettingBGAsset_49: -219277974
+      ClinicSettingBGAsset_5: -286357910
+      ClinicSettingBGAsset_50: 1954411914
+      ClinicSettingBGAsset_51: 489013999
+      ClinicSettingBGAsset_52: 743920066
+      ClinicSettingBGAsset_53: -799425935
+      ClinicSettingBGAsset_54: -116825431
+      ClinicSettingBGAsset_55: -1547911400
+      ClinicSettingBGAsset_56: -669510365
+      ClinicSettingBGAsset_57: -1081398053
+      ClinicSettingBGAsset_58: 212458450
+      ClinicSettingBGAsset_59: -1000965215
+      ClinicSettingBGAsset_6: -1184004539
+      ClinicSettingBGAsset_60: 980092715
+      ClinicSettingBGAsset_61: -182213770
+      ClinicSettingBGAsset_62: 1549219833
+      ClinicSettingBGAsset_63: -647199249
+      ClinicSettingBGAsset_64: 560330320
+      ClinicSettingBGAsset_65: 1423365167
+      ClinicSettingBGAsset_66: 99918090
+      ClinicSettingBGAsset_67: -518851773
+      ClinicSettingBGAsset_68: 1862900128
+      ClinicSettingBGAsset_69: -182432218
+      ClinicSettingBGAsset_7: -1021262178
+      ClinicSettingBGAsset_70: -1311912385
+      ClinicSettingBGAsset_8: -1491917978
+      ClinicSettingBGAsset_9: -371242481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

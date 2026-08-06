@@ -1,0 +1,1491 @@
+fileFormatVersion: 2
+guid: 25129cf77a0b33b45a7c6d5f417336be
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PixelClinic Asset_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1141
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0f1b31fdbb7cd46a4ef46e335131b7
+      internalID: 1071981213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 998
+        width: 95
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1a4264f333a0d43823b19fe9af8a77
+      internalID: -1017673743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1166
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8690871ef72cf849aa1722295088223
+      internalID: 964513027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_3
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1166
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4ac43a39b98b8418dd4c9d8f1f813a
+      internalID: 642208415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1142
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f4f853e3e81e5458a5361b50cf0c07
+      internalID: 1358888007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 998
+        width: 88
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0df9be41a13b94aa909c5569897aa2
+      internalID: -1380912762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1053
+        width: 53
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475857f1351395748b374b9c627f4def
+      internalID: 1222877809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 998
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dd7ce156d201446b7a4c15edd23f96
+      internalID: 2004987761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_8
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1060
+        width: 27
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f175a25823be24eac21c445ce66b8d
+      internalID: 1262717759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_9
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 994
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fe45a20f9210c48b7abb73958c63b4
+      internalID: 1310567615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 999
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3ae30602da8394c92b288c9b921486
+      internalID: 1476964685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 994
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36949befc2b255d4b9d85e134b47a237
+      internalID: 1982883472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 83
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96498b6a4d291e44db57f482568cc0a9
+      internalID: 944869909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 931
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7019ed946b88d2546bb7bf2b47498d55
+      internalID: -612079801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 867
+        width: 35
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd00426101b1864f8495d9c1bef707c
+      internalID: -528690063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_15
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 870
+        width: 59
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045c335d228aca74a8c82e6b84a11a52
+      internalID: -218809608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_16
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 870
+        width: 77
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23971e84dcc84134c9291dbfb2097f22
+      internalID: 142921584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_17
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 870
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e91c33e61da2041aecf3fc240ddd23
+      internalID: -407559159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 758
+        width: 171
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fb60bc33403ce4cb9bdc80e9fc7345
+      internalID: -1014772202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_19
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 758
+        width: 101
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f385439fe2734249b5f9896cd3978c6
+      internalID: 2142258709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 758
+        width: 46
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cff17c800654a14ebe522afc230467f
+      internalID: -582055313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 766
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2be6085777c784eaf3a25464f06bf6
+      internalID: 1606806609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_22
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 766
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c586f54dd7aed3640ab86a807763d062
+      internalID: -1257704850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 182
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39d4bb2d4bf9dc40bd46e2266e55a70
+      internalID: -1122581886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 620
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955dbe8873b0dad44919f159630b5e60
+      internalID: 1973336752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 608
+        width: 119
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4200dce8d99fb8448b39f66376abf157
+      internalID: 1158481102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_26
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 601
+        width: 117
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22636b551e9a2884b938586ab28dfe0d
+      internalID: 2142861215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 169
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c87d8d0f9ce9ad499d82b2bf20fd772
+      internalID: -230193403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 614
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09af087dff1e8de4d982a266b347f910
+      internalID: 478462173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 611
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d07982a4fc19a143a292443e02bcb31
+      internalID: 1091843454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 453
+        width: 40
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dd59e1f59f9584ab2556968f8ba1fb
+      internalID: 302513997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_31
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 454
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6e687dccddc8544a504cd81f094300
+      internalID: -1845749474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_32
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 453
+        width: 59
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4918fbc5a1f10e4d96833cb1364a8b3
+      internalID: -1774799639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_33
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 351
+        width: 1
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f147eccfd14b04a9a0f5023290af5b
+      internalID: 655771580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_34
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 304
+        width: 40
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e23c3d22c4477e43885cd05869fcb24
+      internalID: 775315336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_35
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 304
+        width: 62
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93345f33739753640844e53b3cdecd70
+      internalID: 1826738529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_36
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 304
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d85e6ae0c8cef408b00ec2fa0b3346
+      internalID: -1392157771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_37
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 304
+        width: 49
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6747604ac2814ae4d85b66f6a60b87a5
+      internalID: -250466799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_38
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 304
+        width: 73
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa120d8358dcc24fbb09374659305f5
+      internalID: 669327443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_39
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 304
+        width: 49
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a3238275b99d84cbd89baeb240d84d
+      internalID: 1354540959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 308
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb4b5cf38791fb49a125619bd67e555
+      internalID: 789633032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_41
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 188
+        width: 110
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abdb63aa855ae5448af1d354db9cbdf
+      internalID: -123895238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_42
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 191
+        width: 75
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed364ab6eeadeb4fac0e649745f0b8b
+      internalID: 433451367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_43
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 188
+        width: 78
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a986eec22c19e74a837203e3bfd14fd
+      internalID: 51667385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_44
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 175
+        width: 92
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313b69e721e917d46a19035886f86cc3
+      internalID: 540107443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 97
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6328f7c371147674dbd04820048e3239
+      internalID: -340004920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_46
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 112
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bf355fdd2af4141925f2aab79858e7
+      internalID: 1376031313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_47
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 112
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c3becfe0d60ad4ba8cb64c91c2b882
+      internalID: 1803893148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_48
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 135
+        width: 68
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c7a8410d5557649b4a9b9566eddfe6
+      internalID: 601513517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_49
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 126
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094d17d7bdf681e4ab2e9b8ef565074a
+      internalID: -1920583314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_50
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 121
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0754f52f329ac4690da41eeef25b55
+      internalID: -1435554740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_51
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 114
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843e0842bfd2f8049a04b24836033ac6
+      internalID: -1743113755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 78
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ef2de9177142b4f8edeb51b8441579
+      internalID: -1292281215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_53
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 6
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fae4f820e4eb3548bfc947702bda650
+      internalID: 1692165445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_54
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 51
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d3102af94159a4c8689885794653c7
+      internalID: -1036180029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_55
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 7
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02df649833191848ba10ce8bee79f10
+      internalID: 1976268490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_56
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 7
+        width: 46
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c894a68519e01a148b08792454c2856f
+      internalID: -681476072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_57
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 13
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32556a4c1236a745ba2886ff2538460
+      internalID: -2051889935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_58
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 20
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b21157ab6086db468c4f51bb1856d44
+      internalID: -1955225365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_59
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 16
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc6f560b98fc654b9a241e8588f9c22
+      internalID: 311987275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_60
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 18
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d806190372c3d041b3329ad70b7ba99
+      internalID: 246559521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelClinic Asset_61
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804f01df99921bc47bd4dbc1041d3700
+      internalID: -1936487486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PixelClinic Asset_0: 1071981213
+      PixelClinic Asset_1: -1017673743
+      PixelClinic Asset_10: 1476964685
+      PixelClinic Asset_11: 1982883472
+      PixelClinic Asset_12: 944869909
+      PixelClinic Asset_13: -612079801
+      PixelClinic Asset_14: -528690063
+      PixelClinic Asset_15: -218809608
+      PixelClinic Asset_16: 142921584
+      PixelClinic Asset_17: -407559159
+      PixelClinic Asset_18: -1014772202
+      PixelClinic Asset_19: 2142258709
+      PixelClinic Asset_2: 964513027
+      PixelClinic Asset_20: -582055313
+      PixelClinic Asset_21: 1606806609
+      PixelClinic Asset_22: -1257704850
+      PixelClinic Asset_23: -1122581886
+      PixelClinic Asset_24: 1973336752
+      PixelClinic Asset_25: 1158481102
+      PixelClinic Asset_26: 2142861215
+      PixelClinic Asset_27: -230193403
+      PixelClinic Asset_28: 478462173
+      PixelClinic Asset_29: 1091843454
+      PixelClinic Asset_3: 642208415
+      PixelClinic Asset_30: 302513997
+      PixelClinic Asset_31: -1845749474
+      PixelClinic Asset_32: -1774799639
+      PixelClinic Asset_33: 655771580
+      PixelClinic Asset_34: 775315336
+      PixelClinic Asset_35: 1826738529
+      PixelClinic Asset_36: -1392157771
+      PixelClinic Asset_37: -250466799
+      PixelClinic Asset_38: 669327443
+      PixelClinic Asset_39: 1354540959
+      PixelClinic Asset_4: 1358888007
+      PixelClinic Asset_40: 789633032
+      PixelClinic Asset_41: -123895238
+      PixelClinic Asset_42: 433451367
+      PixelClinic Asset_43: 51667385
+      PixelClinic Asset_44: 540107443
+      PixelClinic Asset_45: -340004920
+      PixelClinic Asset_46: 1376031313
+      PixelClinic Asset_47: 1803893148
+      PixelClinic Asset_48: 601513517
+      PixelClinic Asset_49: -1920583314
+      PixelClinic Asset_5: -1380912762
+      PixelClinic Asset_50: -1435554740
+      PixelClinic Asset_51: -1743113755
+      PixelClinic Asset_52: -1292281215
+      PixelClinic Asset_53: 1692165445
+      PixelClinic Asset_54: -1036180029
+      PixelClinic Asset_55: 1976268490
+      PixelClinic Asset_56: -681476072
+      PixelClinic Asset_57: -2051889935
+      PixelClinic Asset_58: -1955225365
+      PixelClinic Asset_59: 311987275
+      PixelClinic Asset_6: 1222877809
+      PixelClinic Asset_60: 246559521
+      PixelClinic Asset_61: -1936487486
+      PixelClinic Asset_7: 2004987761
+      PixelClinic Asset_8: 1262717759
+      PixelClinic Asset_9: 1310567615
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
