@@ -8,16 +8,19 @@ using Ink.Runtime;
 
 public class DialogueManager : MonoBehaviour
 {
-    [Header("Ink JSON Asset")]
-    [SerializeField] private TextAsset inkJsonAsset;
+    // Singleton so other scripts (like PlayerMovement and NPC) can easily find this!
+    public static DialogueManager Instance { get; private set; }
+
+    [Header("UI Panels")]
+    [SerializeField] private GameObject dialoguePanel; // The main visual novel UI background
 
     [Header("UI Text Components")]
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI speakerNameText;
 
     [Header("UI Portrait Components")]
-    [SerializeField] private Image leftPortraitImage;  // Slot for the Player
-    [SerializeField] private Image rightPortraitImage; // Slot for the NPC
+    [SerializeField] private Image leftPortraitImage;
+    [SerializeField] private Image rightPortraitImage;
     [SerializeField] private List<Sprite> portraitSprites;
 
     [Header("Choice Mechanics")]
@@ -31,11 +34,16 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI gradeText;
 
     private Story currentStory;
-    private bool isWaitingForChoice = false;
     private Dictionary<string, Sprite> portraitDictionary;
+
+    public bool isDialogueActive { get; private set; } = false;
+    private bool isWaitingForChoice = false;
 
     private void Awake()
     {
+        if (Instance != null) Debug.LogWarning("Found more than one Dialogue Manager in the scene");
+        Instance = this;
+
         portraitDictionary = new Dictionary<string, Sprite>();
         if (portraitSprites != null)
         {
@@ -51,18 +59,15 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
-        if (inkJsonAsset != null)
-        {
-            StartStory();
-        }
-        else
-        {
-            Debug.LogError("DialogueManager: Missing Ink JSON Asset!");
-        }
+        isDialogueActive = false;
+        if (dialoguePanel != null) dialoguePanel.SetActive(false); // Hide UI at start
     }
 
     void Update()
     {
+        // Don't read inputs if we aren't in a conversation
+        if (!isDialogueActive) return;
+
         if (!isWaitingForChoice && currentStory != null)
         {
             bool spacePressed = Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame;
@@ -76,10 +81,23 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void StartStory()
+    // Called by the NPC when you press 'E'
+    public void EnterDialogueMode(TextAsset inkAsset)
     {
-        currentStory = new Story(inkJsonAsset.text);
+        currentStory = new Story(inkAsset.text);
+        isDialogueActive = true;
+        if (dialoguePanel != null) dialoguePanel.SetActive(true);
         ContinueStory();
+    }
+
+    private void ExitDialogueMode()
+    {
+        isDialogueActive = false;
+        if (dialoguePanel != null) dialoguePanel.SetActive(false);
+        if (dialogueText != null) dialogueText.text = "";
+        if (speakerNameText != null) speakerNameText.text = "";
+        UpdatePortrait(leftPortraitImage, "clear");
+        UpdatePortrait(rightPortraitImage, "clear");
     }
 
     public void OnContinueClicked()
@@ -94,8 +112,6 @@ public class DialogueManager : MonoBehaviour
         if (currentStory.canContinue)
         {
             if (dialogueText != null) dialogueText.text = currentStory.Continue();
-
-            // Parse Ink tags
             HandleTags(currentStory.currentTags);
 
             if (currentStory.currentChoices.Count > 0)
@@ -117,6 +133,7 @@ public class DialogueManager : MonoBehaviour
             ClearChoices();
             SetWaitingForChoice(false);
             EvaluateAndPushScores();
+            ExitDialogueMode(); // Hide the dialogue UI
         }
     }
 
@@ -130,19 +147,16 @@ public class DialogueManager : MonoBehaviour
             if (splitTag.Length != 2) continue;
 
             string key = splitTag[0].Trim().ToLower();
-            string value = splitTag[1].Trim().ToLower(); // Lowercase for sprite matching
+            string value = splitTag[1].Trim().ToLower();
 
             switch (key)
             {
                 case "speaker":
-                    // Use the original case for displaying the name (splitTag[1])
                     if (speakerNameText != null) speakerNameText.text = splitTag[1].Trim();
                     break;
-
                 case "portrait_left":
                     UpdatePortrait(leftPortraitImage, value);
                     break;
-
                 case "portrait_right":
                     UpdatePortrait(rightPortraitImage, value);
                     break;
@@ -150,19 +164,14 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    // Helper method to change or hide portraits
     private void UpdatePortrait(Image portraitSlot, string spriteName)
     {
         if (portraitSlot == null) return;
-
-        // Hide the portrait if the tag says "clear" or "none"
         if (spriteName == "clear" || spriteName == "none")
         {
             portraitSlot.gameObject.SetActive(false);
             return;
         }
-
-        // Show the portrait if the sprite exists in our list
         if (portraitDictionary.ContainsKey(spriteName))
         {
             portraitSlot.sprite = portraitDictionary[spriteName];
