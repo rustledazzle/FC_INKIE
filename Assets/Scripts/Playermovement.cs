@@ -8,24 +8,27 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 movement;
+    private Animator anim;
 
     void Start()
     {
-        // Grab the Rigidbody2D component attached to the Player
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        // 1. If dialogue is active, set movement to 0 and stop reading keys!
+        // 1. Freeze player and set IsMoving to false when dialogue is active
         if (DialogueManager.Instance != null && DialogueManager.Instance.isDialogueActive)
         {
             movement = Vector2.zero;
+            if (anim != null) anim.SetBool("IsMoving", false);
             return;
         }
 
-        // 2. Read WASD keys normal
         movement = Vector2.zero;
+
+        // 2. Read input
         if (Keyboard.current != null)
         {
             if (Keyboard.current.wKey.isPressed || Keyboard.current.upArrowKey.isPressed) movement.y = 1;
@@ -35,14 +38,35 @@ public class PlayerMovement : MonoBehaviour
         }
 
         movement.Normalize();
+
+        // 3. Send the movement data directly to your Animator Parameters!
+        UpdateAnimation();
     }
 
     void FixedUpdate()
     {
-        // Only move if dialogue is NOT active
         if (DialogueManager.Instance != null && !DialogueManager.Instance.isDialogueActive)
         {
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }
+    }
+
+    // --- NEW ANIMATION LOGIC ---
+    private void UpdateAnimation()
+    {
+        if (anim == null) return;
+
+        // Check if we are pressing any keys
+        bool isMoving = movement.sqrMagnitude > 0;
+
+        // Tells your transition arrows (image_adca58, image_adca3d) whether to walk or idle
+        anim.SetBool("IsMoving", isMoving);
+
+        // If we are walking, tell the Animator which direction so it triggers the right state
+        if (isMoving)
+        {
+            anim.SetFloat("MoveX", movement.x);
+            anim.SetFloat("MoveY", movement.y);
         }
     }
 }
