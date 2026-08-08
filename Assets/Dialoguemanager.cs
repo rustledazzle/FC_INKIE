@@ -8,11 +8,14 @@ using Ink.Runtime;
 
 public class DialogueManager : MonoBehaviour
 {
-    // Singleton so other scripts (like PlayerMovement and NPC) can easily find this!
     public static DialogueManager Instance { get; private set; }
 
     [Header("UI Panels")]
-    [SerializeField] private GameObject dialoguePanel; // The main visual novel UI background
+    [SerializeField] private GameObject dialoguePanel;
+
+    [Header("Case File UI")]
+    [SerializeField] private GameObject caseFilePanel;
+    [SerializeField] private TextMeshProUGUI caseFileBodyText;
 
     [Header("UI Text Components")]
     [SerializeField] private TextMeshProUGUI dialogueText;
@@ -60,13 +63,16 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         isDialogueActive = false;
-        if (dialoguePanel != null) dialoguePanel.SetActive(false); // Hide UI at start
+        if (dialoguePanel != null) dialoguePanel.SetActive(false);
+        if (caseFilePanel != null) caseFilePanel.SetActive(false);
     }
 
     void Update()
     {
-        // Don't read inputs if we aren't in a conversation
         if (!isDialogueActive) return;
+
+        // Don't advance dialogue if the case file is currently open
+        if (caseFilePanel != null && caseFilePanel.activeInHierarchy) return;
 
         if (!isWaitingForChoice && currentStory != null)
         {
@@ -81,12 +87,15 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    // Called by the NPC when you press 'E'
-    public void EnterDialogueMode(TextAsset inkAsset)
+    // Updated to receive the unique patient notes from the NPC!
+    public void EnterDialogueMode(TextAsset inkAsset, string patientNotes)
     {
         currentStory = new Story(inkAsset.text);
         isDialogueActive = true;
+
         if (dialoguePanel != null) dialoguePanel.SetActive(true);
+        if (caseFileBodyText != null) caseFileBodyText.text = patientNotes; // Load the notes
+
         ContinueStory();
     }
 
@@ -94,11 +103,24 @@ public class DialogueManager : MonoBehaviour
     {
         isDialogueActive = false;
         if (dialoguePanel != null) dialoguePanel.SetActive(false);
+        if (caseFilePanel != null) caseFilePanel.SetActive(false); // Close case file if left open
         if (dialogueText != null) dialogueText.text = "";
         if (speakerNameText != null) speakerNameText.text = "";
         UpdatePortrait(leftPortraitImage, "clear");
         UpdatePortrait(rightPortraitImage, "clear");
     }
+
+    // --- NEW CASE FILE FUNCTIONS ---
+    public void OpenCaseFile()
+    {
+        if (caseFilePanel != null) caseFilePanel.SetActive(true);
+    }
+
+    public void CloseCaseFile()
+    {
+        if (caseFilePanel != null) caseFilePanel.SetActive(false);
+    }
+    // -------------------------------
 
     public void OnContinueClicked()
     {
@@ -133,7 +155,7 @@ public class DialogueManager : MonoBehaviour
             ClearChoices();
             SetWaitingForChoice(false);
             EvaluateAndPushScores();
-            ExitDialogueMode(); // Hide the dialogue UI
+            ExitDialogueMode();
         }
     }
 
