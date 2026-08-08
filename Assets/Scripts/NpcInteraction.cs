@@ -5,20 +5,22 @@ public class NPCInteract : MonoBehaviour
 {
     [Header("Patient Details")]
     [SerializeField] private TextAsset inkJSON;
-
-    // This allows you to type multiple lines of notes in the Inspector!
     [TextArea(5, 10)]
     [SerializeField] private string patientNotes;
 
     private bool playerInRange;
 
+    // NEW: A lock to prevent talking to the same patient twice
+    private bool hasBeenDiagnosed = false;
+
     void Update()
     {
-        if (playerInRange && !DialogueManager.Instance.isDialogueActive)
+        // We now check if hasBeenDiagnosed is false before allowing interaction!
+        if (playerInRange && !DialogueManager.Instance.isDialogueActive && !hasBeenDiagnosed)
         {
             if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
             {
-                // Pass both the Ink file AND the notes to the Dialogue Manager
+                hasBeenDiagnosed = true; // Lock this patient so they can't be diagnosed again
                 DialogueManager.Instance.EnterDialogueMode(inkJSON, patientNotes);
             }
         }

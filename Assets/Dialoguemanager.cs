@@ -120,6 +120,15 @@ public class DialogueManager : MonoBehaviour
     {
         if (caseFilePanel != null) caseFilePanel.SetActive(false);
     }
+
+    // --- NEW FEEDBACK PANEL FUNCTION ---
+    public void CloseFeedbackSummary()
+    {
+        if (feedbackSummaryPanel != null)
+        {
+            feedbackSummaryPanel.SetActive(false);
+        }
+    }
     // -------------------------------
 
     public void OnContinueClicked()
@@ -244,7 +253,13 @@ public class DialogueManager : MonoBehaviour
         int safety = GetInkVariableInt("safety_score");
         string trust = GetInkVariableString("trust_level");
 
-        if (GameManager.Instance != null) GameManager.Instance.UpdateMetrics(clinical, info, empathy, safety, trust);
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.UpdateMetrics(clinical, info, empathy, safety, trust);
+            // NEW: Add 1 to our patient counter!
+            GameManager.Instance.patientsDiagnosed++;
+        }
+
         ShowEndScenarioScreen();
     }
 
@@ -280,7 +295,17 @@ public class DialogueManager : MonoBehaviour
             }
 
             if (totalScoreText != null) totalScoreText.text = $"FINAL SCORE: {totalScore} / 20";
-            if (gradeText != null) gradeText.text = $"GRADE: {GetGradeScale(totalScore)}";
+
+            if (gradeText != null)
+            {
+                gradeText.text = $"GRADE: {GetGradeScale(totalScore)}";
+
+                // NEW: If we hit 3 patients, tell the player they finished the stage!
+                if (GameManager.Instance != null && GameManager.Instance.patientsDiagnosed >= 3)
+                {
+                    gradeText.text += "\n\n<color=green>STAGE COMPLETE! All patients treated.</color>";
+                }
+            }
 
             feedbackSummaryPanel.SetActive(true);
         }
