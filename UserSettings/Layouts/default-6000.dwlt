@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 43
+  controlID: 53
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 44
+  controlID: 54
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 45
+  controlID: 44
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -808,7 +808,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 89
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: 89
   m_LastProjectPath: C:\Users\Russell\Desktop\FC-INKIE
   m_LockTracker:
@@ -827,15 +827,13 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
-    - m_Data: 43512
+    - m_Data: 43024
     m_LastClickedID:
-      m_Data: 43512
+      m_Data: 43024
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 43400
-    - m_Data: 43504
-    - m_Data: 43514
-    - m_Data: 43578
+    - m_Data: 43024
+    - m_Data: 43132
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -870,7 +868,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 43400
+    - m_Data: 43024
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -898,8 +896,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 43512
-    m_LastClickedInstanceID: 43512
+    - m_Data: 43024
+    m_LastClickedInstanceID: 43024
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 53348
@@ -1027,32 +1025,20 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 43512
+      - m_Data: 43024
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -12310
-      - m_Data: -11172
-      - m_Data: -10806
-      - m_Data: -10692
-      - m_Data: -9862
-      - m_Data: -9496
-      - m_Data: -9378
-      - m_Data: -8744
-      - m_Data: -1550
+      - m_Data: -11880
+      - m_Data: -11228
+      - m_Data: -1906
       - m_Data: -1316
-      - m_Data: 42736
-      - m_Data: 42798
-      - m_Data: 45686
-      - m_Data: 45718
-      - m_Data: 45730
-      - m_Data: 45784
-      - m_Data: 46514
-      - m_Data: 46572
-      - m_Data: 47538
-      - m_Data: 47562
-      - m_Data: 47886
-      - m_Data: 47944
+      - m_Data: 43264
+      - m_Data: 43296
+      - m_Data: 44140
+      - m_Data: 44178
+      - m_Data: 44204
+      - m_Data: 44210
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

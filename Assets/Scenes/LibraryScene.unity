@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 165975081}
   - component: {fileID: 165975080}
   m_Layer: 5
-  m_Name: Librarybutton
+  m_Name: ContinueButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 447.99988, y: -111}
+  m_AnchoredPosition: {x: 447.99988, y: -15.999}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165975080
@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 273142591}
   - component: {fileID: 273142590}
   m_Layer: 5
-  m_Name: StagesButton
+  m_Name: Stages
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,7 +276,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 447.99988, y: -15}
+  m_AnchoredPosition: {x: 447.99988, y: -114.01}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273142590
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 454026205}
   - component: {fileID: 454026204}
   m_Layer: 5
-  m_Name: ExitButton
+  m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -944,7 +944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newGameButton: {fileID: 1153387242}
-  libraryButton: {fileID: 0}
+  continueButton: {fileID: 165975080}
   stagesButton: {fileID: 273142590}
   optionsButton: {fileID: 1660350197}
   exitButton: {fileID: 454026204}
@@ -1412,7 +1412,7 @@ GameObject:
   - component: {fileID: 1391486546}
   - component: {fileID: 1391486545}
   m_Layer: 5
-  m_Name: TextureBackGround
+  m_Name: TextureBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1431,7 +1431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.05620902, g: 0, b: 0.7433963, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1529,7 +1529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Case Library
+  m_text: Continue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1622,7 +1622,7 @@ GameObject:
   - component: {fileID: 1660350198}
   - component: {fileID: 1660350197}
   m_Layer: 5
-  m_Name: OptionsButton
+  m_Name: Options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1742,7 +1742,7 @@ GameObject:
   - component: {fileID: 1734578872}
   - component: {fileID: 1734578871}
   m_Layer: 5
-  m_Name: TitleTextPanel
+  m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
