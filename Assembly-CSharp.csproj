@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcTransformSetting.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\OptionsScript\OptionsSceneManager.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcCharacter.cs" />
     <Compile Include="Assets\Scripts\MenuSceneScript\StagesManagerScript.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcProps.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcCutscene.cs" />
     <Compile Include="Assets\Scripts\LibrarySceneScript\LibraryManager.cs" />
+    <Compile Include="Assets\Scripts\TutorialManager.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcCutsceneManager.cs" />
     <Compile Include="Assets\Dialoguemanager.cs" />
   </ItemGroup>

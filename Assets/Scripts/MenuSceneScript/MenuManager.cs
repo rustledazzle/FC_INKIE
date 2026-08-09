@@ -5,26 +5,38 @@ using UnityEngine.UI;
 public class MenuManager : MonoBehaviour
 {
     public Button newGameButton;
-    public Button libraryButton; // Replaced continueButton
+    public Button libraryButton; // Replaced continue with library based on previous setup
     public Button stagesButton;
     public Button optionsButton;
     public Button exitButton;
 
     void Start()
     {
-        // Start the Stage 1 Tutorial we built!
-        newGameButton.onClick.AddListener(() => SceneManager.LoadScene("TutorialScene"));
+        // 1. Lock or Unlock the Stages button based on GameManager progress
+        if (GameManager.Instance != null)
+        {
+            stagesButton.interactable = GameManager.Instance.hasCompletedTutorial;
+        }
+        else
+        {
+            stagesButton.interactable = false; // Default to locked if no GameManager exists yet
+        }
 
-        // Open the medical reviewer/info scene
-        libraryButton.onClick.AddListener(() => SceneManager.LoadScene("LibraryScene"));
+        // 2. Button Listeners
+        newGameButton.onClick.AddListener(() => PlayClickAndLoad("TutorialScene"));
+        libraryButton.onClick.AddListener(() => PlayClickAndLoad("LibraryScene"));
+        stagesButton.onClick.AddListener(() => PlayClickAndLoad("StagesScene"));
+        optionsButton.onClick.AddListener(() => PlayClickAndLoad("OptionsScene"));
+        exitButton.onClick.AddListener(() =>
+        {
+            if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
+            Application.Quit();
+        });
+    }
 
-        // Go to level select
-        stagesButton.onClick.AddListener(() => SceneManager.LoadScene("StagesScene"));
-
-        // Open settings
-        optionsButton.onClick.AddListener(() => SceneManager.LoadScene("OptionsScene"));
-
-        // Quit the game
-        exitButton.onClick.AddListener(() => Application.Quit());
+    private void PlayClickAndLoad(string sceneName)
+    {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
+        SceneManager.LoadScene(sceneName);
     }
 }

@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Russell" at "2026-08-09T02:18:51.8081675Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 16309 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Russell" at "2026-08-09T03:35:50.9478316Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-08-09T02:18:51Z
+Date: 2026-08-09T03:35:50Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Russell/Desktop/FC-INKIE
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50063
+54525
 -licensingIpc
 LicenseClient-Russell
 -job-worker-count
@@ -67,14 +67,14 @@ C:/Users/Russell/Desktop/FC-INKIE
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [9620]  Target information:
+Player connection [16456]  Target information:
 
-Player connection [9620]  * "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 2693038165 [EditorId] 2693038165 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I7AICRH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16456]  * "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 1294926287 [EditorId] 1294926287 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I7AICRH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9620]  * "[IP] 172.25.128.1 [Port] 0 [Flags] 2 [Guid] 2693038165 [EditorId] 2693038165 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I7AICRH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16456]  * "[IP] 172.25.128.1 [Port] 0 [Flags] 2 [Guid] 1294926287 [EditorId] 1294926287 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I7AICRH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9620] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9620] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16456] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16456] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -102,53 +102,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004046 seconds.
-- Loaded All Assemblies, in  0.987 seconds
+Registered in 0.002644 seconds.
+- Loaded All Assemblies, in  0.647 seconds
 Native extension for WindowsStandalone target not found
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              1dc7fdd80c23434d9e1f2cace84c4df6
+  Session Id:              489211cc35294ab486976fcab1cff01f
   Correlation Id:          bf2e11f8369c7d700384036670a017ba
-  External correlation Id: 1104996864851453700
+  External correlation Id: 3046473153762365389
   Machine Id:              4S7Kx1hPZmJqaKzGEKPi+OWw6P8=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Russell" (connect: 0.00s, validation: 0.00s, handshake: 2.17s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Russell-notifications" at "2026-08-09T02:18:53.9849582Z"
-[Licensing::Module] Licensing Background thread has ended after 2.18s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Russell" (connect: 0.00s, validation: 0.00s, handshake: 1.51s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Russell-notifications" at "2026-08-09T03:35:52.4574622Z"
+[Licensing::Module] Licensing Background thread has ended after 1.51s
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.949 seconds
-Domain Reload Profiling: 1929ms
-	BeginReloadAssembly (297ms)
+- Finished resetting the current domain, in  0.706 seconds
+Domain Reload Profiling: 1349ms
+	BeginReloadAssembly (189ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (94ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (462ms)
-		LoadAssemblies (288ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (184ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (456ms)
-			TypeCache.Refresh (453ms)
-				TypeCache.ScanAssembly (422ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (294ms)
+				TypeCache.ScanAssembly (273ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (949ms)
+	FinalizeReload (707ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (851ms)
+		SetupLoadedEditorAssemblies (632ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (100ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (234ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (146ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -166,11 +166,11 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.042 seconds
+- Loaded All Assemblies, in  1.338 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.66 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -182,73 +182,97 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.113 seconds
-Domain Reload Profiling: 4137ms
-	BeginReloadAssembly (422ms)
+- Finished resetting the current domain, in  1.341 seconds
+Domain Reload Profiling: 2668ms
+	BeginReloadAssembly (284ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (95ms)
-	RebuildNativeTypeToScriptingClass (43ms)
-	initialDomainReloadingComplete (128ms)
-	LoadAllAssembliesAndSetupDomain (1336ms)
-		LoadAssemblies (836ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (902ms)
+		LoadAssemblies (603ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (730ms)
-			TypeCache.Refresh (589ms)
-				TypeCache.ScanAssembly (557ms)
-			BuildScriptInfoCaches (119ms)
+		AnalyzeDomain (452ms)
+			TypeCache.Refresh (323ms)
+				TypeCache.ScanAssembly (302ms)
+			BuildScriptInfoCaches (109ms)
 			ResolveRequiredComponents (14ms)
-	FinalizeReload (2114ms)
+	FinalizeReload (1342ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1849ms)
+		SetupLoadedEditorAssemblies (1128ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (540ms)
-			ProcessInitializeOnLoadAttributes (1151ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (255ms)
+			ProcessInitializeOnLoadAttributes (770ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.60 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5538 unused Assets / (0.8 MB). Loaded Objects now: 6139.
-Memory consumption went from 111.6 MB to 110.7 MB.
-Total: 18.276100 ms (FindLiveObjects: 1.279200 ms CreateObjectMapping: 0.981900 ms MarkObjects: 12.983400 ms  DeleteObjects: 3.028700 ms)
+Unloading 5538 unused Assets / (1.7 MB). Loaded Objects now: 6139.
+Memory consumption went from 111.6 MB to 109.9 MB.
+Total: 11.360600 ms (FindLiveObjects: 0.876100 ms CreateObjectMapping: 0.406900 ms MarkObjects: 8.178200 ms  DeleteObjects: 1.897800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9370.160405 seconds.
-  path: Assets/Scripts/AudioManager.cs
-  artifactKey: Guid(908b4a1be43fa4342afec50f9ab392a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/AudioManager.cs using Guid(908b4a1be43fa4342afec50f9ab392a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe0fa4cbc14594dfa7dd780a4ddc6ff0') in 0.1577944 seconds
+  Time since last request: 14107.453133 seconds.
+  path: Assets/Scenes/OptionsScene.unity
+  artifactKey: Guid(d7ab6db2a733c9743b9f752589227df8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/OptionsScene.unity using Guid(d7ab6db2a733c9743b9f752589227df8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07f36fad83a6c0118b6ef90caf80a5ac') in 0.0792454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.549949 seconds.
+  path: Assets/Scripts/OptionsScript
+  artifactKey: Guid(08503cfa897e1c04daf2783058264b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript using Guid(08503cfa897e1c04daf2783058264b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41170480912309d64284fe6b06af2c28') in 0.000713 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.952368 seconds.
+  path: Assets/Scripts/OptionsScript
+  artifactKey: Guid(08503cfa897e1c04daf2783058264b0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/OptionsScript using Guid(08503cfa897e1c04daf2783058264b0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a11fa12ca88636d2c35ba472d0df650') in 0.0190468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Prepare
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.52 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.60 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5526 unused Assets / (2.2 MB). Loaded Objects now: 6141.
-Memory consumption went from 110.4 MB to 108.2 MB.
-Total: 36.259700 ms (FindLiveObjects: 2.262100 ms CreateObjectMapping: 2.196200 ms MarkObjects: 24.470400 ms  DeleteObjects: 7.328500 ms)
+Unloading 5527 unused Assets / (1.7 MB). Loaded Objects now: 6142.
+Memory consumption went from 110.4 MB to 108.7 MB.
+Total: 11.377100 ms (FindLiveObjects: 0.835300 ms CreateObjectMapping: 0.388000 ms MarkObjects: 8.417700 ms  DeleteObjects: 1.734500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.870558 seconds.
-  path: Assets/Scripts/AudioManager.cs
-  artifactKey: Guid(908b4a1be43fa4342afec50f9ab392a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/AudioManager.cs using Guid(908b4a1be43fa4342afec50f9ab392a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4802c9c1cf560efe6a38b8b409ea6f06') in 0.0276864 seconds
+  Time since last request: 15.248494 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24e08ded60d007aedaecdd1b40adaaa5') in 0.0008583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.273431 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ac22711eab74f145804fb8c3b1229ec') in 0.0443906 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
@@ -256,11 +280,12 @@ Received Prepare
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.454 seconds
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.585 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.34 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -271,156 +296,1107 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.661 seconds
-Domain Reload Profiling: 3107ms
-	BeginReloadAssembly (437ms)
+- Finished resetting the current domain, in  1.729 seconds
+Domain Reload Profiling: 3311ms
+	BeginReloadAssembly (418ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (26ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (89ms)
-	RebuildCommonClasses (97ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (819ms)
-		LoadAssemblies (698ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (1012ms)
+		LoadAssemblies (869ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (345ms)
-			TypeCache.Refresh (13ms)
+		AnalyzeDomain (369ms)
+			TypeCache.Refresh (17ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (311ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1661ms)
+			BuildScriptInfoCaches (326ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1730ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1402ms)
+		SetupLoadedEditorAssemblies (1469ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (346ms)
-			ProcessInitializeOnLoadAttributes (918ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
-			AfterProcessingInitializeOnLoad (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (327ms)
+			ProcessInitializeOnLoadAttributes (955ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5536 unused Assets / (1.8 MB). Loaded Objects now: 6144.
-Memory consumption went from 112.4 MB to 110.6 MB.
-Total: 11.558000 ms (FindLiveObjects: 0.869700 ms CreateObjectMapping: 0.390900 ms MarkObjects: 7.801800 ms  DeleteObjects: 2.494200 ms)
+Unloading 5537 unused Assets / (1.9 MB). Loaded Objects now: 6145.
+Memory consumption went from 112.4 MB to 110.5 MB.
+Total: 17.457100 ms (FindLiveObjects: 1.385900 ms CreateObjectMapping: 0.545100 ms MarkObjects: 12.574700 ms  DeleteObjects: 2.949900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 39.385274 seconds.
-  path: Assets/Sounds
-  artifactKey: Guid(0f058a825be023a4aa37027c520140b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds using Guid(0f058a825be023a4aa37027c520140b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9fc4469238e4ee6bc584bfa1c7ddb0f') in 0.0031505 seconds
+  Time since last request: 22.809770 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0035717 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.928205 seconds.
-  path: Assets/Sounds
-  artifactKey: Guid(0f058a825be023a4aa37027c520140b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Sounds using Guid(0f058a825be023a4aa37027c520140b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d943370ce9c2468d29525046305c9d2') in 0.0674774 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.010692 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009954 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 104.834558 seconds.
-  path: Assets/Sounds/Error.wav
-  artifactKey: Guid(d06cdec555acaac48ae46d120736586c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Error.wav using Guid(d06cdec555acaac48ae46d120736586c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '078d43cccd1ab8623fc098e4b1922d21') in 0.1610426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.013226 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007587 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.902852 seconds.
-  path: Assets/Sounds/Error.wav
-  artifactKey: Guid(d06cdec555acaac48ae46d120736586c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Sounds/Error.wav using Guid(d06cdec555acaac48ae46d120736586c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19e7d85c7c0506a32ad5cd0a554a9d5c') in 0.1331176 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.013510 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009745 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 273.854430 seconds.
-  path: Assets/Sounds/109662__grunz__success.wav
-  artifactKey: Guid(81b16bd3f5d3b0c4a96c926c0ad78441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/109662__grunz__success.wav using Guid(81b16bd3f5d3b0c4a96c926c0ad78441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43ebe1bdab62dbd8ca23d9ddc36e8fb8') in 0.050086 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.013177 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008171 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.012562 seconds.
-  path: Assets/Sounds/404360__kagateni__success3.wav
-  artifactKey: Guid(0787deb7434344b418baeb3ce495965c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/404360__kagateni__success3.wav using Guid(0787deb7434344b418baeb3ce495965c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '003204b8adfba960e68a4228addfc39c') in 0.0273573 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.012171 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008769 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Sounds/707041__vilkas_sound__vs-button-click-04.mp3
-  artifactKey: Guid(21d4002c378168340a5e7a98c0360e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/707041__vilkas_sound__vs-button-click-04.mp3 using Guid(21d4002c378168340a5e7a98c0360e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b4c4b6b48961eca5ff066df1fc5ee2d') in 0.0243209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.012914 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008895 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Sounds/216090__richerlandtv__bad-beep-incorrect.mp3
-  artifactKey: Guid(8bd6ed932857e5c4099afa7d6beaf177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/216090__richerlandtv__bad-beep-incorrect.mp3 using Guid(8bd6ed932857e5c4099afa7d6beaf177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f76b683c5203bbe57d5a924e23cb95e') in 0.0292719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.012683 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007167 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Sounds/171527__leszek_szary__menu-click.wav
-  artifactKey: Guid(43af7837fd10da546987d2d3989bf463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/171527__leszek_szary__menu-click.wav using Guid(43af7837fd10da546987d2d3989bf463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8c3fd5cfd59e7f514d83aeea7dab03e') in 0.0231518 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.023637 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001015 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.802523 seconds.
-  path: Assets/Sounds/171527__leszek_szary__menu-click.wav
-  artifactKey: Guid(43af7837fd10da546987d2d3989bf463) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Sounds/171527__leszek_szary__menu-click.wav using Guid(43af7837fd10da546987d2d3989bf463) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6015864b3e39e618598af27fcf0bd44a') in 0.0441117 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.019307 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007431 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Sounds/146722__leszek_szary__menu-click.wav
-  artifactKey: Guid(a82cb43555d01384ab1126eda3119b17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Sounds/146722__leszek_szary__menu-click.wav using Guid(a82cb43555d01384ab1126eda3119b17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '074cc6bf7cb6b8a5b2d386a9e5ee268e') in 0.040425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.018021 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0018412 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Sounds/716684__audiocoffee__medical-technology-corporate-loop1.wav
-  artifactKey: Guid(f5303d9f5a98eb346b7f9fc75ad63518) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Sounds/716684__audiocoffee__medical-technology-corporate-loop1.wav using Guid(f5303d9f5a98eb346b7f9fc75ad63518) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5edc8abb2beedda00cb38da35d642f4') in 0.0589086 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.018222 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009514 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Sounds/707041__vilkas_sound__vs-button-click-04.mp3
-  artifactKey: Guid(21d4002c378168340a5e7a98c0360e66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Sounds/707041__vilkas_sound__vs-button-click-04.mp3 using Guid(21d4002c378168340a5e7a98c0360e66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af487fa2266a94fada335397d75b9f43') in 0.0669738 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.017213 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008103 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Sounds/404360__kagateni__success3.wav
-  artifactKey: Guid(0787deb7434344b418baeb3ce495965c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Sounds/404360__kagateni__success3.wav using Guid(0787deb7434344b418baeb3ce495965c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8cff307d3ffc1d4b875aaf451e742319') in 0.057414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.016165 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006632 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013327 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008709 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017016 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007607 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013874 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000682 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014689 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008787 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013546 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000774 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015406 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008251 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012419 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007553 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014104 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006944 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013246 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008316 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013079 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006703 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012615 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006722 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012402 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008056 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012557 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006595 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013146 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008166 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013856 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007569 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014267 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000702 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012620 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006644 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014318 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006529 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014047 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006676 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013043 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008178 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014166 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007995 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013805 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008251 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012670 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006439 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012369 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007568 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012204 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006508 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012576 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006536 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013691 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00073 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014299 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006478 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017916 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008661 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022367 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010889 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013612 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007486 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015943 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007391 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014467 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006669 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013013 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007212 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012917 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007348 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017728 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008952 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013756 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007995 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012763 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008094 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015049 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007214 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015089 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008139 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013286 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009131 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014177 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006285 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013149 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008033 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013086 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008079 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017490 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007572 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010247 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009411 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014306 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008496 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012584 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000661 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013270 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006737 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014362 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008471 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013021 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006423 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012610 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007624 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013701 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000787 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012611 seconds.
+  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
+  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007127 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.049 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.132 seconds
+Domain Reload Profiling: 2171ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (500ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (231ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1132ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (952ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (621ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5537 unused Assets / (1.8 MB). Loaded Objects now: 6148.
+Memory consumption went from 112.4 MB to 110.6 MB.
+Total: 11.773500 ms (FindLiveObjects: 0.830800 ms CreateObjectMapping: 0.346900 ms MarkObjects: 8.494700 ms  DeleteObjects: 2.099700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 85.482359 seconds.
+  path: Assets/Scenes/TutorialScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TutorialScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4472aaa66b233b546b96ff28af494ada') in 0.0024586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.006 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.54 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.216 seconds
+Domain Reload Profiling: 2217ms
+	BeginReloadAssembly (298ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (578ms)
+		LoadAssemblies (485ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (222ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1216ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1022ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (231ms)
+			ProcessInitializeOnLoadAttributes (683ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5537 unused Assets / (1.7 MB). Loaded Objects now: 6151.
+Memory consumption went from 112.4 MB to 110.7 MB.
+Total: 12.316400 ms (FindLiveObjects: 0.897700 ms CreateObjectMapping: 0.390000 ms MarkObjects: 8.715400 ms  DeleteObjects: 2.311800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.973 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.197 seconds
+Domain Reload Profiling: 2165ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (570ms)
+		LoadAssemblies (455ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (223ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1198ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1017ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (694ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5537 unused Assets / (1.7 MB). Loaded Objects now: 6154.
+Memory consumption went from 112.4 MB to 110.7 MB.
+Total: 12.105500 ms (FindLiveObjects: 0.826300 ms CreateObjectMapping: 0.339200 ms MarkObjects: 8.578200 ms  DeleteObjects: 2.360300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.136 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.339 seconds
+Domain Reload Profiling: 2468ms
+	BeginReloadAssembly (345ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (663ms)
+		LoadAssemblies (541ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (245ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1120ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (316ms)
+			ProcessInitializeOnLoadAttributes (705ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5537 unused Assets / (1.8 MB). Loaded Objects now: 6157.
+Memory consumption went from 112.4 MB to 110.6 MB.
+Total: 12.078200 ms (FindLiveObjects: 0.836700 ms CreateObjectMapping: 0.341400 ms MarkObjects: 8.559800 ms  DeleteObjects: 2.338700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  3.383 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.270 seconds
+Domain Reload Profiling: 4649ms
+	BeginReloadAssembly (567ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (186ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (2560ms)
+		LoadAssemblies (2587ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (391ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (364ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1270ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1070ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (263ms)
+			ProcessInitializeOnLoadAttributes (701ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5537 unused Assets / (1.6 MB). Loaded Objects now: 6160.
+Memory consumption went from 112.4 MB to 110.9 MB.
+Total: 11.914800 ms (FindLiveObjects: 0.913300 ms CreateObjectMapping: 0.400900 ms MarkObjects: 8.700800 ms  DeleteObjects: 1.898500 ms)
+
+Prepare: number of updated asset objects reloaded= 0

@@ -22,20 +22,38 @@ public class LibraryManager : MonoBehaviour
             "Welcome to the Clinical Reference Library.\n\nPlease click on a case on the left to review symptoms, clinical guidelines, and expected rubrics before starting your shift."
         );
 
-        // 2. Tell the KTS button what text to display
-        ktsCaseButton.onClick.AddListener(() => UpdateReadingPanel(
-            "Klippel-Trenaunay Syndrome (KTS)",
-            "<b>Patient:</b> Baby Maya (7 months)\n\n<b>Common Symptoms:</b>\n- Fever\n- Restlessness\n- Enlarging warm birthmark (Port-wine stain) on leg\n- Limb overgrowth\n\n<b>Clinical Focus:</b>\nKTS is a rare congenital vascular disorder. Focus on identifying the triad of symptoms, showing empathy to the overwhelmed mother, and ensuring a safe referral to a vascular specialist."
-        ));
+        // 2. Tell the KTS button what text to display AND play click sound
+        ktsCaseButton.onClick.AddListener(() => {
+            PlayClickSound();
+            UpdateReadingPanel(
+                "Klippel-Trenaunay Syndrome (KTS)",
+                "<b>Patient:</b> Baby Maya (7 months)\n\n<b>Common Symptoms:</b>\n- Fever\n- Restlessness\n- Enlarging warm birthmark (Port-wine stain) on leg\n- Limb overgrowth\n\n<b>Clinical Focus:</b>\nKTS is a rare congenital vascular disorder. Focus on identifying the triad of symptoms, showing empathy to the overwhelmed mother, and ensuring a safe referral to a vascular specialist."
+            );
+        });
 
-        // 3. Tell the Fever button what text to display
-        feverCaseButton.onClick.AddListener(() => UpdateReadingPanel(
-            "Standard Fever / Suspected Dengue",
-            "<b>Patient:</b> Mang Jose\n\n<b>Common Symptoms:</b>\n- 3-day continuous fever\n- Severe joint pain\n- Pain behind the eyes\n\n<b>Clinical Focus:</b>\nFocus on thorough Information Gathering. Ask about the timeline of the fever and environmental factors (e.g., mosquitoes, sick neighbors) to rule out other infections."
-        ));
+        // 3. Tell the Fever button what text to display AND play click sound
+        feverCaseButton.onClick.AddListener(() => {
+            PlayClickSound();
+            UpdateReadingPanel(
+                "Standard Fever / Suspected Dengue",
+                "<b>Patient:</b> Mang Jose\n\n<b>Common Symptoms:</b>\n- 3-day continuous fever\n- Severe joint pain\n- Pain behind the eyes\n\n<b>Clinical Focus:</b>\nFocus on thorough Information Gathering. Ask about the timeline of the fever and environmental factors (e.g., mosquitoes, sick neighbors) to rule out other infections."
+            );
+        });
 
-        // 4. Hook up the back button to return to the Main Menu
-        backButton.onClick.AddListener(() => SceneManager.LoadScene("MenuScene"));
+        // 4. Hook up the back button to play sound and return to the Main Menu
+        backButton.onClick.AddListener(() => {
+            PlayClickSound();
+            SceneManager.LoadScene("MenuScene");
+        });
+    }
+
+    // --- NEW: Helper function to play the click sound safely ---
+    private void PlayClickSound()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayClick();
+        }
     }
 
     // This function simply swaps out the text!

@@ -35,6 +35,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject feedbackSummaryPanel;
     [SerializeField] private TextMeshProUGUI totalScoreText;
     [SerializeField] private TextMeshProUGUI gradeText;
+    [SerializeField] private GameObject proceedToStagesButton;
 
     private Story currentStory;
     private Dictionary<string, Sprite> portraitDictionary;
@@ -295,22 +296,22 @@ public class DialogueManager : MonoBehaviour
             }
 
             if (totalScoreText != null) totalScoreText.text = $"FINAL SCORE: {totalScore} / 20";
+            if (gradeText != null) gradeText.text = $"GRADE: {GetGradeScale(totalScore)}";
 
-            if (gradeText != null)
+            // Check if 3 patients are diagnosed
+            if (GameManager.Instance != null && GameManager.Instance.patientsDiagnosed >= 3)
             {
-                gradeText.text = $"GRADE: {GetGradeScale(totalScore)}";
-
-                // NEW: If we hit 3 patients, tell the player they finished the stage!
-                if (GameManager.Instance != null && GameManager.Instance.patientsDiagnosed >= 3)
-                {
-                    gradeText.text += "\n\n<color=green>STAGE COMPLETE! All patients treated.</color>";
-                }
+                gradeText.text += "\n\nTUTORIAL COMPLETE!";
+                if (proceedToStagesButton != null) proceedToStagesButton.SetActive(true);
+            }
+            else
+            {
+                if (proceedToStagesButton != null) proceedToStagesButton.SetActive(false);
             }
 
             feedbackSummaryPanel.SetActive(true);
         }
     }
-
     private string GetGradeScale(int score)
     {
         if (score >= 18) return "Exemplary";
@@ -318,5 +319,20 @@ public class DialogueManager : MonoBehaviour
         if (score >= 12) return "Developing";
         if (score >= 9) return "Beginning";
         return "Unsatisfactory";
+    }
+    public void ProceedToStagesScene()
+    {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
+        if (GameManager.Instance != null) GameManager.Instance.hasCompletedTutorial = true; // Unlock the menu!
+
+        // Reset the patient counter so Stage 1 starts fresh
+        if (GameManager.Instance != null) GameManager.Instance.patientsDiagnosed = 0;
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene("StagesScene");
+    }
+    // --- NEW TUTORIAL STATE FUNCTION ---
+    public void SetDialogueActiveState(bool state)
+    {
+        isDialogueActive = state;
     }
 }

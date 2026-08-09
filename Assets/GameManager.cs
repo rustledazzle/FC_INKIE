@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public int empathyTrustScore = 0;
     public int patientSafetyScore = 0;
     public int patientsDiagnosed = 0; // Tracks how many patients we've finished
+    public bool hasCompletedTutorial = false;
     public string trustLevel = "NEUTRAL";
 
     private void Awake()
