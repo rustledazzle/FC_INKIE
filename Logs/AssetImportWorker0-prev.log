@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 16309 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Russell" at "2026-08-09T03:35:50.9478316Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Russell" at "2026-08-21T07:13:30.1021956Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-08-09T03:35:50Z
+Date: 2026-08-21T07:13:30Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Russell/Desktop/FC-INKIE
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54525
+56291
 -licensingIpc
 LicenseClient-Russell
 -job-worker-count
@@ -67,14 +67,14 @@ C:/Users/Russell/Desktop/FC-INKIE
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [16456]  Target information:
+Player connection [16976]  Target information:
 
-Player connection [16456]  * "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 1294926287 [EditorId] 1294926287 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I7AICRH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16976]  * "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2332602470 [EditorId] 2332602470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I7AICRH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16456]  * "[IP] 172.25.128.1 [Port] 0 [Flags] 2 [Guid] 1294926287 [EditorId] 1294926287 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I7AICRH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16976]  * "[IP] 172.28.192.1 [Port] 0 [Flags] 2 [Guid] 2332602470 [EditorId] 2332602470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I7AICRH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16456] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16456] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16976] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16976] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.01 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -102,53 +102,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002644 seconds.
-- Loaded All Assemblies, in  0.647 seconds
+Registered in 0.003279 seconds.
+- Loaded All Assemblies, in  0.770 seconds
 Native extension for WindowsStandalone target not found
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              489211cc35294ab486976fcab1cff01f
-  Correlation Id:          bf2e11f8369c7d700384036670a017ba
-  External correlation Id: 3046473153762365389
+  Session Id:              82bb669d4a7c46cf810a5a4f442ff46e
+  Correlation Id:          c338bc68f0a2f288d97410a700f9589f
+  External correlation Id: 1344300406415547250
   Machine Id:              4S7Kx1hPZmJqaKzGEKPi+OWw6P8=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Russell" (connect: 0.00s, validation: 0.00s, handshake: 1.51s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Russell-notifications" at "2026-08-09T03:35:52.4574622Z"
-[Licensing::Module] Licensing Background thread has ended after 1.51s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Russell" (connect: 0.00s, validation: 0.00s, handshake: 1.95s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Russell-notifications" at "2026-08-21T07:13:32.0545797Z"
+[Licensing::Module] Licensing Background thread has ended after 1.95s
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.706 seconds
-Domain Reload Profiling: 1349ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  0.883 seconds
+Domain Reload Profiling: 1648ms
+	BeginReloadAssembly (269ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (301ms)
-		LoadAssemblies (184ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (260ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (297ms)
-			TypeCache.Refresh (294ms)
-				TypeCache.ScanAssembly (273ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (308ms)
+				TypeCache.ScanAssembly (280ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (707ms)
+	FinalizeReload (884ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (632ms)
+		SetupLoadedEditorAssemblies (810ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (78ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (155ms)
-			ProcessInitializeOnLoadAttributes (292ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
+			InitializePlatformSupportModulesInManaged (100ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -166,11 +166,11 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.338 seconds
+- Loaded All Assemblies, in  1.399 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.07 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -182,1221 +182,844 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.341 seconds
-Domain Reload Profiling: 2668ms
-	BeginReloadAssembly (284ms)
+- Finished resetting the current domain, in  1.470 seconds
+Domain Reload Profiling: 2857ms
+	BeginReloadAssembly (350ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (902ms)
-		LoadAssemblies (603ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (877ms)
+		LoadAssemblies (675ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (452ms)
-			TypeCache.Refresh (323ms)
-				TypeCache.ScanAssembly (302ms)
-			BuildScriptInfoCaches (109ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1342ms)
+		AnalyzeDomain (405ms)
+			TypeCache.Refresh (287ms)
+				TypeCache.ScanAssembly (265ms)
+			BuildScriptInfoCaches (98ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1470ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1128ms)
+		SetupLoadedEditorAssemblies (1286ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (255ms)
-			ProcessInitializeOnLoadAttributes (770ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (282ms)
+			ProcessInitializeOnLoadAttributes (896ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5538 unused Assets / (1.7 MB). Loaded Objects now: 6139.
-Memory consumption went from 111.6 MB to 109.9 MB.
-Total: 11.360600 ms (FindLiveObjects: 0.876100 ms CreateObjectMapping: 0.406900 ms MarkObjects: 8.178200 ms  DeleteObjects: 1.897800 ms)
+Unloading 5540 unused Assets / (2.2 MB). Loaded Objects now: 6141.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 14.587200 ms (FindLiveObjects: 0.945100 ms CreateObjectMapping: 0.443900 ms MarkObjects: 10.380700 ms  DeleteObjects: 2.815700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14107.453133 seconds.
-  path: Assets/Scenes/OptionsScene.unity
-  artifactKey: Guid(d7ab6db2a733c9743b9f752589227df8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/OptionsScene.unity using Guid(d7ab6db2a733c9743b9f752589227df8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07f36fad83a6c0118b6ef90caf80a5ac') in 0.0792454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.549949 seconds.
-  path: Assets/Scripts/OptionsScript
-  artifactKey: Guid(08503cfa897e1c04daf2783058264b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript using Guid(08503cfa897e1c04daf2783058264b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41170480912309d64284fe6b06af2c28') in 0.000713 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.952368 seconds.
-  path: Assets/Scripts/OptionsScript
-  artifactKey: Guid(08503cfa897e1c04daf2783058264b0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/OptionsScript using Guid(08503cfa897e1c04daf2783058264b0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a11fa12ca88636d2c35ba472d0df650') in 0.0190468 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.60 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5527 unused Assets / (1.7 MB). Loaded Objects now: 6142.
-Memory consumption went from 110.4 MB to 108.7 MB.
-Total: 11.377100 ms (FindLiveObjects: 0.835300 ms CreateObjectMapping: 0.388000 ms MarkObjects: 8.417700 ms  DeleteObjects: 1.734500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.248494 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24e08ded60d007aedaecdd1b40adaaa5') in 0.0008583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.273431 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ac22711eab74f145804fb8c3b1229ec') in 0.0443906 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.585 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.34 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.729 seconds
-Domain Reload Profiling: 3311ms
-	BeginReloadAssembly (418ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (80ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (1012ms)
-		LoadAssemblies (869ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (369ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (326ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1730ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1469ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (327ms)
-			ProcessInitializeOnLoadAttributes (955ms)
-			ProcessInitializeOnLoadMethodAttributes (161ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5537 unused Assets / (1.9 MB). Loaded Objects now: 6145.
-Memory consumption went from 112.4 MB to 110.5 MB.
-Total: 17.457100 ms (FindLiveObjects: 1.385900 ms CreateObjectMapping: 0.545100 ms MarkObjects: 12.574700 ms  DeleteObjects: 2.949900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 22.809770 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0035717 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010692 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009954 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013226 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007587 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013510 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009745 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013177 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008171 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012171 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008769 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012914 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008895 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012683 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007167 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023637 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001015 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019307 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007431 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018021 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0018412 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018222 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009514 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017213 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008103 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016165 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006632 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013327 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008709 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017016 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007607 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013874 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000682 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014689 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008787 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013546 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000774 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015406 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008251 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012419 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007553 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014104 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006944 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013246 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008316 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013079 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006703 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012615 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006722 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012402 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008056 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012557 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006595 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013146 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008166 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013856 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007569 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014267 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000702 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012620 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006644 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014318 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006529 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014047 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006676 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013043 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008178 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014166 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007995 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013805 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008251 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012670 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006439 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012369 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007568 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012204 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006508 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012576 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006536 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013691 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00073 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014299 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006478 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017916 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008661 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022367 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010889 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013612 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007486 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015943 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007391 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014467 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006669 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013013 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007212 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012917 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007348 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017728 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008952 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013756 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007995 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012763 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008094 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015049 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007214 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015089 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008139 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013286 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009131 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014177 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006285 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013149 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008033 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013086 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008079 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017490 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007572 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010247 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009411 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014306 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008496 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012584 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000661 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013270 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006737 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014362 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008471 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013021 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006423 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012610 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007624 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013701 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000787 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012611 seconds.
-  path: Assets/Scripts/OptionsScript/OptionsSceneManager.cs
-  artifactKey: Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OptionsScript/OptionsSceneManager.cs using Guid(ea1202ce2ae825545b94e4854f34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007127 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-  ERROR: Build asset version error: assets/scripts/optionsscript/optionsscenemanager.cs in SourceAssetDB has modification time of '2026-08-09T03:38:16.4698201Z' while content on disk has modification time of '2026-08-09T03:38:34.0656455Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.049 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.132 seconds
-Domain Reload Profiling: 2171ms
-	BeginReloadAssembly (294ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (612ms)
-		LoadAssemblies (500ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (257ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (231ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1132ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (952ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (233ms)
-			ProcessInitializeOnLoadAttributes (621ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5537 unused Assets / (1.8 MB). Loaded Objects now: 6148.
-Memory consumption went from 112.4 MB to 110.6 MB.
-Total: 11.773500 ms (FindLiveObjects: 0.830800 ms CreateObjectMapping: 0.346900 ms MarkObjects: 8.494700 ms  DeleteObjects: 2.099700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 85.482359 seconds.
+  Time since last request: 21427.566848 seconds.
   path: Assets/Scenes/TutorialScene.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TutorialScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4472aaa66b233b546b96ff28af494ada') in 0.0024586 seconds
+Start importing Assets/Scenes/TutorialScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d4d6363c1ce906a4b61f7827879809f') in 0.0079889 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.006 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.54 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.216 seconds
-Domain Reload Profiling: 2217ms
-	BeginReloadAssembly (298ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (578ms)
-		LoadAssemblies (485ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (246ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (222ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1216ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1022ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (231ms)
-			ProcessInitializeOnLoadAttributes (683ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 3.38 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5537 unused Assets / (1.7 MB). Loaded Objects now: 6151.
-Memory consumption went from 112.4 MB to 110.7 MB.
-Total: 12.316400 ms (FindLiveObjects: 0.897700 ms CreateObjectMapping: 0.390000 ms MarkObjects: 8.715400 ms  DeleteObjects: 2.311800 ms)
+Received Import Request.
+  Time since last request: 66.580074 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush.png
+  artifactKey: Guid(9d026c034cfd40746a436496efe2dd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush.png using Guid(9d026c034cfd40746a436496efe2dd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bded1cb793d552303033b4873a74d3f') in 0.1516101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.973 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.197 seconds
-Domain Reload Profiling: 2165ms
-	BeginReloadAssembly (279ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (570ms)
-		LoadAssemblies (455ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (247ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (223ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1198ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1017ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (229ms)
-			ProcessInitializeOnLoadAttributes (694ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5537 unused Assets / (1.7 MB). Loaded Objects now: 6154.
-Memory consumption went from 112.4 MB to 110.7 MB.
-Total: 12.105500 ms (FindLiveObjects: 0.826300 ms CreateObjectMapping: 0.339200 ms MarkObjects: 8.578200 ms  DeleteObjects: 2.360300 ms)
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush@2x.png
+  artifactKey: Guid(17d3bf7425a0748489ce3633e38652db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush@2x.png using Guid(17d3bf7425a0748489ce3633e38652db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e5aaff611e88828cfa6010030cd8135') in 0.0267865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.136 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.339 seconds
-Domain Reload Profiling: 2468ms
-	BeginReloadAssembly (345ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (90ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (663ms)
-		LoadAssemblies (541ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (271ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (245ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1340ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1120ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (316ms)
-			ProcessInitializeOnLoadAttributes (705ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5537 unused Assets / (1.8 MB). Loaded Objects now: 6157.
-Memory consumption went from 112.4 MB to 110.6 MB.
-Total: 12.078200 ms (FindLiveObjects: 0.836700 ms CreateObjectMapping: 0.341400 ms MarkObjects: 8.559800 ms  DeleteObjects: 2.338700 ms)
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush@3x.png
+  artifactKey: Guid(3279d541bf75c624cbdd7179eb5559a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush@3x.png using Guid(3279d541bf75c624cbdd7179eb5559a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '884e759fe6a8fd2c8f966ac4b540212e') in 0.0272688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  3.383 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.270 seconds
-Domain Reload Profiling: 4649ms
-	BeginReloadAssembly (567ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (186ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (2560ms)
-		LoadAssemblies (2587ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (391ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (364ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1270ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1070ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (263ms)
-			ProcessInitializeOnLoadAttributes (701ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5537 unused Assets / (1.6 MB). Loaded Objects now: 6160.
-Memory consumption went from 112.4 MB to 110.9 MB.
-Total: 11.914800 ms (FindLiveObjects: 0.913300 ms CreateObjectMapping: 0.400900 ms MarkObjects: 8.700800 ms  DeleteObjects: 1.898500 ms)
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush@4x.png
+  artifactKey: Guid(3dd5e5c693a816e4f96b869f6465955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush@4x.png using Guid(3dd5e5c693a816e4f96b869f6465955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f553dbbdb2e664cb76b9d938f60f918c') in 0.0247718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@2x.png
+  artifactKey: Guid(6306a4776b130304bba7a139fc1d2bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@2x.png using Guid(6306a4776b130304bba7a139fc1d2bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9fa8afa68e0668c8c2bb5f02e502fd7') in 0.0239148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@3x.png
+  artifactKey: Guid(ec8214d7d416a8746bb342b71e8e4269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@3x.png using Guid(ec8214d7d416a8746bb342b71e8e4269) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '890b4a4e2f71ed83175f025766eddec1') in 0.024053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@4x.png
+  artifactKey: Guid(4e494ad3b858ecf4fab63aae9075d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@4x.png using Guid(4e494ad3b858ecf4fab63aae9075d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5aa51ba11725bb42047cb0785e39aaca') in 0.0347527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Slider@2x.png
+  artifactKey: Guid(7f64a6e091143c0458506b559165cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Slider@2x.png using Guid(7f64a6e091143c0458506b559165cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e56e62328a1598299ac0ac3d87ead4ef') in 0.0268029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.335648 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool@3x.png
+  artifactKey: Guid(8004118ba4145a74e823fedaa37acf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool@3x.png using Guid(8004118ba4145a74e823fedaa37acf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d7a0343c1ca4e259350e3789887eb60') in 0.0274082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool@4x.png
+  artifactKey: Guid(f082e69f825d0aa44b687e592731c0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool@4x.png using Guid(f082e69f825d0aa44b687e592731c0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92186592305bc2c4891f8126e335fb81') in 0.0238392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046396 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Warning.png
+  artifactKey: Guid(ecff197e49b7c4a8c8431746d97f9b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Warning.png using Guid(ecff197e49b7c4a8c8431746d97f9b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b770aaedb67c551ddd2197c8f5c7363') in 0.0280174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013419 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Warning@2x.png
+  artifactKey: Guid(3233afe4c448d4eb198cfb1ca54feb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Warning@2x.png using Guid(3233afe4c448d4eb198cfb1ca54feb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a700ccda8a55b421e00a409b3438670') in 0.0287506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.378109 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Hidded@4x.png
+  artifactKey: Guid(f469f8253737d534ca7809ae6f0d2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Hidded@4x.png using Guid(f469f8253737d534ca7809ae6f0d2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33a6f427f2c05d737d6e3cb466cb3665') in 0.02332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool.png
+  artifactKey: Guid(7342ee656932e31489ea62e64e012645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool.png using Guid(7342ee656932e31489ea62e64e012645) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adac6b5735f43be81dbd88eaa50a3092') in 0.022935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Tool@2x.png
+  artifactKey: Guid(45c995b76b893fd4b9e8d3e0f9f6463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Tool@2x.png using Guid(45c995b76b893fd4b9e8d3e0f9f6463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a59030ff1cfed067278b8f6f123336b7') in 0.0246687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062369 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/ViewToolZoom.png
+  artifactKey: Guid(aa97306f968594504818c53dbe8778c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/ViewToolZoom.png using Guid(aa97306f968594504818c53dbe8778c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a48f1f678bd065759290af3402dbce77') in 0.019354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004053 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Hidded.png
+  artifactKey: Guid(a20f7223e2252fc4d813fc92d0f3a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Hidded.png using Guid(a20f7223e2252fc4d813fc92d0f3a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4197745cb2ae3f79f75e24bc06426a8') in 0.0258607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Hidded@3x.png
+  artifactKey: Guid(89930da27dfbbc64ba1f3baf0ae416bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Hidded@3x.png using Guid(89930da27dfbbc64ba1f3baf0ae416bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5b9c40bfb261012e35b7cec39375133') in 0.0253772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.547059 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/True.png
+  artifactKey: Guid(f6d23106ef95d476889330aede914e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/True.png using Guid(f6d23106ef95d476889330aede914e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38fc7b826ee15556d8c389e9ac49743f') in 0.0231476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014558 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowTilePalette@2x.png
+  artifactKey: Guid(d88e25b75a7927f4683afb6c74b05a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowTilePalette@2x.png using Guid(d88e25b75a7927f4683afb6c74b05a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12295be9712e39092d44a6dfafe4c3cf') in 0.0205023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003576 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.TilePalette.png
+  artifactKey: Guid(a605ef4315d43d6438e211f589d2df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.TilePalette.png using Guid(a605ef4315d43d6438e211f589d2df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '423c3a9db07a8b1c4e45ab774a702a3e') in 0.026127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.TilePalette@4x.png
+  artifactKey: Guid(920ecfdb532776b4cb32b37e5bd9e6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.TilePalette@4x.png using Guid(920ecfdb532776b4cb32b37e5bd9e6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b60276354320bef21ad2b83ed52e19d9') in 0.0245251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006051 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint@2x.png
+  artifactKey: Guid(42fb19d14e266e4409770bbcdbc6a1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint@2x.png using Guid(42fb19d14e266e4409770bbcdbc6a1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36a1fa9b07c36043ca2bb072ece60933') in 0.0237154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011207 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowGrid@2x.png
+  artifactKey: Guid(db1e8fc8f15be484bb9f866640b84c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowGrid@2x.png using Guid(db1e8fc8f15be484bb9f866640b84c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcc6038331757bec9c327f8eef063add') in 0.021387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003830 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowTilePalette.png
+  artifactKey: Guid(4b6b0d10629b2ea40846b0eed5b74f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowTilePalette.png using Guid(4b6b0d10629b2ea40846b0eed5b74f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fd6109302ff76448f74fd1a475c9971') in 0.0240239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115615 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusNone@4x.png
+  artifactKey: Guid(070c631c5a8d05e41baf0a64b742067d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusNone@4x.png using Guid(070c631c5a8d05e41baf0a64b742067d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9664d0ea32bf56fd37fc1cd03de0849f') in 0.0236176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011777 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusTilemap@4x.png
+  artifactKey: Guid(7360ac83b6bff7149836a436a4920d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusTilemap@4x.png using Guid(7360ac83b6bff7149836a436a4920d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cafab9b667ba93c93c99c8848c4da27') in 0.0237381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223919 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.EditPalette@4x.png
+  artifactKey: Guid(72a3c6132d5e2ae48a1df56cfebbc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.EditPalette@4x.png using Guid(72a3c6132d5e2ae48a1df56cfebbc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '633bf5522cc6adde33b5f85c1f3c0984') in 0.0231194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010294 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusGrid@4x.png
+  artifactKey: Guid(a1bd3db90f5f7314e822ba2e38f901c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusGrid@4x.png using Guid(a1bd3db90f5f7314e822ba2e38f901c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07fbbab45237a275ad2d5edcd58e02ea') in 0.0279036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5029.399505 seconds.
+  path: Assets/Full Tileset/32x32/A4_78.asset
+  artifactKey: Guid(7268ff6d874174242b729c204ecdd63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/A4_78.asset using Guid(7268ff6d874174242b729c204ecdd63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0077a969e0949ddc2d35d6383a955ca7') in 0.1588086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_55.asset
+  artifactKey: Guid(b16938ca0c3bf5e4e9e41b0e5eee65b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_55.asset using Guid(b16938ca0c3bf5e4e9e41b0e5eee65b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92f114c991188478ca86640405018d0d') in 0.0426138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_57.asset
+  artifactKey: Guid(6b758c92b54b8fd40821e11edf7e3c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_57.asset using Guid(6b758c92b54b8fd40821e11edf7e3c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b6908456d8767447c0645f05dafd4f4') in 0.0429672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_58.asset
+  artifactKey: Guid(80ed64cb004537e46a7c45c5d2c866bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_58.asset using Guid(80ed64cb004537e46a7c45c5d2c866bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc5086e9e83f3c407e5ef17bca77be09') in 0.0421337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Full Tileset/32x32/A4_98.asset
+  artifactKey: Guid(0b01b5ef04aae3c4ba3ddefd0ecdfb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/A4_98.asset using Guid(0b01b5ef04aae3c4ba3ddefd0ecdfb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b0137642fe52d6455bab92f10178e93') in 0.0412535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Full Tileset/32x32/A4_97.asset
+  artifactKey: Guid(157bac5890e8e1d41ba41c5aed33d2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/A4_97.asset using Guid(157bac5890e8e1d41ba41c5aed33d2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96796aae9ff26210b2419db21d1e6972') in 0.0483723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Full Tileset/32x32/A4_94.asset
+  artifactKey: Guid(e7ed04d4b5cb7c444b88d863c62e37e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/A4_94.asset using Guid(e7ed04d4b5cb7c444b88d863c62e37e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85d00e6248f0158cc786bc8db4edcfd4') in 0.0385385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Full Tileset/32x32/A4_256.asset
+  artifactKey: Guid(65b6955cec40692498f6f26a10f24f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/A4_256.asset using Guid(65b6955cec40692498f6f26a10f24f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5d311c7b98a467c999fc8d487465156') in 0.0275902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_46.asset
+  artifactKey: Guid(ddabf88ce9527b649b1ab264bf2e0ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_46.asset using Guid(ddabf88ce9527b649b1ab264bf2e0ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e44ec9c02e003c33bf7445700d1171e7') in 0.0463882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.355676 seconds.
+  path: Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_64.asset
+  artifactKey: Guid(fb2920419d0325342a702a78d1e299e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_64.asset using Guid(fb2920419d0325342a702a78d1e299e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75a97f8d7cdf43ea2dcbb93d08b34543') in 0.0199014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_80.asset
+  artifactKey: Guid(c54ea9bb33e8d4843ba3dfd545028a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_80.asset using Guid(c54ea9bb33e8d4843ba3dfd545028a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc6566a769685a8102d5b6095a7032a4') in 0.0347065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_84.asset
+  artifactKey: Guid(5a14d6fdc66a26d49802627158e57f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/32x32/ClinicSettingBGAsset 1_84.asset using Guid(5a14d6fdc66a26d49802627158e57f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65df6ea80dbd3d6cebb1f5cdb2bdfef5') in 0.0361035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.879417 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic.png
+  artifactKey: Guid(5e4d5042164955144a11c34c4dfcb977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic.png using Guid(5e4d5042164955144a11c34c4dfcb977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '730b33062f81fc0a182fedde9a887b4d') in 0.3743032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 225.669770 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic.png
+  artifactKey: Guid(5e4d5042164955144a11c34c4dfcb977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic.png using Guid(5e4d5042164955144a11c34c4dfcb977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5aceea36738cddd78e6ee4e5cbc66eb') in 0.0296551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.729803 seconds.
+  path: Assets/Full Tileset/48x48
+  artifactKey: Guid(4d61d8d7f8a29d64ebe2a007b18dd8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/48x48 using Guid(4d61d8d7f8a29d64ebe2a007b18dd8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2e2ec8797f4a1d67d0cc24a93962763') in 0.0045546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.527044 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/bluewall.png
+  artifactKey: Guid(78575379bfe03674ab01d863ce3769c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/bluewall.png using Guid(78575379bfe03674ab01d863ce3769c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59210b0e24034a89f8613008224e3717') in 0.0320052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.588080 seconds.
+  path: Assets/AssetFC/VNCHOSEN/2DCharacters/BluewallAsset.png
+  artifactKey: Guid(68402e8c87f4fd24398d5508e65fb6e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetFC/VNCHOSEN/2DCharacters/BluewallAsset.png using Guid(68402e8c87f4fd24398d5508e65fb6e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e41c12c0b7505d8ab706a7256371c877') in 0.0394179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.668804 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage
+  artifactKey: Guid(f062ca97b8ac15c47b1c7894bc804d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage using Guid(f062ca97b8ac15c47b1c7894bc804d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f1197c42ac4dff415a052f58aad4800') in 0.0008671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.786148 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/bluewall.png
+  artifactKey: Guid(78575379bfe03674ab01d863ce3769c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/bluewall.png using Guid(78575379bfe03674ab01d863ce3769c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78438060299a43824ceabbcdf05eae54') in 0.0282478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic.png
+  artifactKey: Guid(5e4d5042164955144a11c34c4dfcb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic.png using Guid(5e4d5042164955144a11c34c4dfcb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b67d957af52ae6506ad95d453ba08c51') in 0.0205593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.483027 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png
+  artifactKey: Guid(9322c5de6b27692499a6aacfff13a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png using Guid(9322c5de6b27692499a6aacfff13a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8530cd3abe46e2fbe893be0b0dbbec05') in 0.0399601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.935130 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png
+  artifactKey: Guid(9322c5de6b27692499a6aacfff13a472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png using Guid(9322c5de6b27692499a6aacfff13a472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d8973906c3dc570e1fe8aac9d498960') in 0.0390505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.829137 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png
+  artifactKey: Guid(9322c5de6b27692499a6aacfff13a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png using Guid(9322c5de6b27692499a6aacfff13a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bdb1fd81abb275be72c73fe4ff32448') in 0.0338151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.936655 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png
+  artifactKey: Guid(9322c5de6b27692499a6aacfff13a472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png using Guid(9322c5de6b27692499a6aacfff13a472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0fbcafe594666ab6f4dfd2e3d071de72') in 0.0320872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.076768 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png
+  artifactKey: Guid(9322c5de6b27692499a6aacfff13a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png using Guid(9322c5de6b27692499a6aacfff13a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98fcb4a25d62d4e1cafdfc14e4d7b492') in 0.136082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.747524 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png
+  artifactKey: Guid(9322c5de6b27692499a6aacfff13a472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png using Guid(9322c5de6b27692499a6aacfff13a472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b49f4822ea297c7c1ca52bf0cc21363') in 0.0890267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 339.667833 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png
+  artifactKey: Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png using Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0ba660dc7f545f6de06089d04ef8ef4') in 0.0280176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.746032 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png
+  artifactKey: Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png using Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58f13197879b1ae98cdd018a13e9434d') in 0.0340872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.629094 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png
+  artifactKey: Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png using Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '548a7091973ea7fb96d8e48b469aaa17') in 0.0225365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.914394 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png
+  artifactKey: Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png using Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32200461f87bc34834f097346a5f4168') in 0.022628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.949683 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png
+  artifactKey: Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png using Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd00fbe0338c209422e6d65b99a4479b') in 0.1277777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795726 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png
+  artifactKey: Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset-R.png using Guid(77c00e34273bf754eb4c616aa3aacc83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d6bb5f3c26bfe37e3679c94ea7a69bb') in 0.0917778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.388564 seconds.
+  path: Assets/Full Tileset/BluewallAsset-R_30.asset
+  artifactKey: Guid(e6d7705e5c29af94fa5aca327081fa2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/BluewallAsset-R_30.asset using Guid(e6d7705e5c29af94fa5aca327081fa2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a72f0bfba809ebd5c61d58816d02015') in 0.0595166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.825778 seconds.
+  path: Assets/Full Tileset/BluewallAsset-R_31.asset
+  artifactKey: Guid(49750e4c4e4986b40a15ba6eb887a40d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/BluewallAsset-R_31.asset using Guid(49750e4c4e4986b40a15ba6eb887a40d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39346f366574dee884d6f93031741a42') in 0.028166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 478.162619 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/bluewall-3.png
+  artifactKey: Guid(85c76baf78659b5448d2f5a83db7a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/bluewall-3.png using Guid(85c76baf78659b5448d2f5a83db7a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47853c041b144124ad6568dbad4da8ab') in 0.0278349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b7baf59a81dca60180accbf8b1eb411') in 0.0243287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.846476 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77b7ae6645e777b459454bb66373a2b8') in 0.0271097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.007742 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/bluewall-3.png
+  artifactKey: Guid(85c76baf78659b5448d2f5a83db7a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/bluewall-3.png using Guid(85c76baf78659b5448d2f5a83db7a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8209f4173f0b548d913bdf31babcc558') in 0.0243315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.920197 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/bluewall-3.png
+  artifactKey: Guid(85c76baf78659b5448d2f5a83db7a357) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/bluewall-3.png using Guid(85c76baf78659b5448d2f5a83db7a357) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fd8ffdec98f2bcd14005cf85cfc0599') in 0.0312686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.644702 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/bluewall-3.png
+  artifactKey: Guid(85c76baf78659b5448d2f5a83db7a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/bluewall-3.png using Guid(85c76baf78659b5448d2f5a83db7a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9056b20ef6433dae6d330f64a5a427d9') in 0.1300463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.765675 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/bluewall-3.png
+  artifactKey: Guid(85c76baf78659b5448d2f5a83db7a357) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/bluewall-3.png using Guid(85c76baf78659b5448d2f5a83db7a357) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02995c3ad57f0e46d014c8970d435348') in 0.0773271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.018744 seconds.
+  path: Assets/Full Tileset/bluewall-3_31.asset
+  artifactKey: Guid(2924c5b43281e344ca984ad57e37f03e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/bluewall-3_31.asset using Guid(2924c5b43281e344ca984ad57e37f03e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '035474382b010cd4bea1add352d351a2') in 0.0255741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.833050 seconds.
+  path: Assets/Full Tileset/bluewall-3_37.asset
+  artifactKey: Guid(c5ce95ae4c6f7fe47855ce6211371ad0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/bluewall-3_37.asset using Guid(c5ce95ae4c6f7fe47855ce6211371ad0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a325858045ec7e5984afb111eb016ca1') in 0.0251469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.581881 seconds.
+  path: Assets/Full Tileset/bluewall-3_35.asset
+  artifactKey: Guid(4d01df6f6fa336e46a09605d573cd49f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/bluewall-3_35.asset using Guid(4d01df6f6fa336e46a09605d573cd49f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd256135974559f8c5697b6e84f9f5dfc') in 0.0261492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.025933 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/bluewall.png
+  artifactKey: Guid(78575379bfe03674ab01d863ce3769c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/bluewall.png using Guid(78575379bfe03674ab01d863ce3769c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd23b08a0c200acc32ccce71bb39cb8a2') in 0.0232766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.929363 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/bluewall.png
+  artifactKey: Guid(78575379bfe03674ab01d863ce3769c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/bluewall.png using Guid(78575379bfe03674ab01d863ce3769c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a30054fe267299a94145b016ad49560') in 0.0275029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.347832 seconds.
+  path: Assets/Full Tileset/bluewall-3_22.asset
+  artifactKey: Guid(9eef51afd2cc1224593da76a78059fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/bluewall-3_22.asset using Guid(9eef51afd2cc1224593da76a78059fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1f5c66b304a8ff9511d423c75faeb10') in 0.0241362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.796325 seconds.
+  path: Assets/Full Tileset/bluewall-3_13.asset
+  artifactKey: Guid(dcd864faea31ec145995979c3ba87902) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/bluewall-3_13.asset using Guid(dcd864faea31ec145995979c3ba87902) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79af99280d6b7c7e588749cec5821d9d') in 0.036924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.663672 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png
+  artifactKey: Guid(9322c5de6b27692499a6aacfff13a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png using Guid(9322c5de6b27692499a6aacfff13a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a201a96b2b9f307de1b707fc6cabf561') in 0.0213892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.922129 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png
+  artifactKey: Guid(9322c5de6b27692499a6aacfff13a472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/BluewallAsset.png using Guid(9322c5de6b27692499a6aacfff13a472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a7b9d7b4715640d0860ec43096ca661') in 0.0348916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.591344 seconds.
+  path: Assets/Full Tileset/WallBGClinic-W2_0.asset
+  artifactKey: Guid(7e618f573fc6cb94d8b221dfb818213a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/WallBGClinic-W2_0.asset using Guid(7e618f573fc6cb94d8b221dfb818213a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4709cc0a1ac6632f6b78642638b3d430') in 0.0302174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.561897 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd875ee6b7f567fc410ccaf4a74969d2f') in 0.0115016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.916913 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '335491131160ecece989bf9a1391e4d1') in 0.0223693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.463785 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9657eee4acad72a25ecaaf013c153551') in 0.0216186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.921055 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79f452c6aff3abf4d77055137ed114df') in 0.0281345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.507178 seconds.
+  path: Assets/Full Tileset/WallBGClinic-W2.asset
+  artifactKey: Guid(e11b62d33cb231e4d90901dfda9455fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/WallBGClinic-W2.asset using Guid(e11b62d33cb231e4d90901dfda9455fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2222c490e32207164279e9590445abe2') in 0.0241307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.699753 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4202c444d8310200b8ef13da3bb97f4') in 0.0121214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933022 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9db3b7ced9ecd36a8aa9142c3dde7898') in 0.0263464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.391341 seconds.
+  path: Assets/AssetFC/PalletesFolder/FloorPallete.prefab
+  artifactKey: Guid(95698a8787731cf468d0c3f0f600144a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetFC/PalletesFolder/FloorPallete.prefab using Guid(95698a8787731cf468d0c3f0f600144a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2ed9ea46283e3c0aedb935655b90ede') in 0.0585439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.371863 seconds.
+  path: Assets/Full Tileset/bluewall-3_0.asset
+  artifactKey: Guid(938c86a7117768448a6de0b6a16bd612) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/bluewall-3_0.asset using Guid(938c86a7117768448a6de0b6a16bd612) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be8fab605c256bd5ca0308a6862db2c9') in 0.0259754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.476967 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '662e1077dac8d6f66917a792897e08e2') in 0.0231515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.917769 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ead59f5fca7c0a1607362c9699b2128') in 0.0285722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.377074 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a2ab22835afd5ec1db0ba933e0e93ba') in 0.0103582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.943708 seconds.
+  path: Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png
+  artifactKey: Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/ClinicBGSingleImage/WallBGClinic-W2.png using Guid(bfc9ba45fa9d7a1458f62a74568d423a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b1038c6e0e6ac2ca68896f563805215') in 0.0256742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.406397 seconds.
+  path: Assets/AssetFC/PalletesFolder/FloorPallete.prefab
+  artifactKey: Guid(95698a8787731cf468d0c3f0f600144a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetFC/PalletesFolder/FloorPallete.prefab using Guid(95698a8787731cf468d0c3f0f600144a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d172e9c67cc6dee215067de2e153639') in 0.0318098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.672404 seconds.
+  path: Assets/Full Tileset/bluewall-3_28.asset
+  artifactKey: Guid(8b3e2cc4d204a2f4587993670741af49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/bluewall-3_28.asset using Guid(8b3e2cc4d204a2f4587993670741af49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf4fa78b2475a1c84fcd1bb29325e658') in 0.0243696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.925782 seconds.
+  path: Assets/Scenes/TutorialScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/TutorialScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6565aa17e312f3463ac256eef2015e49') in 0.0291087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.207365 seconds.
+  path: Assets/Full Tileset/bluewall-3_44.asset
+  artifactKey: Guid(b81f5799390beb24cb74c39993c2cda3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/bluewall-3_44.asset using Guid(b81f5799390beb24cb74c39993c2cda3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e60eef7fd375876301d36f26baef999') in 0.0195859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.051741 seconds.
+  path: Assets/Full Tileset/bluewall-3_2.asset
+  artifactKey: Guid(16fa104bea7909e49a240d7262bdea96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Full Tileset/bluewall-3_2.asset using Guid(16fa104bea7909e49a240d7262bdea96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83e5ed75a0c99dcce0510be797d93664') in 0.0261901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 285.230560 seconds.
+  path: Assets/Scenes/TutorialScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/TutorialScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b5fecb2d606da5436b06b51f6922873') in 0.0322416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

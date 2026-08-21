@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 41
+  controlID: 43
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 42
+  controlID: 44
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 43
+  controlID: 45
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -808,7 +808,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Full Tileset/ClinicBGSingleImage
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 89
   m_LastFolders:
-  - Assets
+  - Assets/Full Tileset/ClinicBGSingleImage
   m_LastFoldersGridSize: 89
   m_LastProjectPath: C:\Users\Russell\Desktop\FC-INKIE
   m_LockTracker:
@@ -827,13 +827,13 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
-    - m_Data: 42950
+    - m_Data: 43800
     m_LastClickedID:
-      m_Data: 42950
+      m_Data: 43800
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 42950
-    - m_Data: 43058
+    - m_Data: 43620
+    - m_Data: 43730
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -868,7 +868,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 42950
+    - m_Data: 43620
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -897,11 +897,13 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: []
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 53348
     - m_Data: 56626
     - m_Data: 52498
+    - m_Data: 50818
+    - m_Data: 50616
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -927,7 +929,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 96}
+    m_ScrollPosition: {x: 0, y: 54}
     m_GridSize: 89
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 240.20003
@@ -976,7 +978,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 533.6
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1027,46 +1029,7 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -348916
-      - m_Data: -347886
-      - m_Data: -345234
-      - m_Data: -344824
-      - m_Data: -344332
-      - m_Data: -343950
-      - m_Data: -343472
-      - m_Data: -342040
-      - m_Data: -340744
-      - m_Data: -339726
-      - m_Data: -339574
-      - m_Data: -338592
-      - m_Data: -338474
-      - m_Data: -39554
-      - m_Data: -37078
-      - m_Data: -36450
-      - m_Data: -35772
-      - m_Data: -35400
       - m_Data: -1316
-      - m_Data: 42600
-      - m_Data: 42638
-      - m_Data: 42666
-      - m_Data: 45748
-      - m_Data: 45772
-      - m_Data: 49164
-      - m_Data: 49208
-      - m_Data: 49332
-      - m_Data: 49858
-      - m_Data: 49902
-      - m_Data: 59582
-      - m_Data: 59592
-      - m_Data: 59610
-      - m_Data: 59664
-      - m_Data: 59672
-      - m_Data: 60050
-      - m_Data: 60068
-      - m_Data: 63592
-      - m_Data: 69222
-      - m_Data: 71518
-      - m_Data: 71602
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1729,9 +1692,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 353.68735, y: 387.5808, z: 14.470009}
+    m_Target: {x: -14.968796, y: 10.844719, z: -0.09827187}
     speed: 2
-    m_Value: {x: 353.68735, y: 387.5808, z: 14.470009}
+    m_Value: {x: -14.229797, y: 10.47674, z: -0.09088183}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1781,9 +1744,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 768.24384
+    m_Target: 17.161198
     speed: 2
-    m_Value: 768.24384
+    m_Value: 16.4222
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1953,7 +1916,7 @@ MonoBehaviour:
       height: 864
     m_MinimalGUI: 1
   m_defaultScale: 0.45578703
-  m_LastWindowPixelSize: {x: 1043.4999, y: 518.5}
+  m_LastWindowPixelSize: {x: 834.7999, y: 414.8}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000

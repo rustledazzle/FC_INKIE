@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 5e4d5042164955144a11c34c4dfcb977
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1300848448765544509
+    second: WallBGClinic_0
+  - first:
+      213: -5856489947209279006
+    second: WallBGClinic_1
+  - first:
+      213: -6435772413030792394
+    second: WallBGClinic_2
+  - first:
+      213: 8242334451844638285
+    second: WallBGClinic_3
+  - first:
+      213: -6188521875311004121
+    second: WallBGClinic_4
+  - first:
+      213: 688733152883076
+    second: WallBGClinic_5
+  - first:
+      213: -1056236609914013892
+    second: WallBGClinic_6
+  - first:
+      213: 3452169853042493194
+    second: WallBGClinic_7
+  - first:
+      213: -525123067944671506
+    second: WallBGClinic_8
+  - first:
+      213: -3374252719969588334
+    second: WallBGClinic_9
+  - first:
+      213: -2438896955407989693
+    second: WallBGClinic_10
+  - first:
+      213: -604255472900356034
+    second: WallBGClinic_11
+  - first:
+      213: -4520991802903062321
+    second: WallBGClinic_12
+  - first:
+      213: 3970977574203998757
+    second: WallBGClinic_13
+  - first:
+      213: -1908540902742919895
+    second: WallBGClinic_14
+  - first:
+      213: -226366006074508014
+    second: WallBGClinic_15
+  - first:
+      213: -8249751142971333026
+    second: WallBGClinic_16
+  - first:
+      213: 458817914863411484
+    second: WallBGClinic_17
+  - first:
+      213: -4231225588152896115
+    second: WallBGClinic_18
+  - first:
+      213: -4412664559290488732
+    second: WallBGClinic_19
+  - first:
+      213: -1544434287144126701
+    second: WallBGClinic_20
+  - first:
+      213: -7551761663380669042
+    second: WallBGClinic_21
+  - first:
+      213: 2274921841239110146
+    second: WallBGClinic_22
+  - first:
+      213: 1219106013027359499
+    second: WallBGClinic_23
+  - first:
+      213: 586569768645914463
+    second: WallBGClinic_24
+  - first:
+      213: 4899641738280275488
+    second: WallBGClinic_25
+  - first:
+      213: 5408588806726647015
+    second: WallBGClinic_26
+  - first:
+      213: 4574657928550047479
+    second: WallBGClinic_27
+  - first:
+      213: 4567273230526007530
+    second: WallBGClinic_28
+  - first:
+      213: -3109862769230853450
+    second: WallBGClinic_29
+  - first:
+      213: 9039280236260782773
+    second: WallBGClinic_30
+  - first:
+      213: 403461161320293427
+    second: WallBGClinic_31
+  - first:
+      213: -2374831011161090993
+    second: WallBGClinic_32
+  - first:
+      213: 3580170568703828266
+    second: WallBGClinic_33
+  - first:
+      213: 7894743600376328471
+    second: WallBGClinic_34
+  - first:
+      213: 3575297499919609686
+    second: WallBGClinic_35
+  - first:
+      213: -2189223438631071230
+    second: WallBGClinic_36
+  - first:
+      213: 1456103686932249412
+    second: WallBGClinic_37
+  - first:
+      213: -540382091788559775
+    second: WallBGClinic_38
+  - first:
+      213: -8032239499547175976
+    second: WallBGClinic_39
+  - first:
+      213: 3818836079619095381
+    second: WallBGClinic_40
+  - first:
+      213: -5290477448250456767
+    second: WallBGClinic_41
+  - first:
+      213: 2229884445052724608
+    second: WallBGClinic_42
+  - first:
+      213: -8142528146569716568
+    second: WallBGClinic_43
+  - first:
+      213: 1886510947156744700
+    second: WallBGClinic_44
+  - first:
+      213: 4451704729227303216
+    second: WallBGClinic_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WallBGClinic_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1169
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c736b06a3572fde0800000000000000
+      internalID: -1300848448765544509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1169
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9d1f90c6199bea0800000000000000
+      internalID: -5856489947209279006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1157
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6338a0aa61b8fa6a0800000000000000
+      internalID: -6435772413030792394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1059
+        width: 429
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46e922a387a26270800000000000000
+      internalID: 8242334451844638285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 969
+        width: 259
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7267a518424fd1aa0800000000000000
+      internalID: -6188521875311004121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_5
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 970
+        width: 171
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4813cee2662720000800000000000000
+      internalID: 688733152883076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 879
+        width: 259
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37ff43466e7751f0800000000000000
+      internalID: -1056236609914013892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 878
+        width: 171
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0709e2e03298ef20800000000000000
+      internalID: 3452169853042493194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 757
+        width: 429
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee66bc71a5366b8f0800000000000000
+      internalID: -525123067944671506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 633
+        width: 259
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b21db570f3c21d0800000000000000
+      internalID: -3374252719969588334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_10
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 634
+        width: 171
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3440021142c472ed0800000000000000
+      internalID: -2438896955407989693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 65
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38403059d04d97f0800000000000000
+      internalID: -604255472900356034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 504
+        width: 70
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8928398e53241c0800000000000000
+      internalID: -4520991802903062321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 504
+        width: 111
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522c879801fbb1730800000000000000
+      internalID: 3970977574203998757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 504
+        width: 68
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92574bc29208385e0800000000000000
+      internalID: -1908540902742919895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_15
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 504
+        width: 63
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d74ba1159cbdcf0800000000000000
+      internalID: -226366006074508014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 441
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5622d56b0ff28d80800000000000000
+      internalID: -8249751142971333026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 441
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11e400767c0e5600800000000000000
+      internalID: 458817914863411484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_18
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 432
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d857a9ddebaa745c0800000000000000
+      internalID: -4231225588152896115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 439
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468e88e66f013c2c0800000000000000
+      internalID: -4412664559290488732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_20
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 444
+        width: 69
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31737d7d231119ae0800000000000000
+      internalID: -1544434287144126701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_21
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 441
+        width: 73
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d38c137c0c23790800000000000000
+      internalID: -7551761663380669042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_22
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 438
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202b5de8c55229f10800000000000000
+      internalID: 2274921841239110146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_23
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 376
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bd902b5722be010800000000000000
+      internalID: 1219106013027359499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 368
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f6f18c81ae32800800000000000000
+      internalID: 586569768645914463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 366
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e8fd893360ff340800000000000000
+      internalID: 4899641738280275488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_26
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 375
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec78112dda2f0b40800000000000000
+      internalID: 5408588806726647015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 378
+        width: 71
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe562006237c7f30800000000000000
+      internalID: 4574657928550047479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_28
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 383
+        width: 72
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae847a10ec6326f30800000000000000
+      internalID: 4567273230526007530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_29
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 374
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba48c3c94c87d4d0800000000000000
+      internalID: -3109862769230853450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 306
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b278839b79f17d70800000000000000
+      internalID: 9039280236260782773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_31
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 300
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334a921e9c1699500800000000000000
+      internalID: 403461161320293427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_32
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 291
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44592a17c7ea0fd0800000000000000
+      internalID: -2374831011161090993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_33
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 304
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2166e6e9225fa130800000000000000
+      internalID: 3580170568703828266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_34
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 306
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7113835f973cf8d60800000000000000
+      internalID: 7894743600376328471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_35
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 304
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fec0922220e9130800000000000000
+      internalID: 3575297499919609686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_36
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 304
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2029f6ea1e05e91e0800000000000000
+      internalID: -2189223438631071230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_37
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 307
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bbbb7a69e153410800000000000000
+      internalID: 1456103686932249412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 149
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ad5ffb95d2088f0800000000000000
+      internalID: -540382091788559775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_39
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 190
+        width: 95
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d311a65bb0c78090800000000000000
+      internalID: -8032239499547175976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_40
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 176
+        width: 168
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b342d6e2b3ff430800000000000000
+      internalID: 3818836079619095381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 172
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14501dc7ac27496b0800000000000000
+      internalID: -5290477448250456767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_42
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 110
+        width: 95
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085698d961422fe10800000000000000
+      internalID: 2229884445052724608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_43
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 34
+        width: 140
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac971aaacdeffe80800000000000000
+      internalID: -8142528146569716568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_44
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 42
+        width: 82
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9d92616bb3e2a10800000000000000
+      internalID: 1886510947156744700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBGClinic_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 432
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03915867dd1a7cd30800000000000000
+      internalID: 4451704729227303216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WallBGClinic_0: -1300848448765544509
+      WallBGClinic_1: -5856489947209279006
+      WallBGClinic_10: -2438896955407989693
+      WallBGClinic_11: -604255472900356034
+      WallBGClinic_12: -4520991802903062321
+      WallBGClinic_13: 3970977574203998757
+      WallBGClinic_14: -1908540902742919895
+      WallBGClinic_15: -226366006074508014
+      WallBGClinic_16: -8249751142971333026
+      WallBGClinic_17: 458817914863411484
+      WallBGClinic_18: -4231225588152896115
+      WallBGClinic_19: -4412664559290488732
+      WallBGClinic_2: -6435772413030792394
+      WallBGClinic_20: -1544434287144126701
+      WallBGClinic_21: -7551761663380669042
+      WallBGClinic_22: 2274921841239110146
+      WallBGClinic_23: 1219106013027359499
+      WallBGClinic_24: 586569768645914463
+      WallBGClinic_25: 4899641738280275488
+      WallBGClinic_26: 5408588806726647015
+      WallBGClinic_27: 4574657928550047479
+      WallBGClinic_28: 4567273230526007530
+      WallBGClinic_29: -3109862769230853450
+      WallBGClinic_3: 8242334451844638285
+      WallBGClinic_30: 9039280236260782773
+      WallBGClinic_31: 403461161320293427
+      WallBGClinic_32: -2374831011161090993
+      WallBGClinic_33: 3580170568703828266
+      WallBGClinic_34: 7894743600376328471
+      WallBGClinic_35: 3575297499919609686
+      WallBGClinic_36: -2189223438631071230
+      WallBGClinic_37: 1456103686932249412
+      WallBGClinic_38: -540382091788559775
+      WallBGClinic_39: -8032239499547175976
+      WallBGClinic_4: -6188521875311004121
+      WallBGClinic_40: 3818836079619095381
+      WallBGClinic_41: -5290477448250456767
+      WallBGClinic_42: 2229884445052724608
+      WallBGClinic_43: -8142528146569716568
+      WallBGClinic_44: 1886510947156744700
+      WallBGClinic_45: 4451704729227303216
+      WallBGClinic_5: 688733152883076
+      WallBGClinic_6: -1056236609914013892
+      WallBGClinic_7: 3452169853042493194
+      WallBGClinic_8: -525123067944671506
+      WallBGClinic_9: -3374252719969588334
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

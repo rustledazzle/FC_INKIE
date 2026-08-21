@@ -4,11 +4,17 @@ using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
+    [Header("Main Menu Buttons")]
     public Button newGameButton;
-    public Button libraryButton; // Replaced continue with library based on previous setup
+    public Button libraryButton;
     public Button stagesButton;
     public Button optionsButton;
     public Button exitButton;
+
+    [Header("Reminder Panel")]
+    public GameObject reminderPanel;
+    public Button proceedButton;
+    public Button closeReminderButton;
 
     void Start()
     {
@@ -19,11 +25,16 @@ public class MenuManager : MonoBehaviour
         }
         else
         {
-            stagesButton.interactable = false; // Default to locked if no GameManager exists yet
+            stagesButton.interactable = false;
         }
 
-        // 2. Button Listeners
-        newGameButton.onClick.AddListener(() => PlayClickAndLoad("TutorialScene"));
+        // Hide the reminder panel when the menu loads
+        if (reminderPanel != null) reminderPanel.SetActive(false);
+
+        // 2. Main Menu Button Listeners
+        // New Game now OPENS the reminder panel instead of loading the scene directly!
+        newGameButton.onClick.AddListener(ShowReminder);
+
         libraryButton.onClick.AddListener(() => PlayClickAndLoad("LibraryScene"));
         stagesButton.onClick.AddListener(() => PlayClickAndLoad("StagesScene"));
         optionsButton.onClick.AddListener(() => PlayClickAndLoad("OptionsScene"));
@@ -32,6 +43,26 @@ public class MenuManager : MonoBehaviour
             if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
             Application.Quit();
         });
+
+        // 3. Reminder Panel Button Listeners
+        if (proceedButton != null)
+            proceedButton.onClick.AddListener(() => PlayClickAndLoad("TutorialScene"));
+
+        if (closeReminderButton != null)
+            closeReminderButton.onClick.AddListener(HideReminder);
+    }
+
+    // Functions to show/hide the reminder panel
+    private void ShowReminder()
+    {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
+        if (reminderPanel != null) reminderPanel.SetActive(true);
+    }
+
+    private void HideReminder()
+    {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
+        if (reminderPanel != null) reminderPanel.SetActive(false);
     }
 
     private void PlayClickAndLoad(string sceneName)
