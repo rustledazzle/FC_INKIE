@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using TMPro;
 using Ink.Runtime;
+using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -79,7 +80,15 @@ public class DialogueManager : MonoBehaviour
         {
             bool spacePressed = Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame;
             bool enterPressed = Keyboard.current != null && (Keyboard.current.enterKey.wasPressedThisFrame || Keyboard.current.numpadEnterKey.wasPressedThisFrame);
+
+            // Check if the mouse was clicked
             bool mouseClicked = Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame;
+
+            // NEW: If the mouse was clicked, check if it was hovering over a UI button!
+            if (mouseClicked && EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+            {
+                mouseClicked = false; // Ignore this click so the dialogue doesn't advance!
+            }
 
             if (spacePressed || enterPressed || mouseClicked)
             {
@@ -287,26 +296,44 @@ public class DialogueManager : MonoBehaviour
         if (feedbackSummaryPanel != null)
         {
             int totalScore = 0;
+            int maxScore = 20;
+            int patientsDone = 1;
+
             if (GameManager.Instance != null)
             {
+                // Grab the stacked total score
                 totalScore = GameManager.Instance.clinicalReasoningScore +
                              GameManager.Instance.informationGatheringScore +
                              GameManager.Instance.empathyTrustScore +
                              GameManager.Instance.patientSafetyScore;
+
+                // Calculate the max possible score (20 for 1st patient, 40 for 2nd, 60 for 3rd)
+                patientsDone = Mathf.Max(1, GameManager.Instance.patientsDiagnosed);
+                maxScore = patientsDone * 20;
             }
 
-            if (totalScoreText != null) totalScoreText.text = $"FINAL SCORE: {totalScore} / 20";
-            if (gradeText != null) gradeText.text = $"GRADE: {GetGradeScale(totalScore)}";
-
-            // Check if 3 patients are diagnosed
-            if (GameManager.Instance != null && GameManager.Instance.patientsDiagnosed >= 3)
+            // Update the UI text to show the stacked score (e.g., 55 / 60)
+            if (totalScoreText != null)
             {
-                gradeText.text += "\n\nTUTORIAL COMPLETE!";
-                if (proceedToStagesButton != null) proceedToStagesButton.SetActive(true);
+                totalScoreText.text = $"FINAL SCORE: {totalScore} / {maxScore}";
             }
-            else
+
+            if (gradeText != null)
             {
-                if (proceedToStagesButton != null) proceedToStagesButton.SetActive(false);
+                // To get the correct Grade (Exemplary, etc.), we find the average score out of 20
+                int averageScore = Mathf.RoundToInt((float)totalScore / patientsDone);
+                gradeText.text = $"GRADE: {GetGradeScale(averageScore)}";
+
+                // Check if 3 patients are diagnosed
+                if (GameManager.Instance != null && GameManager.Instance.patientsDiagnosed >= 3)
+                {
+                    gradeText.text += "\n\n<color=#00FF00>TUTORIAL COMPLETE!</color>";
+                    if (proceedToStagesButton != null) proceedToStagesButton.SetActive(true);
+                }
+                else
+                {
+                    if (proceedToStagesButton != null) proceedToStagesButton.SetActive(false);
+                }
             }
 
             feedbackSummaryPanel.SetActive(true);

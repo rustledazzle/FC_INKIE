@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcTransformSetting.cs" />
+    <Compile Include="Assets\Scripts\GameplayUIManager.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\OptionsScript\OptionsSceneManager.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcCharacter.cs" />

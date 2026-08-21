@@ -17,7 +17,7 @@ public class StagesMenuManager : MonoBehaviour
             backButton.onClick.AddListener(() => PlayClickAndLoad("MenuScene"));
 
         if (stage1Button != null)
-            stage1Button.onClick.AddListener(() => PlayClickAndLoad("MainScene"));
+            stage1Button.onClick.AddListener(() => PlayClickAndLoad("Stage1Scene"));
 
         if (stage2Button != null)
             stage2Button.onClick.AddListener(() => PlayClickAndLoad("Stage2Scene")); //temporary scene name, change to actual scene name when available

@@ -28,12 +28,12 @@ public class GameManager : MonoBehaviour
 
     public void UpdateMetrics(int clinical, int info, int empathy, int safety, string trust)
     {
-        clinicalReasoningScore = clinical;
-        informationGatheringScore = info;
-        empathyTrustScore = empathy;
-        patientSafetyScore = safety;
-        trustLevel = trust;
+        // Using += stacks the scores up for every patient!
+        clinicalReasoningScore += clinical;
+        informationGatheringScore += info;
+        empathyTrustScore += empathy;
+        patientSafetyScore += safety;
 
-        Debug.Log($"[Metrics Updated] Trust: {trustLevel} | Empathy: {empathyTrustScore}/5 | Safety: {patientSafetyScore}/5");
+        // (You can handle 'trust' however you like, usually keeping the latest is fine)
     }
 }

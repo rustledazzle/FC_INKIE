@@ -8,19 +8,25 @@ public class NPCInteract : MonoBehaviour
     [TextArea(5, 10)]
     [SerializeField] private string patientNotes;
 
-    private bool playerInRange;
+    [Header("UI Prompt")]
+    [SerializeField] private GameObject interactPrompt; // NEW: Drag your World Space Canvas here!
 
-    // NEW: A lock to prevent talking to the same patient twice
+    private bool playerInRange;
     private bool hasBeenDiagnosed = false;
+
+    void Start()
+    {
+        if (interactPrompt != null) interactPrompt.SetActive(false);
+    }
 
     void Update()
     {
-        // We now check if hasBeenDiagnosed is false before allowing interaction!
         if (playerInRange && !DialogueManager.Instance.isDialogueActive && !hasBeenDiagnosed)
         {
             if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
             {
-                hasBeenDiagnosed = true; // Lock this patient so they can't be diagnosed again
+                hasBeenDiagnosed = true;
+                if (interactPrompt != null) interactPrompt.SetActive(false); // Hide prompt when talking
                 DialogueManager.Instance.EnterDialogueMode(inkJSON, patientNotes);
             }
         }
@@ -28,11 +34,19 @@ public class NPCInteract : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.CompareTag("Player")) playerInRange = true;
+        if (collider.gameObject.CompareTag("Player") && !hasBeenDiagnosed)
+        {
+            playerInRange = true;
+            if (interactPrompt != null) interactPrompt.SetActive(true); // Show prompt
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.gameObject.CompareTag("Player")) playerInRange = false;
+        if (collider.gameObject.CompareTag("Player"))
+        {
+            playerInRange = false;
+            if (interactPrompt != null) interactPrompt.SetActive(false); // Hide prompt
+        }
     }
 }
