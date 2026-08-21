@@ -10,16 +10,24 @@ public class TutorialManager : MonoBehaviour
     public Button nextButton;
     public Button closeButton;
 
-    private int currentPage = 0;
-
-    // Type your 2 pages of tutorial text here!
-    private string[] pages = {
+    [Header("Level Greeting Text (Edit in Unity!)")]
+    [TextArea(3, 5)]
+    public string[] pages = {
         "Welcome to the Clinic!\n\nUse your WASD keys to move around the room.",
         "Your goal today is to diagnose 3 patients.\n\nWalk up to a patient and press 'E' to begin a consultation. Good luck!"
     };
 
+    private int currentPage = 0;
+
     void Start()
     {
+        // Safety check: if you leave the pages empty, don't show the panel at all
+        if (pages == null || pages.Length == 0)
+        {
+            tutorialPanel.SetActive(false);
+            return;
+        }
+
         // Pause the player from walking while reading the tutorial
         if (DialogueManager.Instance != null) DialogueManager.Instance.SetDialogueActiveState(true);
 
@@ -42,7 +50,7 @@ public class TutorialManager : MonoBehaviour
     {
         tutorialText.text = pages[currentPage];
 
-        // If we are on the last page (Page 2), hide Next and show Close
+        // If we are on the last page, hide Next and show Close
         if (currentPage >= pages.Length - 1)
         {
             nextButton.gameObject.SetActive(false);
