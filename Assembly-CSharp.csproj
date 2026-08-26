@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\GameplayUIManager.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\OptionsScript\OptionsSceneManager.cs" />
+    <Compile Include="Assets\Sounds\videoscript.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcCharacter.cs" />
     <Compile Include="Assets\Scripts\MenuSceneScript\StagesManagerScript.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcProps.cs" />
