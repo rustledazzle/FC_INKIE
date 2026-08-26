@@ -1111,6 +1111,116 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: bluewall-3_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5183a29532748e84cbd27f16eabb0a26
+      internalID: -2055485552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluewall-3_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f395f7f948002dd44a4a1aab02fcd238
+      internalID: 1416635011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluewall-3_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e940ef1447fa39b45acbbf8bd3a17558
+      internalID: -2059297762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluewall-3_49
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 26
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be6f729685b9d44786bcd6cf01d54b4
+      internalID: -1434768830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluewall-3_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7975f42f22ad845a936243508f9a1d
+      internalID: 99512129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1168,7 +1278,12 @@ TextureImporter:
       bluewall-3_43: -56288508
       bluewall-3_44: 391247502
       bluewall-3_45: 735662057
+      bluewall-3_46: -2055485552
+      bluewall-3_47: 1416635011
+      bluewall-3_48: -2059297762
+      bluewall-3_49: -1434768830
       bluewall-3_5: 1705037459
+      bluewall-3_50: 99512129
       bluewall-3_6: 532634522
       bluewall-3_7: -580771386
       bluewall-3_8: -965253333

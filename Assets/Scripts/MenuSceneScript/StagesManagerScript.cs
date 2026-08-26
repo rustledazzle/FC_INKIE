@@ -20,10 +20,10 @@ public class StagesMenuManager : MonoBehaviour
             stage1Button.onClick.AddListener(() => PlayClickAndLoad("Stage1Scene"));
 
         if (stage2Button != null)
-            stage2Button.onClick.AddListener(() => PlayClickAndLoad("Stage2Scene")); //temporary scene name, change to actual scene name when available
+            stage2Button.onClick.AddListener(() => PlayClickAndLoad("Stage1Afternoon")); //temporary scene name, change to actual scene name when available
 
         if (stage3Button != null)
-            stage3Button.onClick.AddListener(() => PlayClickAndLoad("Stage3Scene")); //temporary scene name, change to actual scene name when available
+            stage3Button.onClick.AddListener(() => PlayClickAndLoad("Stage4Scene")); //temporary scene name, change to actual scene name when available
 
         if (stage4Button != null)
             stage4Button.onClick.AddListener(() => PlayClickAndLoad("Stage4Scene")); //temporary scene name, change to actual scene name when available

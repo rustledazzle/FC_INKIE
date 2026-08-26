@@ -3189,6 +3189,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4731380099849585151, guid: d4f47bf3d5a257349a1cdae91080196f, type: 3}
+      propertyPath: m_Name
+      value: 2ndFloor
+      objectReference: {fileID: 0}
     - target: {fileID: 6702320477142508506, guid: d4f47bf3d5a257349a1cdae91080196f, type: 3}
       propertyPath: m_Name
       value: SteelChair
@@ -12956,6 +12960,16 @@ MonoBehaviour:
   tutorialText: {fileID: 1995343176}
   nextButton: {fileID: 1056615037}
   closeButton: {fileID: 321150606}
+  pages:
+  - 'Welcome to the Clinic!
+
+
+    Use your WASD keys to move around the room.'
+  - 'Your goal today is to diagnose 3 patients.
+
+
+    Walk up to a patient and press
+    ''E'' to begin a consultation. Good luck!'
 --- !u!4 &1780132401
 Transform:
   m_ObjectHideFlags: 0

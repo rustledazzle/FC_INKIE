@@ -1,0 +1,790 @@
+fileFormatVersion: 2
+guid: f2a5d014c024b394f8e330a7eb5bbefb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4271514742661828483
+    second: Bathroom asset-2_0
+  - first:
+      213: 7924321272483319818
+    second: Bathroom asset-2_1
+  - first:
+      213: 8509361886761106326
+    second: Bathroom asset-2_2
+  - first:
+      213: 8270979072028093487
+    second: Bathroom asset-2_3
+  - first:
+      213: -3545193636828013467
+    second: Bathroom asset-2_4
+  - first:
+      213: 4684090764007799363
+    second: Bathroom asset-2_5
+  - first:
+      213: -3384011849145339559
+    second: Bathroom asset-2_6
+  - first:
+      213: -7225597819756120555
+    second: Bathroom asset-2_7
+  - first:
+      213: -4274150345571673415
+    second: Bathroom asset-2_8
+  - first:
+      213: 4343209564881652662
+    second: Bathroom asset-2_9
+  - first:
+      213: -8984993015485909828
+    second: Bathroom asset-2_10
+  - first:
+      213: -8992103083954811324
+    second: Bathroom asset-2_11
+  - first:
+      213: -51717997800514451
+    second: Bathroom asset-2_12
+  - first:
+      213: -779846301383545014
+    second: Bathroom asset-2_13
+  - first:
+      213: -20921784493264807
+    second: Bathroom asset-2_14
+  - first:
+      213: 5897033813375031351
+    second: Bathroom asset-2_15
+  - first:
+      213: -8652008172418282734
+    second: Bathroom asset-2_16
+  - first:
+      213: -844361822660556128
+    second: Bathroom asset-2_17
+  - first:
+      213: 7250078805933117170
+    second: Bathroom asset-2_18
+  - first:
+      213: 3546534100114832841
+    second: Bathroom asset-2_19
+  - first:
+      213: 2267552479937368649
+    second: Bathroom asset-2_20
+  - first:
+      213: 9037166703706658488
+    second: Bathroom asset-2_21
+  - first:
+      213: 4385497275820939583
+    second: Bathroom asset-2_22
+  - first:
+      213: 6441614449715501230
+    second: Bathroom asset-2_23
+  - first:
+      213: 4031209708204448352
+    second: Bathroom asset-2_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bathroom asset-2_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 462
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d703cc619f788b4c0800000000000000
+      internalID: -4271514742661828483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 316
+        width: 38
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0090746638d8fd60800000000000000
+      internalID: 7924321272483319818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 320
+        width: 96
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bb4ad2d83571670800000000000000
+      internalID: 8509361886761106326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_3
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 462
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cacecf4ab68c270800000000000000
+      internalID: 8270979072028093487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 295
+        width: 94
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c14e8ab21fccec0800000000000000
+      internalID: -3545193636828013467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_5
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 312
+        width: 81
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a7f548bbb310140800000000000000
+      internalID: 4684090764007799363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_6
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 330
+        width: 87
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951baf707239901d0800000000000000
+      internalID: -3384011849145339559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_7
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 312
+        width: 74
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5167997d01589bb90800000000000000
+      internalID: -7225597819756120555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_8
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 275
+        width: 146
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba5697f7ea2fa4c0800000000000000
+      internalID: -4274150345571673415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_9
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 196
+        width: 49
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb89d3861e264c30800000000000000
+      internalID: 4343209564881652662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_10
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 196
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4b89af474ee4380800000000000000
+      internalID: -8984993015485909828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_11
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 196
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ecd2923e1a53380800000000000000
+      internalID: -8992103083954811324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_12
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 196
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c1b9841c2484ff0800000000000000
+      internalID: -51717997800514451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_13
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 195
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fa1a2bbed6d25f0800000000000000
+      internalID: -779846301383545014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_14
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 137
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95036337fbba5bff0800000000000000
+      internalID: -20921784493264807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 139
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7389faa620976d150800000000000000
+      internalID: 5897033813375031351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 135
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b4b315864ede780800000000000000
+      internalID: -8652008172418282734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 137
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa8a6a55693844f0800000000000000
+      internalID: -844361822660556128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_18
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 139
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe4b3de2447d9460800000000000000
+      internalID: 7250078805933117170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_19
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 135
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd772549f1d73130800000000000000
+      internalID: 3546534100114832841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_20
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 46
+        width: 92
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942193c67f6f77f10800000000000000
+      internalID: 2267552479937368649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_21
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 52
+        width: 91
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b65c6e6c377a6d70800000000000000
+      internalID: 9037166703706658488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_22
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 138
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3910c8798a6cdc30800000000000000
+      internalID: 4385497275820939583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_23
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 137
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8d05f7636356950800000000000000
+      internalID: 6441614449715501230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_24
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 37
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ad1a01fdbb1f730800000000000000
+      internalID: 4031209708204448352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bathroom asset-2_25
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 317
+        width: 133
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8450b799fbcc04fb211343d33c8173
+      internalID: -1876368893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3ba21eca3408a194498eace42588aad3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bathroom asset-2_0: -4271514742661828483
+      Bathroom asset-2_1: 7924321272483319818
+      Bathroom asset-2_10: -8984993015485909828
+      Bathroom asset-2_11: -8992103083954811324
+      Bathroom asset-2_12: -51717997800514451
+      Bathroom asset-2_13: -779846301383545014
+      Bathroom asset-2_14: -20921784493264807
+      Bathroom asset-2_15: 5897033813375031351
+      Bathroom asset-2_16: -8652008172418282734
+      Bathroom asset-2_17: -844361822660556128
+      Bathroom asset-2_18: 7250078805933117170
+      Bathroom asset-2_19: 3546534100114832841
+      Bathroom asset-2_2: 8509361886761106326
+      Bathroom asset-2_20: 2267552479937368649
+      Bathroom asset-2_21: 9037166703706658488
+      Bathroom asset-2_22: 4385497275820939583
+      Bathroom asset-2_23: 6441614449715501230
+      Bathroom asset-2_24: 4031209708204448352
+      Bathroom asset-2_25: -1876368893
+      Bathroom asset-2_3: 8270979072028093487
+      Bathroom asset-2_4: -3545193636828013467
+      Bathroom asset-2_5: 4684090764007799363
+      Bathroom asset-2_6: -3384011849145339559
+      Bathroom asset-2_7: -7225597819756120555
+      Bathroom asset-2_8: -4274150345571673415
+      Bathroom asset-2_9: 4343209564881652662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
