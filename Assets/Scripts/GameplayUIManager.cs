@@ -10,7 +10,20 @@ public class GameplayUIManager : MonoBehaviour
     [Header("Time Settings")]
     public float timeSpeed = 10f;
     private float timeElapsed = 0f;
-    private int startHour = 8;
+    public int startHour = 8;
+
+    private int lastDiagnosedCount = 0;
+
+    [Header("Objectives Settings")]
+    [Tooltip("Type the names of your tasks here. The list size determines the number of patients!")]
+    public string[] objectiveList;
+
+    void Start()
+    {
+        // NEW: We force these back to 0 on load so the checklist always starts clean!
+        timeElapsed = 0f;
+        lastDiagnosedCount = 0;
+    }
 
     void Update()
     {
@@ -22,7 +35,6 @@ public class GameplayUIManager : MonoBehaviour
     {
         if (clockText == null) return;
 
-        // FIXED: Now time passes as long as the player IS NOT talking
         bool isTalking = DialogueManager.Instance != null && DialogueManager.Instance.isDialogueActive;
 
         if (!isTalking)
@@ -44,13 +56,28 @@ public class GameplayUIManager : MonoBehaviour
     {
         if (objectiveText == null) return;
 
-        // If we don't have a GameManager yet, just default to 0
         int diagnosed = GameManager.Instance != null ? GameManager.Instance.patientsDiagnosed : 0;
 
-        string b1 = diagnosed >= 1 ? "<s>[X] Consult Bed 1</s>" : "[ ] Consult Bed 1";
-        string b2 = diagnosed >= 2 ? "<s>[X] Consult Bed 2</s>" : "[ ] Consult Bed 2";
-        string b3 = diagnosed >= 3 ? "<s>[X] Consult Bed 3</s>" : "[ ] Consult Bed 3";
+        if (diagnosed > lastDiagnosedCount)
+        {
+            timeElapsed += 30f;
+            lastDiagnosedCount = diagnosed;
+        }
 
-        objectiveText.text = $"<b>To-Do List:</b>\n{b1}\n{b2}\n{b3}";
+        string finalObjectives = "<b>To-Do List:</b>\n";
+
+        for (int i = 0; i < objectiveList.Length; i++)
+        {
+            if (diagnosed > i)
+            {
+                finalObjectives += $"<s>[X] {objectiveList[i]}</s>\n";
+            }
+            else
+            {
+                finalObjectives += $"[ ] {objectiveList[i]}\n";
+            }
+        }
+
+        objectiveText.text = finalObjectives;
     }
 }

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5F56B711-A32B-159D-20CF-10CC3285CE8A}</ProjectGuid>
+    <ProjectGuid>{4F72047A-0941-A00C-7802-BD25E6C8280A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,23 +61,29 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\EndSummaryScript.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcTransformSetting.cs" />
+    <Compile Include="Assets\Scripts\BadgesSceneScript\AdminBadgeTester.cs" />
     <Compile Include="Assets\Scripts\GameplayUIManager.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\OptionsScript\OptionsSceneManager.cs" />
+    <Compile Include="Assets\Scripts\PauseManagerScene.cs" />
     <Compile Include="Assets\Sounds\videoscript.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcCharacter.cs" />
     <Compile Include="Assets\Scripts\MenuSceneScript\StagesManagerScript.cs" />
+    <Compile Include="Assets\Scripts\BadgesSceneScript\BadgesManager.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcProps.cs" />
+    <Compile Include="Assets\Scripts\BadgesSceneScript\AchievementPopup.cs" />
     <Compile Include="Assets\Scripts\Playermovement.cs" />
+    <Compile Include="Assets\Scripts\Dialoguemanager.cs" />
     <Compile Include="Assets\Scripts\MenuSceneScript\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\CaseSelectionManager.cs" />
     <Compile Include="Assets\Scripts\NpcInteraction.cs" />
-    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcCutscene.cs" />
     <Compile Include="Assets\Scripts\LibrarySceneScript\LibraryManager.cs" />
     <Compile Include="Assets\Scripts\TutorialManager.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\AssetFC\Easy Cutscene\Assets\Scripts\EcCutsceneManager.cs" />
-    <Compile Include="Assets\Dialoguemanager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -92,6 +98,7 @@
     <None Include="Assets\AssetFC\VNCHOSEN\KANA_TRIAL\KANA_TRIAL\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\AssetFC\UI\Icons_Essential\Icons_Essential\v1.2\Thank You for Purchasing!.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
@@ -102,6 +109,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\AssetFC\VNCHOSEN\KANA_TRIAL\KANA_TRIAL\README_kana_trial.txt" />
+    <None Include="Assets\AssetFC\UI\Icons_Essential\Icons_Essential\v1.2\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -661,6 +669,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
@@ -1185,6 +1197,10 @@
       <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -1241,6 +1257,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Services.Core.Components">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Components.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1263,6 +1283,10 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Aseprite.Editor">
@@ -1339,6 +1363,10 @@
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Common">
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst">

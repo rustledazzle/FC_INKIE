@@ -9,14 +9,14 @@ VAR safety_score = 0
 # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
 The clinic room is warm. Aling Rosa enters carrying her 7-month-old daughter, Maya. The baby is fussy, pulling at her left leg. Rosa looks exhausted.
 
-# speaker: Aling Rosa # portrait_left: Clear # portrait_right: patientVN_1
+# speaker: Aling Rosa # portrait_left: Clear # portrait_right: AlingRosaNegative_0
 "Doc, salamat po sa pagtanggap sa amin. Si Maya po, since last night, mainit ang katawan niya. Hindi siya makatulog, umiiyak ng umiiyak."
 
 # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
 //--- clear portrait
 She hesitates, then gently pulls up Maya's onesie to reveal the left leg.
 
-# speaker: Aling Rosa # portrait_left: Clear # portrait_right: patientVN_1
+# speaker: Aling Rosa # portrait_left: Clear # portrait_right: AlingRosaNegative_1
 "Pero ito po ang talagang kinakatakutan ko. 'Yung birthmark niya... lumalaki. At mainit sa hawak. Sabi ng kapitbahay ko, baka naiinitan lang daw. Pero nakita ko sa Facebook, baka daw ito yung... Klippel-something?"
 
 // --- SCENE 2: THE OPENING (EMPATHY SCORE) ---
@@ -38,7 +38,7 @@ She hesitates, then gently pulls up Maya's onesie to reveal the left leg.
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
     Rosa's shoulders relax slightly. For the first time, she meets your eyes. She feels heard.
     
-    # speaker: Aling Rosa # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Rosa # portrait_left: Clear # portrait_right: AlingRosaNegative_2
     "Doc, nag-iisa lang po ako. Nung nakita ko sa Facebook yung mga larawan... natakot ako. Hindi ako nakatulog ng tatlong araw. Iniisip ko, paano kung lumala?"
     -> information_gathering
 
@@ -50,7 +50,7 @@ She hesitates, then gently pulls up Maya's onesie to reveal the left leg.
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
     Rosa recoils, visibly offended.
     
-    # speaker: Aling Rosa # portrait_left: Clear # portrait_right: PatientVN_2
+    # speaker: Aling Rosa # portrait_left: Clear # portrait_right: AlingRosaNegative_0
     "Doc! Bakit niyo po ako tatanungin niyan? Hindi ako baliw. Siyempre, pagod ako—sino bang hindi? Pero hindi ko sasaktan ang anak ko!"
     -> information_gathering
 
@@ -73,7 +73,7 @@ Based on the history and physical exam (port-wine stain, leg overgrowth, warmth)
     ~ clinical_score = 5
     "Aling Rosa, I believe Maya may have a condition called Klippel-Trenaunay Syndrome. It matches what we're seeing: the port-wine stain, and the leg overgrowth."
     
-    # speaker: Aling Rosa # portrait_left: residentVN_2 # portrait_right: patientVN_1
+    # speaker: Aling Rosa # portrait_left: residentVN_2 # portrait_right: AlingRosaNegative_0
     "Doc... may lunas po ba? Ano po ang gagawin namin?"
     -> management_phase
 
@@ -81,7 +81,7 @@ Based on the history and physical exam (port-wine stain, leg overgrowth, warmth)
     ~ clinical_score = 2
     "Aling Rosa, given the fever and the season, this might be Dengue. We need to monitor her platelet count."
     
-    # speaker: Aling Rosa # portrait_left: residentVN_0 # portrait: patientVN_2
+    # speaker: Aling Rosa # portrait_left: residentVN_0 # portrait: AlingRosaNegative_0
     "Doc... pero bakit lumalaki yung birthmark niya? Yung kapitbahay ko nagka-dengue, hindi naman lumaki yung mga marks niya."
     -> management_phase
 
@@ -89,7 +89,7 @@ Based on the history and physical exam (port-wine stain, leg overgrowth, warmth)
     ~ clinical_score = 2
     "Rosa, this could be a bone infection. The fever, the warmth, the swelling—it's classic for osteomyelitis."
     
-    # speaker: Aling Rosa # portrait_left: residentVN_0 # portrait: patientVN_1
+    # speaker: Aling Rosa # portrait_left: residentVN_0 # portrait: AlingRosaNegative_0
     "Pero Doc, yung birthmark niya po, meron na siya nung pinanganak siya. Hindi naman po siya nadapa o nasugatan."
     -> management_phase
 
@@ -104,7 +104,7 @@ With the diagnosis considered, how do you proceed?
     ~ safety_score = 5
     "I am going to refer Maya to a pediatric vascular specialist. We can also refer you to the Malasakit Center to help with the costs of the genetic testing."
     
-    # speaker: Aling Rosa # portrait_left: Clear # portrait_right: patientVN_0
+    # speaker: Aling Rosa # portrait_left: Clear # portrait_right: AlingRosaPositive_1
     "Doc... maraming salamat. Sa wakas, may gumagabay sa amin."
     -> ending
 
@@ -112,7 +112,7 @@ With the diagnosis considered, how do you proceed?
     ~ safety_score = 1
     "Let's just observe Maya for now. Give her paracetamol for the fever. Monitor the leg at home. If it gets worse, come back."
     
-    # speaker: Aling Rosa # portrait_left: residentVN_2 # portrait_right: patientVN_2
+    # speaker: Aling Rosa # portrait_left: residentVN_2 # portrait_right: AlingRosaNegative_1
     "Doc... but what if it gets worse at home? Ako lang po mag-isa. Paano kung lumaki pa?"
     -> ending
 
@@ -120,7 +120,7 @@ With the diagnosis considered, how do you proceed?
     ~ safety_score = 2
     "This is serious. I am admitting Maya to the hospital immediately for IV antibiotics."
     
-    # speaker: Aling Rosa # portrait_left: residentVN_1 # portrait_right: patientVN_2
+    # speaker: Aling Rosa # portrait_left: residentVN_1 # portrait_right: AlingRosaNegative_1
     "Doc! Hindi ko po kaya. May iba pa akong anak sa bahay. Wala akong maiiwan sa kanila."
     -> ending
 

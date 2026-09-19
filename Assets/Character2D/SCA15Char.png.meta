@@ -1,0 +1,370 @@
+fileFormatVersion: 2
+guid: b2e197c025aa41e40b7e40d884ac393f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1451445492447695209
+    second: SCA15Char_0
+  - first:
+      213: -8797476156758569267
+    second: SCA15Char_1
+  - first:
+      213: 1167109179632704110
+    second: SCA15Char_2
+  - first:
+      213: -8019850185475580202
+    second: SCA15Char_3
+  - first:
+      213: 4092081498951887434
+    second: SCA15Char_4
+  - first:
+      213: -5100742681309081414
+    second: SCA15Char_5
+  - first:
+      213: 4742425099280509781
+    second: SCA15Char_6
+  - first:
+      213: 5085917313856609437
+    second: SCA15Char_7
+  - first:
+      213: -351780614079180484
+    second: SCA15Char_8
+  - first:
+      213: -4986234300937790364
+    second: SCA15Char_9
+  - first:
+      213: -2896431082989166222
+    second: SCA15Char_10
+  - first:
+      213: 7218261482025487149
+    second: SCA15Char_11
+  - first:
+      213: -5380717766567059295
+    second: SCA15Char_12
+  - first:
+      213: -2861686850365063010
+    second: SCA15Char_13
+  - first:
+      213: -906038021913726808
+    second: SCA15Char_14
+  - first:
+      213: -2617894675999301974
+    second: SCA15Char_15
+  - first:
+      213: 412592208912863626
+    second: SCA15Char_16
+  - first:
+      213: -4899861956513391983
+    second: SCA15Char_17
+  - first:
+      213: 426308279560318187
+    second: SCA15Char_18
+  - first:
+      213: 4806249712943445230
+    second: SCA15Char_19
+  - first:
+      213: -6404841176624392474
+    second: SCA15Char_20
+  - first:
+      213: 3497263054223960112
+    second: SCA15Char_21
+  - first:
+      213: -4092262733992074198
+    second: SCA15Char_22
+  - first:
+      213: 8294023065661287601
+    second: SCA15Char_23
+  - first:
+      213: -5931546753857774134
+    second: SCA15Char_24
+  - first:
+      213: 1399723154276673318
+    second: SCA15Char_25
+  - first:
+      213: -1529933419707558972
+    second: SCA15Char_26
+  - first:
+      213: -8912795459723759349
+    second: SCA15Char_27
+  - first:
+      213: 8174582104687118821
+    second: SCA15Char_28
+  - first:
+      213: 7473777035987860091
+    second: SCA15Char_29
+  - first:
+      213: -8382704868092861319
+    second: SCA15Char_30
+  - first:
+      213: -3186898311456587030
+    second: SCA15Char_31
+  - first:
+      213: -2308775881063168008
+    second: SCA15Char_32
+  - first:
+      213: -7979560062980467659
+    second: SCA15Char_33
+  - first:
+      213: 6816022745211913555
+    second: SCA15Char_34
+  - first:
+      213: 8450589269937432156
+    second: SCA15Char_35
+  - first:
+      213: 2655396437891351107
+    second: SCA15Char_36
+  - first:
+      213: -8657144744491828234
+    second: SCA15Char_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SCA15Char_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 511
+        width: 358
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee431d936aa33b240800000000000000
+      internalID: 4806249712943445230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCA15Char_20
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 511
+        width: 359
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6128852ee6d17a0800000000000000
+      internalID: -6404841176624392474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCA15Char_36
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 370
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3420a5acdfcd9d420800000000000000
+      internalID: 2655396437891351107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCA15Char_37
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 0
+        width: 445
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbbc6fe8b4abd780800000000000000
+      internalID: -8657144744491828234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0c040665f848e4443923811f7ec63654
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SCA15Char_0: 1451445492447695209
+      SCA15Char_1: -8797476156758569267
+      SCA15Char_10: -2896431082989166222
+      SCA15Char_11: 7218261482025487149
+      SCA15Char_12: -5380717766567059295
+      SCA15Char_13: -2861686850365063010
+      SCA15Char_14: -906038021913726808
+      SCA15Char_15: -2617894675999301974
+      SCA15Char_16: 412592208912863626
+      SCA15Char_17: -4899861956513391983
+      SCA15Char_18: 426308279560318187
+      SCA15Char_19: 4806249712943445230
+      SCA15Char_2: 1167109179632704110
+      SCA15Char_20: -6404841176624392474
+      SCA15Char_21: 3497263054223960112
+      SCA15Char_22: -4092262733992074198
+      SCA15Char_23: 8294023065661287601
+      SCA15Char_24: -5931546753857774134
+      SCA15Char_25: 1399723154276673318
+      SCA15Char_26: -1529933419707558972
+      SCA15Char_27: -8912795459723759349
+      SCA15Char_28: 8174582104687118821
+      SCA15Char_29: 7473777035987860091
+      SCA15Char_3: -8019850185475580202
+      SCA15Char_30: -8382704868092861319
+      SCA15Char_31: -3186898311456587030
+      SCA15Char_32: -2308775881063168008
+      SCA15Char_33: -7979560062980467659
+      SCA15Char_34: 6816022745211913555
+      SCA15Char_35: 8450589269937432156
+      SCA15Char_36: 2655396437891351107
+      SCA15Char_37: -8657144744491828234
+      SCA15Char_4: 4092081498951887434
+      SCA15Char_5: -5100742681309081414
+      SCA15Char_6: 4742425099280509781
+      SCA15Char_7: 5085917313856609437
+      SCA15Char_8: -351780614079180484
+      SCA15Char_9: -4986234300937790364
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

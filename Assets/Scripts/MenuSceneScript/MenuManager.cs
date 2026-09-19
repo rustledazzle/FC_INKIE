@@ -10,11 +10,15 @@ public class MenuManager : MonoBehaviour
     public Button stagesButton;
     public Button optionsButton;
     public Button exitButton;
+    public Button badgeButton; // NEW: Badge button for testing
 
     [Header("Reminder Panel")]
     public GameObject reminderPanel;
     public Button proceedButton;
     public Button closeReminderButton;
+
+    [Header("Data Management")]
+    public Button resetDataButton; // NEW: Drag your Reset button here
 
     void Start()
     {
@@ -38,6 +42,14 @@ public class MenuManager : MonoBehaviour
         libraryButton.onClick.AddListener(() => PlayClickAndLoad("LibraryScene"));
         stagesButton.onClick.AddListener(() => PlayClickAndLoad("StagesScene"));
         optionsButton.onClick.AddListener(() => PlayClickAndLoad("OptionsScene"));
+        badgeButton.onClick.AddListener(() => PlayClickAndLoad("BadgesScene")); // NEW: Badge button functionality
+
+        // NEW: Wire up the reset button
+        if (resetDataButton != null)
+        {
+            resetDataButton.onClick.AddListener(ResetGameData);
+        }
+
         exitButton.onClick.AddListener(() =>
         {
             if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
@@ -69,5 +81,24 @@ public class MenuManager : MonoBehaviour
     {
         if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
         SceneManager.LoadScene(sceneName);
+    }
+
+    // NEW: Function to wipe all saved data
+    public void ResetGameData()
+    {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
+
+        // Deletes all saved scores and prefixes from the local drive
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
+
+        // Lock the stages button immediately so the player sees the reset happen
+        stagesButton.interactable = false;
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.hasCompletedTutorial = false;
+        }
+
+        Debug.Log("All saved data has been wiped clean!");
     }
 }

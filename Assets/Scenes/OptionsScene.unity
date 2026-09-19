@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 273572655}
   - component: {fileID: 273572654}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: EnterB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -386,7 +386,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 273572655}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1810069422}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: a82cb43555d01384ab1126eda3119b17, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &273572655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,7 +466,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea1202ce2ae825545b94e4854f34eeb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OptionsManager
-  volumeSlider: {fileID: 901870595}
+  musicSlider: {fileID: 901870595}
+  sfxSlider: {fileID: 435950361}
+  masterSlider: {fileID: 1314956779}
+  windowedButton: {fileID: 493384442}
+  fullscreenButton: {fileID: 273572654}
   backButton: {fileID: 1040119831}
 --- !u!4 &397899609
 Transform:
@@ -482,7 +498,7 @@ GameObject:
   - component: {fileID: 435950360}
   - component: {fileID: 435950361}
   m_Layer: 5
-  m_Name: Slider (1)
+  m_Name: SliderSE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -655,7 +671,7 @@ GameObject:
   - component: {fileID: 493384443}
   - component: {fileID: 493384442}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ExitB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -723,7 +739,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 493384443}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1810069422}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: a82cb43555d01384ab1126eda3119b17, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &493384443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -976,7 +1004,7 @@ GameObject:
   - component: {fileID: 901870594}
   - component: {fileID: 901870595}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: SliderBGM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1067,7 +1095,6 @@ GameObject:
   - component: {fileID: 967231932}
   - component: {fileID: 967231931}
   - component: {fileID: 967231930}
-  - component: {fileID: 967231934}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1158,23 +1185,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &967231934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967231929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b79c7b3cb9a3264fbe4e77727b123ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StagesMenuManager
-  backButton: {fileID: 1040119831}
-  stage1Button: {fileID: 0}
-  stage2Button: {fileID: 0}
-  stage3Button: {fileID: 0}
-  stage4Button: {fileID: 0}
 --- !u!1 &980917840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,7 +1198,7 @@ GameObject:
   - component: {fileID: 980917843}
   - component: {fileID: 980917842}
   m_Layer: 5
-  m_Name: Text (TMP) (3)
+  m_Name: MasterVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1414,7 +1424,7 @@ GameObject:
   - component: {fileID: 1000986699}
   - component: {fileID: 1000986698}
   m_Layer: 5
-  m_Name: Text (TMP) (2)
+  m_Name: SoundEffects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1783,7 +1793,7 @@ GameObject:
   - component: {fileID: 1314956778}
   - component: {fileID: 1314956779}
   m_Layer: 5
-  m_Name: Slider (2)
+  m_Name: SliderMV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2562,7 +2572,7 @@ GameObject:
   - component: {fileID: 1880038635}
   - component: {fileID: 1880038634}
   m_Layer: 5
-  m_Name: Text (TMP) (4)
+  m_Name: FullScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2714,7 +2724,7 @@ GameObject:
   - component: {fileID: 1941895568}
   - component: {fileID: 1941895567}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: BackgroundMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

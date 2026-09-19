@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: b76c5b83091412b4e919a6a645436cb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8241781151172847671
+    second: HSyndromeChar_0
+  - first:
+      213: 1407830190527178725
+    second: HSyndromeChar_1
+  - first:
+      213: -5878849434025337924
+    second: HSyndromeChar_2
+  - first:
+      213: 7011093832298718894
+    second: HSyndromeChar_3
+  - first:
+      213: -8495475080648432423
+    second: HSyndromeChar_4
+  - first:
+      213: 8260455416927871989
+    second: HSyndromeChar_5
+  - first:
+      213: 1213748483706175268
+    second: HSyndromeChar_6
+  - first:
+      213: -455191517991106483
+    second: HSyndromeChar_7
+  - first:
+      213: -1427786189604432351
+    second: HSyndromeChar_8
+  - first:
+      213: 2412118173180374229
+    second: HSyndromeChar_9
+  - first:
+      213: -4114531185672249667
+    second: HSyndromeChar_10
+  - first:
+      213: -6641463043712527192
+    second: HSyndromeChar_11
+  - first:
+      213: -7710087448428746242
+    second: HSyndromeChar_12
+  - first:
+      213: -6540643390775041704
+    second: HSyndromeChar_13
+  - first:
+      213: 2025721505725134538
+    second: HSyndromeChar_14
+  - first:
+      213: 8838969119481842463
+    second: HSyndromeChar_15
+  - first:
+      213: -6582848995733475982
+    second: HSyndromeChar_16
+  - first:
+      213: 324988799757199960
+    second: HSyndromeChar_17
+  - first:
+      213: -853291063357042195
+    second: HSyndromeChar_18
+  - first:
+      213: 6542501871463695553
+    second: HSyndromeChar_19
+  - first:
+      213: -7452253431644182992
+    second: HSyndromeChar_20
+  - first:
+      213: 1301757624668574520
+    second: HSyndromeChar_21
+  - first:
+      213: 6343895924137143923
+    second: HSyndromeChar_22
+  - first:
+      213: -7682947931886730246
+    second: HSyndromeChar_23
+  - first:
+      213: -7304426648667951115
+    second: HSyndromeChar_24
+  - first:
+      213: -7527858249749470342
+    second: HSyndromeChar_25
+  - first:
+      213: -9171000264322460070
+    second: HSyndromeChar_26
+  - first:
+      213: 481297611042541856
+    second: HSyndromeChar_27
+  - first:
+      213: -2435797733634400483
+    second: HSyndromeChar_28
+  - first:
+      213: -7119542886026862704
+    second: HSyndromeChar_29
+  - first:
+      213: 2446551551487692926
+    second: HSyndromeChar_30
+  - first:
+      213: 6308903766321249414
+    second: HSyndromeChar_31
+  - first:
+      213: 1730931256251481479
+    second: HSyndromeChar_32
+  - first:
+      213: 3225715607620188983
+    second: HSyndromeChar_33
+  - first:
+      213: 6619054380006283195
+    second: HSyndromeChar_34
+  - first:
+      213: 6111723314380709210
+    second: HSyndromeChar_35
+  - first:
+      213: 837450039066332798
+    second: HSyndromeChar_36
+  - first:
+      213: 6072663425745088434
+    second: HSyndromeChar_37
+  - first:
+      213: -2837260096580306301
+    second: HSyndromeChar_38
+  - first:
+      213: -1273766429395910792
+    second: HSyndromeChar_39
+  - first:
+      213: 5760048999379098186
+    second: HSyndromeChar_40
+  - first:
+      213: 8713427158850161446
+    second: HSyndromeChar_41
+  - first:
+      213: 8752935860151305850
+    second: HSyndromeChar_42
+  - first:
+      213: 2944808149062082241
+    second: HSyndromeChar_43
+  - first:
+      213: -2084704791642286865
+    second: HSyndromeChar_44
+  - first:
+      213: -1922708156578903454
+    second: HSyndromeChar_45
+  - first:
+      213: 8119307877524855386
+    second: HSyndromeChar_46
+  - first:
+      213: 736741803389307073
+    second: HSyndromeChar_47
+  - first:
+      213: 2354633061312682668
+    second: HSyndromeChar_48
+  - first:
+      213: 2288965353720246797
+    second: HSyndromeChar_49
+  - first:
+      213: 5257762090955573403
+    second: HSyndromeChar_50
+  - first:
+      213: 1415941508231786498
+    second: HSyndromeChar_51
+  - first:
+      213: 2950977644241015271
+    second: HSyndromeChar_52
+  - first:
+      213: 5490369894330578239
+    second: HSyndromeChar_53
+  - first:
+      213: -6083044102261829598
+    second: HSyndromeChar_54
+  - first:
+      213: 3815033490834663818
+    second: HSyndromeChar_55
+  - first:
+      213: -4374322727611421963
+    second: HSyndromeChar_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HSyndromeChar_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1639
+        width: 516
+        height: 739
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0215f6190a9eda600800000000000000
+      internalID: 481297611042541856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HSyndromeChar_28
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1640
+        width: 390
+        height: 717
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f150eddde423ed0800000000000000
+      internalID: -2435797733634400483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HSyndromeChar_29
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1634
+        width: 477
+        height: 705
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f9533577d423d90800000000000000
+      internalID: -7119542886026862704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HSyndromeChar_54
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 629
+        width: 450
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22016ab4e9fa49ba0800000000000000
+      internalID: -6083044102261829598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HSyndromeChar_55
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 630
+        width: 427
+        height: 815
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a892b6b3fb8b1f430800000000000000
+      internalID: 3815033490834663818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HSyndromeChar_56
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 629
+        width: 447
+        height: 830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5faadc7c7a84b43c0800000000000000
+      internalID: -4374322727611421963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9b7ed19fec022c74ca1245a52382ed1b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HSyndromeChar_0: 8241781151172847671
+      HSyndromeChar_1: 1407830190527178725
+      HSyndromeChar_10: -4114531185672249667
+      HSyndromeChar_11: -6641463043712527192
+      HSyndromeChar_12: -7710087448428746242
+      HSyndromeChar_13: -6540643390775041704
+      HSyndromeChar_14: 2025721505725134538
+      HSyndromeChar_15: 8838969119481842463
+      HSyndromeChar_16: -6582848995733475982
+      HSyndromeChar_17: 324988799757199960
+      HSyndromeChar_18: -853291063357042195
+      HSyndromeChar_19: 6542501871463695553
+      HSyndromeChar_2: -5878849434025337924
+      HSyndromeChar_20: -7452253431644182992
+      HSyndromeChar_21: 1301757624668574520
+      HSyndromeChar_22: 6343895924137143923
+      HSyndromeChar_23: -7682947931886730246
+      HSyndromeChar_24: -7304426648667951115
+      HSyndromeChar_25: -7527858249749470342
+      HSyndromeChar_26: -9171000264322460070
+      HSyndromeChar_27: 481297611042541856
+      HSyndromeChar_28: -2435797733634400483
+      HSyndromeChar_29: -7119542886026862704
+      HSyndromeChar_3: 7011093832298718894
+      HSyndromeChar_30: 2446551551487692926
+      HSyndromeChar_31: 6308903766321249414
+      HSyndromeChar_32: 1730931256251481479
+      HSyndromeChar_33: 3225715607620188983
+      HSyndromeChar_34: 6619054380006283195
+      HSyndromeChar_35: 6111723314380709210
+      HSyndromeChar_36: 837450039066332798
+      HSyndromeChar_37: 6072663425745088434
+      HSyndromeChar_38: -2837260096580306301
+      HSyndromeChar_39: -1273766429395910792
+      HSyndromeChar_4: -8495475080648432423
+      HSyndromeChar_40: 5760048999379098186
+      HSyndromeChar_41: 8713427158850161446
+      HSyndromeChar_42: 8752935860151305850
+      HSyndromeChar_43: 2944808149062082241
+      HSyndromeChar_44: -2084704791642286865
+      HSyndromeChar_45: -1922708156578903454
+      HSyndromeChar_46: 8119307877524855386
+      HSyndromeChar_47: 736741803389307073
+      HSyndromeChar_48: 2354633061312682668
+      HSyndromeChar_49: 2288965353720246797
+      HSyndromeChar_5: 8260455416927871989
+      HSyndromeChar_50: 5257762090955573403
+      HSyndromeChar_51: 1415941508231786498
+      HSyndromeChar_52: 2950977644241015271
+      HSyndromeChar_53: 5490369894330578239
+      HSyndromeChar_54: -6083044102261829598
+      HSyndromeChar_55: 3815033490834663818
+      HSyndromeChar_56: -4374322727611421963
+      HSyndromeChar_6: 1213748483706175268
+      HSyndromeChar_7: -455191517991106483
+      HSyndromeChar_8: -1427786189604432351
+      HSyndromeChar_9: 2412118173180374229
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

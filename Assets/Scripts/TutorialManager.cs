@@ -7,15 +7,14 @@ public class TutorialManager : MonoBehaviour
     [Header("UI Elements")]
     public GameObject tutorialPanel;
     public TextMeshProUGUI tutorialText;
+    public Image tutorialImage; // NEW: The UI image component
     public Button nextButton;
     public Button closeButton;
 
-    [Header("Level Greeting Text (Edit in Unity!)")]
+    [Header("Tutorial Content (Edit in Unity!)")]
     [TextArea(3, 5)]
-    public string[] pages = {
-        "Welcome to the Clinic!\n\nUse your WASD keys to move around the room.",
-        "Your goal today is to diagnose 3 patients.\n\nWalk up to a patient and press 'E' to begin a consultation. Good luck!"
-    };
+    public string[] pages;
+    public Sprite[] pageImages; // NEW: The screenshots for each page
 
     private int currentPage = 0;
 
@@ -48,7 +47,23 @@ public class TutorialManager : MonoBehaviour
 
     void UpdateUI()
     {
+        // Update the text
         tutorialText.text = pages[currentPage];
+
+        // NEW: Update the image if one exists for this page
+        if (tutorialImage != null)
+        {
+            if (pageImages != null && currentPage < pageImages.Length && pageImages[currentPage] != null)
+            {
+                tutorialImage.sprite = pageImages[currentPage];
+                tutorialImage.gameObject.SetActive(true);
+            }
+            else
+            {
+                // Hide the image slot if there is no screenshot for this specific page
+                tutorialImage.gameObject.SetActive(false);
+            }
+        }
 
         // If we are on the last page, hide Next and show Close
         if (currentPage >= pages.Length - 1)

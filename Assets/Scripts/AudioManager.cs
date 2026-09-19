@@ -9,7 +9,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource sfxSource;
 
     [Header("Audio Clips")]
-    public AudioClip buttonClickSound; // NEW: Slot for your click sound
+    public AudioClip buttonClickSound;
 
     private void Awake()
     {
@@ -22,32 +22,42 @@ public class AudioManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        float savedVolume = PlayerPrefs.GetFloat("MasterVolume", 1f);
-        SetVolume(savedVolume);
+        // Load all saved volumes
+        float savedMasterVolume = PlayerPrefs.GetFloat("MasterVolume", 1f);
+        float savedMusicVolume = PlayerPrefs.GetFloat("MusicVolume", 1f);
+        float savedSFXVolume = PlayerPrefs.GetFloat("SFXVolume", 1f);
+
+        SetMasterVolume(savedMasterVolume);
+        SetMusicVolume(savedMusicVolume);
+        SetSFXVolume(savedSFXVolume);
     }
 
-    public void SetVolume(float volume)
+    // --- Master Volume (Controls the global output) ---
+    public void SetMasterVolume(float volume)
     {
         AudioListener.volume = volume;
         PlayerPrefs.SetFloat("MasterVolume", volume);
         PlayerPrefs.Save();
     }
 
-    // You can use this for any random sound effect
-    public void PlaySFX(AudioClip clip)
+    // --- Independent Volume Controls ---
+    public void SetMusicVolume(float volume)
     {
-        if (sfxSource != null && clip != null)
-        {
-            sfxSource.PlayOneShot(clip);
-        }
+        if (bgmSource != null) bgmSource.volume = volume;
     }
 
-    // NEW: A dedicated function just for button clicks!
+    public void SetSFXVolume(float volume)
+    {
+        if (sfxSource != null) sfxSource.volume = volume;
+    }
+
+    public void PlaySFX(AudioClip clip)
+    {
+        if (sfxSource != null && clip != null) sfxSource.PlayOneShot(clip);
+    }
+
     public void PlayClick()
     {
-        if (sfxSource != null && buttonClickSound != null)
-        {
-            sfxSource.PlayOneShot(buttonClickSound);
-        }
+        if (sfxSource != null && buttonClickSound != null) sfxSource.PlayOneShot(buttonClickSound);
     }
 }
