@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Tetanus
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  title: Generalized Tetanus
+  type: Uncommon / Emergency
+  category: Infectious - Bacterial
+  description: A vaccine-preventable disease that remains endemic in the Philippines,
+    carrying a high mortality rate (29% in local tertiary studies).
+  symptoms: 'Trismus (lockjaw) and difficulty swallowing.   Back pain and muscle
+    rigidity.   Risus sardonicus (frozen grin) and muscle spasms triggered by minor
+    stimuli. '
+  pathology: Caused by the tetanospasmin toxin blocking inhibitory signals. The bacteria
+    typically enters through puncture wounds (like stepping on a rusty nail) with
+    an incubation period of 5-10 days.
+  treatment: Immediate ICU hospitalization and administration of Tetanus Immune Globulin
+    (TIG).   Wound debridement, antibiotics, and muscle relaxants.   Respiratory
+    support if distress occurs.
+  keyFeatures: A rusty nail injury followed by trismus is considered tetanus until
+    proven otherwise.
+  requiredStageLevel: 1

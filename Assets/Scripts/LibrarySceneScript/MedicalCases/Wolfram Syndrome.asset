@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Wolfram Syndrome
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: -6604308830048427824, guid: 94da469b90d32e6418ae0ed1748c489e, type: 3}
+  caseImage2: {fileID: -4070398922396242684, guid: 45fd95bae719a384e86d7b95dc0c80d8, type: 3}
+  title: Wolfram Syndrome (DIDMOAD)
+  type: Uncommon
+  category: Genetic Disorder / Multisystem
+  description: A rare genetic disorder that affects multiple systems, often recognized
+    by the classic pattern of juvenile-onset diabetes and optic atrophy.
+  symptoms: Type 1 Diabetes Mellitus diagnosed in childhood.   Progressive bilateral
+    optic atrophy causing vision loss.   Polydipsia (excessive thirst).   Polyuria
+    (frequent urination) and nocturia (nighttime urination).
+  pathology: An autosomal recessive disorder caused by pathogenic variants in the
+    WFS1 gene.
+  treatment: 'Multidisciplinary care including insulin for diabetes and desmopressin
+    to reduce urine output.   Ophthalmology support for vision, audiology assessments,
+    and genetic counseling.   '
+  keyFeatures: 'Remembered by the acronym DIDMOAD: Diabetes Insipidus, Diabetes Mellitus,
+    Optic Atrophy, and Deafness (Auditory).'
+  requiredStageLevel: 1

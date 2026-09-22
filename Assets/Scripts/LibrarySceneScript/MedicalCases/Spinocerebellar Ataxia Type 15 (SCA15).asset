@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Spinocerebellar Ataxia Type 15 (SCA15)
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: -3289756831445821579, guid: 919115a684fc486458f4f4c915c965e6, type: 3}
+  caseImage2: {fileID: 0}
+  title: Spinocerebellar Ataxia Type 15 (SCA15)
+  type: Uncommon
+  category: Genetic Disorder / Neurological
+  description: A rare genetic, hereditary ataxia that affects the cerebellum, leading
+    to progressive neurological symptoms.
+  symptoms: Difficulty walking with a wide-based, unsteady, ataxic gait.   Dysarthria
+    (slow, slurred speech).   Intention tremors and dysmetria in upper limbs.   Mild
+    spasticity, hyperreflexia, and saccadic eye movements.
+  pathology: Associated with a pathogenic variant in the ITPR1 gene. It follows an
+    autosomal dominant inheritance pattern and shows bilateral cerebellar atrophy
+    on brain MRI.
+  treatment: 'No cure is currently available.   Managed with physical therapy and
+    occupational therapy to maintain function.   Formal genetic testing and genetic
+    counseling for family members.  '
+  keyFeatures: Recognized by progressive cerebellar ataxia, an autosomal dominant
+    family history, and bilateral cerebellar atrophy.
+  requiredStageLevel: 1

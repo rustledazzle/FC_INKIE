@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Mechanical Low Back Pain
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  title: Mechanical Low Back Pain
+  type: Common
+  category: Musculoskeletal
+  description: Pain, stiffness, and/or soreness of the lumbosacral region, located
+    underneath the twelfth rib and above the gluteal folds. It is the most common
+    cause of decreased productivity among the working population in the Philippines.
+  symptoms: 'Lower back pain that is often on and off.   Difficulty lifting heavy
+    objects.   Absence of red flags such as fever, neurologic deficits, or bowel/bladder
+    incontinence. '
+  pathology: Generally non-specific and mechanical in nature, often caused by heavy
+    lifting or occupational strain.
+  treatment: 'First-line pharmacotherapy includes oral non-steroidal anti-inflammatory
+    drugs (NSAIDs).   Non-pharmacological approaches like patient education, return
+    to normal activity, and self-care temperature treatments (ice, heat) are preferred.  '
+  keyFeatures: Evaluation should use the Look-Move-Feel Approach and screen for red
+    flags using the BACK PAINS mnemonic to rule out secondary underlying pathology.
+  requiredStageLevel: 1

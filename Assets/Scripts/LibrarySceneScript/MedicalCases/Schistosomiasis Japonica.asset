@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Schistosomiasis Japonica
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: 0}
+  caseImage2: {fileID: 0}
+  title: Schistosomiasis Japonica
+  type: Uncommon
+  category: Infectious - Parasitic
+  description: A parasitic infection acquired when the skin comes into contact with
+    freshwater containing infective parasites. It is an ongoing endemic public-health
+    issue in selected Philippine communities and involves both human and animal reservoirs.
+  symptoms: 'Abdominal discomfort and pain that comes and goes for months.   Bowel
+    changes including loose stools and blood in the stool.   Fatigue, weakness, loss
+    of appetite, and weight loss. '
+  pathology: ransmission is associated with repeated environmental exposure to contaminated
+    freshwater, such as wading barefoot, bathing, or crossing rivers to reach farms.
+  treatment: 'Proper clinical evaluation including appropriate stool tests and liver
+    or blood-related assessments if indicated.   Connection with local health teams
+    for guidance, treatment, and community-based screening.   Prevention involves
+    using protective footwear or clothing for necessary work and avoiding unnecessary
+    contact with unsafe freshwater. '
+  keyFeatures: Recognized by connecting persistent gastrointestinal symptoms and
+    bleeding with a relevant environmental history of freshwater exposure. It is
+    critical to screen for danger signs like heavy or black bloody stool, fainting,
+    confusion, yellowing of the eyes (jaundice), breathing trouble, and marked abdominal
+    swelling.
+  requiredStageLevel: 1

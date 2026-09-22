@@ -6,6 +6,9 @@ using UnityEngine.InputSystem;
 using TMPro;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
+using Firebase.Auth;
+using Firebase.Firestore;
+using Firebase.Extensions;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -508,13 +511,46 @@ public class DialogueManager : MonoBehaviour
             int finalEmpathy = GameManager.Instance.empathyTrustScore;
             int finalSafety = GameManager.Instance.patientSafetyScore;
 
+            // 1. Local Save
             PlayerPrefs.SetInt(stagePrefix + "_Clinical", Mathf.Max(PlayerPrefs.GetInt(stagePrefix + "_Clinical", 0), finalClinical));
             PlayerPrefs.SetInt(stagePrefix + "_Info", Mathf.Max(PlayerPrefs.GetInt(stagePrefix + "_Info", 0), finalInfo));
             PlayerPrefs.SetInt(stagePrefix + "_Empathy", Mathf.Max(PlayerPrefs.GetInt(stagePrefix + "_Empathy", 0), finalEmpathy));
             PlayerPrefs.SetInt(stagePrefix + "_Safety", Mathf.Max(PlayerPrefs.GetInt(stagePrefix + "_Safety", 0), finalSafety));
             PlayerPrefs.Save();
+
+            // 2. NEW: Granular Cloud Save & Progress Tracker
+            FirebaseUser currentUser = FirebaseAuth.DefaultInstance.CurrentUser;
+            if (currentUser != null)
+            {
+                FirebaseFirestore db = FirebaseFirestore.DefaultInstance;
+
+                Dictionary<string, object> currentStageData = new Dictionary<string, object>
+                {
+                    { "ClinicalReasoning", finalClinical },
+                    { "InformationGathering", finalInfo },
+                    { "Empathy", finalEmpathy },
+                    { "PatientSafety", finalSafety },
+                    { "CompletedAt", FieldValue.ServerTimestamp }
+                };
+
+                Dictionary<string, object> userUpdate = new Dictionary<string, object>
+                {
+                    { stagePrefix, currentStageData },
+                    { "HighestUnlockedLevel", PlayerPrefs.GetInt("UnlockedStageLevel", 0) },
+                    { "LastActive", FieldValue.ServerTimestamp }
+                };
+
+                db.Collection("Users").Document(currentUser.UserId)
+                  .SetAsync(userUpdate, SetOptions.MergeAll)
+                  .ContinueWithOnMainThread(task =>
+                  {
+                      if (task.IsFaulted) Debug.LogError("Cloud Save Failed: " + task.Exception);
+                      else if (task.IsCompleted) Debug.Log($"Successfully backed up {stagePrefix} to the cloud!");
+                  });
+            }
         }
 
+        // 3. Reset the GameManager for the next shift
         if (GameManager.Instance != null)
         {
             GameManager.Instance.clinicalReasoningScore = 0;
@@ -524,6 +560,7 @@ public class DialogueManager : MonoBehaviour
             GameManager.Instance.patientsDiagnosed = 0;
         }
 
+        // 4. Transition Scenes
         UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneName);
     }
 

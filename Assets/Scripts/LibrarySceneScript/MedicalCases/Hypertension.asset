@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Hypertension
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  title: Stage 2 Hypertension
+  type: Common
+  category: Cardiovascular
+  description: A chronic condition of elevated blood pressure that affects 1 in 3
+    adults in the Philippines. It is often called a silent killer because many remain
+    unaware of their diagnosis.
+  symptoms: May present with headache, dizziness, and fatigue.   Occasional chest
+    tightness or palpitations.
+  pathology: Associated with risk factors including a family history of hypertension
+    or stroke, a high-salt diet, sedentary lifestyle, and being overweight.
+  treatment: 'Immediate pharmacologic therapy, most commonly with Angiotensin Receptor
+    Blockers (ARBs).   Lifestyle modifications such as reducing salt intake, walking
+    daily, and losing weight.   Regular blood pressure monitoring.  '
+  keyFeatures: A blood pressure reading of 165/100 mmHg on two separate visits indicates
+    Stage 2 Hypertension.
+  requiredStageLevel: 1

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Hysyndrome1
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: 4176715774331371334, guid: ba9f77a3ebdf9914589773c91ea6fb8e, type: 3}
+  caseImage2: {fileID: -2347178359709390054, guid: b421af29ab03256468d720ea8a6c01ce, type: 3}
+  title: H Syndrome
+  type: Uncommon
+  category: Genetic Disorder / Autosomal Recessive
+  description: A rare genetic disorder that affects the skin and other organs, named
+    because most of its features start with the letter 'H'.
+  symptoms: 'Bilateral cheek swelling that is firm and non-tender.   Hyperpigmented,
+    indurated patches on bilateral lower legs.   Hypertrichosis (excessive hair)
+    on legs.   Mild sensorineural hearing loss and short stature.  '
+  pathology: An autosomal recessive condition caused by mutations in the SLC29A3
+    gene encoding hENT3. Dysfunction leads to inflammation and histiocyte proliferation
+    in various tissues, particularly the skin and organs.
+  treatment: Symptomatic management using anti-inflammatory medications like NSAIDs
+    or naproxen.   Immunosuppressants such as tocilizumab and methotrexate, and targeted
+    therapies like trametinib.   Laser hair removal for hypertrichosis.
+  keyFeatures: 'Features starting with ''H'': Hyperpigmentation, hypertrichosis,
+    hepatosplenomegaly, hypogonadism, hearing loss, and heart abnormalities.'
+  requiredStageLevel: 1

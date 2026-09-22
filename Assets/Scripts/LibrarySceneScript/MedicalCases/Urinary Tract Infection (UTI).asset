@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Urinary Tract Infection (UTI)
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  title: Acute Uncomplicated Cystitis (UTI)
+  type: Common
+  category: Infectious - Bacterial
+  description: A bacterial infection of the bladder. It ranks as the second leading
+    cause of consultation in adult outpatient settings in the Philippines.
+  symptoms: 'Dysuria (painful, burning urination).   Urinary frequency and urgency.  '
+  pathology: Caused by bacteria multiplying in the bladder, which can be exacerbated
+    by low fluid intake and prolonged holding of urine.
+  treatment: 'Urinalysis should be used to confirm the diagnosis prior to the initiation
+    of treatment.   Treatment with appropriate antibiotics (like nitrofurantoin or
+    fosfomycin).   Hydration counseling and prevention education regarding regular
+    bladder emptying. '
+  keyFeatures: Characterized by dysuria and frequency without red flags like fever,
+    systemic symptoms, or flank pain, which would otherwise suggest pyelonephritis.
+  requiredStageLevel: 1

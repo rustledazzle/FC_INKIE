@@ -8200,9 +8200,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 844e51bd8e3837145b6e2a978f475fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCInteract
-  inkJSON: {fileID: 4900000, guid: 315e85de2dadb814cabc6dcb6f2a7b79, type: 3}
-  patientNotes: 'Patient: Maya, 7mo. Symptoms: Fever, restless, enlarging warm birthmark
-    on left leg.'
+  inkJSON: {fileID: 4900000, guid: 5f650f28a92dba0459126dbf5db18734, type: 3}
+  patientNotes: "Patient: Maria (36 years old)\r\nCompanion: Elena (older sister),
+    42 years old\r\nSetting: Neurology Outpatient Department, Tertiary Hospital,
+    Philippines\r\nReason for Visit: Difficulty walking and speaking, worsening over
+    10 years\r\nNotes from Nurse: Patient is a former teacher. Now uses a wheelchair.
+    Speech is slow and slurred. Strong family history\u201418 relatives affected.
+    Has seen multiple doctors with no diagnosis. Sister is exhausted and says this
+    is their last attempt."
   interactPrompt: {fileID: 769436024}
 --- !u!224 &204684448
 RectTransform:
@@ -10984,6 +10989,143 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 779932678}
+  m_CullTransparentMesh: 1
+--- !u!1 &825466135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 825466136}
+  - component: {fileID: 825466138}
+  - component: {fileID: 825466137}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &825466136
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825466135}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1848188399}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -373}
+  m_SizeDelta: {x: 400, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &825466137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825466135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Close Up image
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 44.75
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &825466138
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825466135}
   m_CullTransparentMesh: 1
 --- !u!1 &825669501
 GameObject:
@@ -14082,6 +14224,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213377222}
   m_CullTransparentMesh: 1
+--- !u!1 &1286719518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1286719519}
+  - component: {fileID: 1286719521}
+  - component: {fileID: 1286719520}
+  m_Layer: 5
+  m_Name: CloseupImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1286719519
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286719518}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1848188399}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 52.849, y: -16}
+  m_SizeDelta: {x: -513.391, y: -153.72937}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1286719520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286719518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 20, y: 20, z: 20, w: 20}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1286719521
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286719518}
+  m_CullTransparentMesh: 1
 --- !u!1 &1297421399
 GameObject:
   m_ObjectHideFlags: 0
@@ -15339,6 +15556,7 @@ RectTransform:
   - {fileID: 1057234026}
   - {fileID: 1377590093}
   - {fileID: 360774195}
+  - {fileID: 1848188399}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -16088,13 +16306,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 844e51bd8e3837145b6e2a978f475fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCInteract
-  inkJSON: {fileID: 4900000, guid: 5f650f28a92dba0459126dbf5db18734, type: 3}
-  patientNotes: "Patient: Maria (36 years old)\r\nCompanion: Elena (older sister)\r\nReason
-    for Visit: Difficulty walking and speaking, worsening over 10 years\r\nNotes
-    from Nurse: Patient is a former teacher. Now uses a wheelchair. Speech is slow
-    and slurred. Strong family history\u2014many relatives affected (18 reported).
-    Has seen multiple doctors with no diagnosis. Sister is exhausted and says this
-    is their last attempt."
+  inkJSON: {fileID: 4900000, guid: 9a9fd06a055ac3a44bfa9bf848dd759b, type: 3}
+  patientNotes: 'Patient: Aling Corazon (58 years old)
+
+    Companion: None (came
+    alone)
+
+    Setting: Primary Care Clinic, Rural Health Unit, Philippines
+
+    Reason
+    for Visit: Headache, dizziness, fatigue for 3 days
+
+    Notes from Nurse: Patient
+    is a retired teacher and sari-sari store owner. Looks flushed and slightly overweight.
+    BP reading is 165/100 mmHg. She mentions a history of elevated BP but stopped
+    taking her medications. She is worried because her mother died of a stroke. She
+    appears anxious and frustrated.'
   interactPrompt: {fileID: 1613978797}
 --- !u!95 &1681154897
 Animator:
@@ -17211,6 +17438,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847329201}
   m_CullTransparentMesh: 1
+--- !u!1 &1848188398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1848188399}
+  - component: {fileID: 1848188401}
+  - component: {fileID: 1848188400}
+  m_Layer: 5
+  m_Name: CloseupPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1848188399
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848188398}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1286719519}
+  - {fileID: 825466136}
+  m_Father: {fileID: 1529646360}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 135.78992}
+  m_SizeDelta: {x: 0, y: -271.57996}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1848188400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848188398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.9372549}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1848188401
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848188398}
+  m_CullTransparentMesh: 1
 --- !u!1 &1848485647
 GameObject:
   m_ObjectHideFlags: 0
@@ -17673,6 +17977,16 @@ MonoBehaviour:
   - {fileID: -728139801, guid: 06f517567de7ae2468bbc17ddfb9a6e2, type: 3}
   - {fileID: -760668957, guid: 06f517567de7ae2468bbc17ddfb9a6e2, type: 3}
   - {fileID: 21300000, guid: 9e7744765810bff449527e8fe80e9300, type: 2}
+  - {fileID: -6117756357954500016, guid: 19823e70ac93d5f42952b4d23acb092f, type: 3}
+  - {fileID: 2114036174020016654, guid: 19823e70ac93d5f42952b4d23acb092f, type: 3}
+  - {fileID: 2962223335751815633, guid: 19823e70ac93d5f42952b4d23acb092f, type: 3}
+  - {fileID: 7681495677210186563, guid: 19823e70ac93d5f42952b4d23acb092f, type: 3}
+  - {fileID: 18948123728632257, guid: 392983de4e981404d9c0935aa7e9b3a7, type: 3}
+  - {fileID: 7681495677210186563, guid: 19823e70ac93d5f42952b4d23acb092f, type: 3}
+  - {fileID: -1972626367320131699, guid: 392983de4e981404d9c0935aa7e9b3a7, type: 3}
+  - {fileID: -3325662645527793632, guid: 392983de4e981404d9c0935aa7e9b3a7, type: 3}
+  - {fileID: -2823659029501181875, guid: 392983de4e981404d9c0935aa7e9b3a7, type: 3}
+  - {fileID: 610741052343585886, guid: 392983de4e981404d9c0935aa7e9b3a7, type: 3}
   choiceButtonContainer: {fileID: 1016992589}
   choiceButtonPrefab: {fileID: 6500127358629673342, guid: b379611b97bf18342a6b8c38eac3c98c, type: 3}
   continuePrompt: {fileID: 6697425722491888566, guid: 2391e7c68d8878d4192c0d150b47fa59, type: 3}
@@ -17684,9 +17998,11 @@ MonoBehaviour:
   requiredPatientsToPass: 3
   backgroundImage: {fileID: 0}
   backgroundSprites: []
-  closeUpPanel: {fileID: 0}
-  closeUpImage: {fileID: 0}
-  closeUpSprites: []
+  closeUpPanel: {fileID: 1848188398}
+  closeUpImage: {fileID: 1286719520}
+  closeUpSprites:
+  - {fileID: 1317803394934710051, guid: a882350bf5cc4e0449652bee23569241, type: 3}
+  - {fileID: -3289756831445821579, guid: 919115a684fc486458f4f4c915c965e6, type: 3}
   isTutorialScene: 0
   isSpecialCaseScene: 0
   stagePrefix: Stage1_Afternoon
@@ -18402,9 +18718,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 844e51bd8e3837145b6e2a978f475fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCInteract
-  inkJSON: {fileID: 4900000, guid: fb2757324eef26f40a781f8a7c3f6dea, type: 3}
-  patientNotes: 'Patient: Maya, 7mo. Symptoms: Fever, restless, enlarging warm birthmark
-    on left leg.'
+  inkJSON: {fileID: 4900000, guid: b8fbe8762f55c1e42a7fdb63a34a9fdf, type: 3}
+  patientNotes: 'Patient: Bebe (2 years old, female)
+
+    Companion: Aling Lorna
+    (mother), 30 years old
+
+    Reason for Visit: Watery diarrhea for 3 days, poor
+    feeding
+
+    Notes from Nurse: Child is lethargic. Sunken eyes. Dry lips. Mother
+    says child is not drinking well. No blood in stool. No fever noted. Lives in
+    a community with intermittent water supply. Has not received ORS or zinc.
+
+'
   interactPrompt: {fileID: 1048859825}
 --- !u!224 &2136103368
 RectTransform:

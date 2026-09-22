@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Rabies (Dog Bite)
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  title: 'Rabies '
+  type: Uncommon / Emergency
+  category: Infectious - Viral
+  description: A 100% fatal but 100% preventable disease caused by animal bites.
+    In the Philippines, puppies are the primary causal animal for human rabies cases.
+  symptoms: Anxiety and agitation.   Hydrophobia and difficulty swallowing.   Muscle
+    spasms.
+  pathology: Transmitted through exposures such as licking on intact skin (Category
+    I), minor scratches or bites (Category II), and deep wounds or multiple bites
+    involving the head and neck (Category III).
+  treatment: Immediate wound washing.   Post-exposure prophylaxis (PEP) including
+    vaccine and rabies immune globulin (RIG) for Category III exposures.   Supportive
+    care.
+  keyFeatures: A history of a dog bite combined with neurological symptoms indicates
+    rabies until proven otherwise.
+  requiredStageLevel: 1

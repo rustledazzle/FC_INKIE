@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Cellulitis
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  title: 'Uncomplicated Cellulitis   '
+  type: Common
+  category: Skin and Soft Tissue Infection
+  description: An acute spreading infection of the deep dermis and subcutaneous tissue,
+    representing a top primary care diagnosis in the Philippines.
+  symptoms: 'Acute onset of red, hot, swollen, and painful skin.   A well-demarcated
+    bright-red area, typically on the lower extremities. '
+  pathology: Caused by bacteria entering through a break in the skin, such as a wound
+    from a rusty object or exposure to contaminated floodwater.
+  treatment: First-line antibiotics include Cephalexin 1000 mg PO q12h for 5-7 days
+    or Cloxacillin.   Outline the area of erythema with a pen to monitor the spread
+    of infection.   Bed rest, elevation of the affected limb, and tetanus prophylaxis
+    if indicated.
+  keyFeatures: Uncomplicated cases lack red flags like crepitation, skin necrosis,
+    or intense pain disproportionate to the skin lesion (which would suggest necrotizing
+    fasciitis).
+  requiredStageLevel: 1

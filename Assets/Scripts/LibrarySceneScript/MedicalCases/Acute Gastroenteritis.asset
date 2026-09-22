@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Acute Gastroenteritis
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  title: Acute Gastroenteritis (Acute Diarrhea)
+  type: Common
+  category: Infectious
+  description: Defined as three or more loose or watery stools in a 24-hour period,
+    lasting less than 14 days. Rotavirus is the most common cause of acute diarrhea
+    in the Philippines.
+  symptoms: 'Watery diarrhea for several days.   Vomiting and abdominal pain.   Signs
+    of severe dehydration: lethargy, sunken eyes, dry lips, slow skin pinch, decreased
+    urine output, and refusal to drink.'
+  pathology: Often caused by viral infections (like rotavirus) and exacerbated by
+    structural risk factors like a lack of access to clean water.
+  treatment: 'ral Rehydration Solution (ORS) is the cornerstone of therapy.   Zinc
+    supplementation (20 mg daily for 10-14 days) is strongly recommended for children.  
+    Severe dehydration requires hospital admission for immediate IV fluids.   Antibiotics
+    are NOT routinely recommended for non-bloody diarrhea. '
+  keyFeatures: Dehydration severity must be assessed clinically; lethargy, sunken
+    eyes, and a slow skin pinch are critical signs of severe dehydration requiring
+    admission.
+  requiredStageLevel: 1

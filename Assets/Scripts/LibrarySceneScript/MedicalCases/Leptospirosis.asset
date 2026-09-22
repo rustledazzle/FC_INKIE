@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: Leptospirosis
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  title: Leptospirosis (Weil Syndrome)
+  type: Common / Emergency
+  category: Infectious - Bacterial
+  description: A bacterial infection caused by Leptospira bacteria, which enters
+    the body through cuts and wounds exposed to contaminated water, such as floodwater.
+    The severe form, known as Weil syndrome, carries a 5-15% mortality rate.
+  symptoms: "High fever (e.g., 39.5\xB0C) and mild abdominal pain.   Severe myalgia
+    (muscle aches), especially in the calves and back.   Conjunctival suffusion (bloodshot/red
+    eyes).   Jaundice (yellowish tint to skin and eyes) and oliguria (decreased urine
+    output).  "
+  pathology: The bacteria is often found in the urine of infected animals, especially
+    rats. The infection can rapidly progress to multi-organ failure (especially kidney
+    and liver involvement) within days if left untreated
+  treatment: 'mmediate hospital admission for close monitoring of kidney and liver
+    function.   Administration of IV antibiotics such as Penicillin G or Doxycycline.  
+    Financial assistance like PhilHealth can cover moderate to severe cases, including
+    those requiring hemodialysis.   '
+  keyFeatures: he classic clinical picture involves fever, jaundice, red eyes, and
+    kidney failure following exposure to floodwater with an open wound.
+  requiredStageLevel: 1
