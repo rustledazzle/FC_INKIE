@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
   m_Name: Rabies (Dog Bite)
   m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: -2071123302974139482, guid: a6edfa51bed279545aaf617b60dac6a0, type: 3}
+  caseImage2: {fileID: 0}
   title: 'Rabies '
   type: Uncommon / Emergency
   category: Infectious - Viral
@@ -27,4 +29,4 @@ MonoBehaviour:
     care.
   keyFeatures: A history of a dog bite combined with neurological symptoms indicates
     rabies until proven otherwise.
-  requiredStageLevel: 1
+  requiredStageLevel: 3

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7b7d8cce86879af4eb35ffbdda41f589
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Prefabs/Joysticks/VariableJoystick.prefab
+  uploadId: 750413

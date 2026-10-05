@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: b1b9693c522dfd4469fef5592bcc7c72
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Scripts/FloatingJoystick.cs
+  uploadId: 750413

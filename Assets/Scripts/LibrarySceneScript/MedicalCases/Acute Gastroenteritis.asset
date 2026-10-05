@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
   m_Name: Acute Gastroenteritis
   m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: 1076168336189629530, guid: 07fa8e9041688f747a3152aa5e5e554b, type: 3}
+  caseImage2: {fileID: -1182803112632335523, guid: a688a7550cc94434dbc94265fb45f495, type: 3}
   title: Acute Gastroenteritis (Acute Diarrhea)
   type: Common
   category: Infectious

@@ -26,4 +26,4 @@ MonoBehaviour:
     reduce overgrowth.   Ultrasound of the leg and genetic testing to confirm mutations. '
   keyFeatures: The classic triad includes capillary malformations, venous or lymphatic
     malformations, and soft tissue and bone hypertrophy.
-  requiredStageLevel: 1
+  requiredStageLevel: 0

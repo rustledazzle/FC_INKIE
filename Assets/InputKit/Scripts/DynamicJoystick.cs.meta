@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: fdda90f32a281a246b64cc983daaa263
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Scripts/DynamicJoystick.cs
+  uploadId: 750413

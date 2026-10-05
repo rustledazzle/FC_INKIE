@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
+  m_Name: DengueCase
+  m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: 7827948505003657099, guid: 9ddf281c4b0ccd149a55987ed6e47dd8, type: 3}
+  caseImage2: {fileID: 1112558301728580698, guid: 1311cfc452351ba45842b95ae30d0993, type: 3}
+  title: Dengue
+  type: Mosquito-Borne Viral Infection(Common)
+  category: Endemic Infectious Disease (Pediatric & Adult)
+  description: Dengue is a mosquito-borne viral infection endemic to the Philippines,
+    affecting people of all ages, especially during the rainy season. Children aged
+    14 and below account for 56% of total dengue cases, with signs typically appearing
+    3 to 14 days after a mosquito bite.
+  symptoms: "\u2022 Sudden onset of high fever (38\xB0C and above) lasting 2 to 7
+    days\r\n\u2022 Generalized maculopapular rash appearing 2 to 5 days from fever
+    onset\r\n\u2022 Flushed face, headache, and pain behind the eyes\r\n\u2022 Body
+    malaise, muscle pain, joint pain, lethargy, nausea/vomiting, and poor appetite"
+  pathology: Transmitted by Aedes aegypti and Aedes albopictus mosquitoes. Complete
+    Blood Count (CBC) with platelet count is an important measure during the acute
+    stage of infection, and NS1 antigen can be detectable up to day 7 to day 9 of
+    illness.
+  treatment: "\u2022 Supportive Care: Rest, adequate nutrition, fluid intake, and
+    paracetamol for fever.\r\n\u2022 Medication Safety: Avoid aspirin and ibuprofen,
+    as these may increase bleeding risks.\r\n\u2022 Outpatient vs. Inpatient: Patients
+    without warning signs can be managed as outpatients with regular follow-ups at
+    the Rural Health Unit; patients with warning signs require hospital admission."
+  keyFeatures: "<b>Warning Signs & Prevention (4S Strategy):</b>\r\n\u2022 Warning
+    Signs (Require Hospital Admission): Persistent vomiting, severe abdominal pain,
+    lethargy or restlessness, bleeding from gums or nose, blood in vomitus or stool,
+    and absence of urination for 6 hours.\r\n\u2022 DOH 4S Strategy: Search and destroy
+    mosquito breeding grounds, Self-protect (long sleeves, insect repellent), Seek
+    early consultation for fever, and Say yes to fogging only in hotspot areas."
+  requiredStageLevel: 0

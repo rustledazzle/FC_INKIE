@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
   m_Name: Schistosomiasis Japonica
   m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
-  caseImage1: {fileID: 0}
-  caseImage2: {fileID: 0}
+  caseImage1: {fileID: -5893205898659303077, guid: f8899c6d92d122b4987dd6f4ecaab017, type: 3}
+  caseImage2: {fileID: -1644715245136685197, guid: 2094c60e3746b1346b6ca96c26ffeee9, type: 3}
   title: Schistosomiasis Japonica
   type: Uncommon
   category: Infectious - Parasitic
@@ -35,4 +35,4 @@ MonoBehaviour:
     critical to screen for danger signs like heavy or black bloody stool, fainting,
     confusion, yellowing of the eyes (jaundice), breathing trouble, and marked abdominal
     swelling.
-  requiredStageLevel: 1
+  requiredStageLevel: 3

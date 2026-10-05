@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0592be99b0bdbc64bbe750bfd1f3f615
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Scripts/VariableJoystick.cs
+  uploadId: 750413

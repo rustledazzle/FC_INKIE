@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 75597c5311db848498f6679c837772b1
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Scripts/FixedJoystick.cs
+  uploadId: 750413

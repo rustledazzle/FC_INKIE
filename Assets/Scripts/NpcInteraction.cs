@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class NPCInteract : MonoBehaviour
+public class NpcInteraction : MonoBehaviour
 {
     [Header("Patient Details")]
     [SerializeField] private TextAsset inkJSON;
@@ -9,10 +9,13 @@ public class NPCInteract : MonoBehaviour
     [SerializeField] private string patientNotes;
 
     [Header("UI Prompt")]
-    [SerializeField] private GameObject interactPrompt; // NEW: Drag your World Space Canvas here!
+    [SerializeField] private GameObject interactPrompt;
 
     private bool playerInRange;
     private bool hasBeenDiagnosed = false;
+
+    // Dynamically tracks the NPC the player is currently standing next to
+    public static NpcInteraction activeNPC;
 
     void Start()
     {
@@ -21,13 +24,12 @@ public class NPCInteract : MonoBehaviour
 
     void Update()
     {
+        // PC 'E' key check
         if (playerInRange && !DialogueManager.Instance.isDialogueActive && !hasBeenDiagnosed)
         {
             if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
             {
-                hasBeenDiagnosed = true;
-                if (interactPrompt != null) interactPrompt.SetActive(false); // Hide prompt when talking
-                DialogueManager.Instance.EnterDialogueMode(inkJSON, patientNotes);
+                TriggerDialogue();
             }
         }
     }
@@ -37,7 +39,8 @@ public class NPCInteract : MonoBehaviour
         if (collider.gameObject.CompareTag("Player") && !hasBeenDiagnosed)
         {
             playerInRange = true;
-            if (interactPrompt != null) interactPrompt.SetActive(true); // Show prompt
+            activeNPC = this; // Set this specific NPC as the active one in range!
+            if (interactPrompt != null) interactPrompt.SetActive(true);
         }
     }
 
@@ -46,7 +49,27 @@ public class NPCInteract : MonoBehaviour
         if (collider.gameObject.CompareTag("Player"))
         {
             playerInRange = false;
-            if (interactPrompt != null) interactPrompt.SetActive(false); // Hide prompt
+            if (activeNPC == this)
+            {
+                activeNPC = null; // Clear it when walking away
+            }
+            if (interactPrompt != null) interactPrompt.SetActive(false);
         }
+    }
+
+    // This is called by your mobile button to interact with whichever NPC is currently nearby
+    public static void TriggerActiveNPC()
+    {
+        if (activeNPC != null && !DialogueManager.Instance.isDialogueActive && !activeNPC.hasBeenDiagnosed)
+        {
+            activeNPC.TriggerDialogue();
+        }
+    }
+
+    private void TriggerDialogue()
+    {
+        hasBeenDiagnosed = true;
+        if (interactPrompt != null) interactPrompt.SetActive(false);
+        DialogueManager.Instance.EnterDialogueMode(inkJSON, patientNotes);
     }
 }

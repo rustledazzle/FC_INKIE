@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 9e6c2bbdebda07f4193e17ef7c541a78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8169574873494448331
+    second: PatientSpritetile_0
+  - first:
+      213: -6402769381616526087
+    second: PatientSpritetile_1
+  - first:
+      213: 7155206821526783637
+    second: PatientSpritetile_2
+  - first:
+      213: -7104085560320228355
+    second: PatientSpritetile_3
+  - first:
+      213: 4806400566125823580
+    second: PatientSpritetile_4
+  - first:
+      213: -720643316710412256
+    second: PatientSpritetile_5
+  - first:
+      213: 2114932362213943109
+    second: PatientSpritetile_6
+  - first:
+      213: -271348570445883108
+    second: PatientSpritetile_7
+  - first:
+      213: -1983987014051801640
+    second: PatientSpritetile_8
+  - first:
+      213: 1679429920623807074
+    second: PatientSpritetile_9
+  - first:
+      213: -3217329101647638573
+    second: PatientSpritetile_10
+  - first:
+      213: 4511573798666120895
+    second: PatientSpritetile_11
+  - first:
+      213: -8082065972194989412
+    second: PatientSpritetile_12
+  - first:
+      213: -4311119951331988669
+    second: PatientSpritetile_13
+  - first:
+      213: -1029772058362303987
+    second: PatientSpritetile_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PatientSpritetile_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1065
+        width: 164
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5371863dfe6df9e80800000000000000
+      internalID: -8169574873494448331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1065
+        width: 161
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcdff5bb2bc427a0800000000000000
+      internalID: -6402769381616526087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1065
+        width: 162
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5964e8bb1b66c4360800000000000000
+      internalID: 7155206821526783637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 806
+        width: 154
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3812b62d7396d90800000000000000
+      internalID: -7104085560320228355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 804
+        width: 153
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c568a2879d3c3b240800000000000000
+      internalID: 4806400566125823580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_5
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 806
+        width: 154
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02077b9b8b2cff5f0800000000000000
+      internalID: -720643316710412256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 542
+        width: 153
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5476dbd27cfb95d10800000000000000
+      internalID: 2114932362213943109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 541
+        width: 154
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c195340b9e9fb3cf0800000000000000
+      internalID: -271348570445883108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_8
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 544
+        width: 155
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5547482567774e0800000000000000
+      internalID: -1983987014051801640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_9
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 284
+        width: 165
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ac1f36d988e4710800000000000000
+      internalID: 1679429920623807074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 284
+        width: 165
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df04ca6a30c953d0800000000000000
+      internalID: -3217329101647638573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_11
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 284
+        width: 167
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe247f67745c9e30800000000000000
+      internalID: 4511573798666120895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 418
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9aab04a1dbb6df80800000000000000
+      internalID: -8082065972194989412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 14
+        width: 166
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34be1ccde33db24c0800000000000000
+      internalID: -4311119951331988669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientSpritetile_14
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 0
+        width: 233
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a21b5d4c385b1f0800000000000000
+      internalID: -1029772058362303987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PatientSpritetile_0: -8169574873494448331
+      PatientSpritetile_1: -6402769381616526087
+      PatientSpritetile_10: -3217329101647638573
+      PatientSpritetile_11: 4511573798666120895
+      PatientSpritetile_12: -8082065972194989412
+      PatientSpritetile_13: -4311119951331988669
+      PatientSpritetile_14: -1029772058362303987
+      PatientSpritetile_2: 7155206821526783637
+      PatientSpritetile_3: -7104085560320228355
+      PatientSpritetile_4: 4806400566125823580
+      PatientSpritetile_5: -720643316710412256
+      PatientSpritetile_6: 2114932362213943109
+      PatientSpritetile_7: -271348570445883108
+      PatientSpritetile_8: -1983987014051801640
+      PatientSpritetile_9: 1679429920623807074
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

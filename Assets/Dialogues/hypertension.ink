@@ -4,20 +4,39 @@ VAR clinical_score = 0
 VAR info_score = 0
 VAR empathy_score = 0
 VAR safety_score = 0
-VAR lifestyle_score = 0
-VAR education_score = 0
+
+// --- IMAGE ASSET REFERENCE ---
+// Aling Corazon (Patient) Sprites:
+//   Angry = Corazon_Hypertension_0
+//   Neutral/Tired = Corazon_Hypertension_1
+//   Worried = Corazon_Hypertension_2
+//   Scared = Corazon_Hypertension_3
+//   Relieved = Corazon_Hypertension_4
+//   Worried Crying = Corazon_Hypertension_5
+//   Grateful = Corazon_Hypertension_9
+//
+// Close-Up Images:
+//   BP Meter (160/300) = Hypertensioncloseup_0
+//
+// Resident (Player) Sprites:
+//   Neutral = residentVN_0
+//   Happy = residentVN_1
+//   Sad/Disappointed = residentVN_2
+
 
 // --- SCENE 1: INTRODUCTION ---
+# bg: BG (212)
 # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
 The primary care clinic is busy. Aling Corazon, a 58-year-old retired teacher, enters slowly. She looks tired and is holding her head. She sits down heavily, sighing. You notice she is slightly overweight and looks flushed.
 
-# speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
-"Doc, salamat po sa pagtanggap sa akin. Sumasakit po ang ulo ko at nahihilo ako. Ilang araw na rin akong pagod. Dati naman hindi ako ganito."
-
+# closeup: Hypertensioncloseup_0
 # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
 You check her vital signs. Blood Pressure is 165/100 mmHg. Pulse is 88 bpm. Temperature is 36.8°C. Respiratory rate is 18.
 
-# speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+# speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
+"Doc, salamat po sa pagtanggap sa akin. Sumasakit po ang ulo ko at nahihilo ako. Ilang araw na rin akong pagod. Dati naman hindi ako ganito."
+
+# speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_2
 "Opo, dati may alta presyon ako. Pero sabi ng doktor noon, bantayan lang daw. Hindi na ako bumalik. Hindi naman kasi ako nagkakasakit. Pero ngayon, talagang masakit ang ulo ko. Yung nanay ko kasi, namatay sa stroke. Natatakot ako baka gayahin ko siya."
 
 
@@ -35,7 +54,7 @@ Aling Corazon has elevated blood pressure, a headache, and a family history of s
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
     Aling Corazon answers your questions but she seems tense. She keeps glancing at the door. She provides clinical facts but stays distant.
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
     "Yung ulo ko... parang pumipintig. Mga tatlong araw na. Wala naman akong chest pain. Nahihilo lang ako. Minsan lumalabo ang paningin ko."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -50,7 +69,7 @@ Aling Corazon has elevated blood pressure, a headache, and a family history of s
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
     Aling Corazon's shoulders relax. Her eyes well up. She looks relieved that someone is listening.
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_3
     "Doc, natatakot ako. Yung nanay ko, bigla na lang nag-stroke. Hindi na siya nakalakad. Ayokong mangyari sa akin iyon. Hindi ko alam kung paano ko maiiwasan. Akala ko kasi okay lang ako."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -65,7 +84,7 @@ Aling Corazon has elevated blood pressure, a headache, and a family history of s
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
     Aling Corazon becomes defensive. She crosses her arms.
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_2
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_0
     "Doc, hindi naman ako kumakain ng maaalat. Nagtitipid nga ako sa pagkain. Wala namang kasalanan kung tumaba ako. Hindi ko naman ginusto ito."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -80,7 +99,7 @@ Aling Corazon has elevated blood pressure, a headache, and a family history of s
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
     Aling Corazon thinks for a moment. She seems willing to share but remains cautious.
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
     "Dati po, mga 150/90 siguro. May binigay na gamot. Pero hindi ko naman tinuloy kasi mahal at wala naman akong nararamdaman. Akala ko okay lang."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -99,7 +118,7 @@ You proceed with the consultation. Aling Corazon has given you some information.
     ~ info_score += 2
     "Aling Corazon, besides the headache and dizziness, have you noticed any chest pain, shortness of breath, palpitations, blurry vision, or swelling in your legs?"
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
     "Wala naman chest pain. Pero minsan, parang may kabog sa dibdib ko. At yung paningin ko, lumalabo kapag pagod. Yung paa ko naman, hindi naman namamaga."
 
     -> information_gathering_2
@@ -108,7 +127,7 @@ You proceed with the consultation. Aling Corazon has given you some information.
     ~ info_score += 2
     "Aling Corazon, you mentioned your mother had a stroke. What about your father? Any siblings with high blood pressure, heart disease, or diabetes?"
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
     "Ang tatay ko po, may alta presyon din. Namatay siya sa heart attack. Ang mga kapatid ko, may alta presyon din. Parang pamilya na namin ito."
 
     -> information_gathering_2
@@ -117,7 +136,7 @@ You proceed with the consultation. Aling Corazon has given you some information.
     ~ info_score += 1
     "Aling Corazon, tell me about your daily life. What do you do? Who do you live with? Do you have support at home?"
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
     "Nagtitinda po ako sa sari-sari store. Mag-isa na lang ako sa bahay. Yung mga anak ko, may sariling pamilya na. Wala akong kasama. Kaya pag may nararamdaman ako, hindi ko alam kung ano ang gagawin."
 
     -> information_gathering_2
@@ -126,7 +145,7 @@ You proceed with the consultation. Aling Corazon has given you some information.
     ~ info_score += 2
     "Aling Corazon, you mentioned you stopped your previous medication. Can you tell me why? Was it the cost? Side effects? Or something else?"
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
     "Mahal po kasi. At nahihilo ako noong iniinom ko. Sabi ng doktor, normal lang daw. Pero natakot ako. Kaya tumigil ako. Akala ko kasi okay lang."
 
     -> information_gathering_2
@@ -143,7 +162,7 @@ You have gathered initial information. Now you can ask one more set of questions
     ~ info_score += 1
     "Aling Corazon, I want to understand your daily routine. What do you usually eat? Do you have time to walk or exercise? What does a typical day look like for you?"
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
     "Maaga ako gumising para magtinda. Kadalasan, tuyo at kanin ang kinakain ko. Minsan, naglalakad naman ako papunta sa tindahan. Pero hindi na ako nag-e-exercise. Pagod na ako palagi."
 
     -> diagnosis_phase
@@ -152,7 +171,7 @@ You have gathered initial information. Now you can ask one more set of questions
     ~ info_score += 2
     "Aling Corazon, I need to check for warning signs. Have you had any severe headache that came on suddenly? Any difficulty speaking, weakness on one side of your body, or fainting?"
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
     "Wala naman po. Yung ulo ko, masakit pero hindi naman biglaan. Wala namang panghihina o pamamanhid. Hindi naman ako nawawalan ng malay."
 
     -> diagnosis_phase
@@ -161,7 +180,7 @@ You have gathered initial information. Now you can ask one more set of questions
     ~ info_score += 1
     "Aling Corazon, what do you know about high blood pressure? What have you been told about why it's dangerous?"
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
     "Ang alam ko po, nakakamatay ang alta presyon. Pero hindi ko alam kung paano. Sabi ng iba, dahil sa stress. Sabi naman ng iba, dahil sa pagkain. Hindi ko alam kung ano ang totoo."
 
     -> diagnosis_phase
@@ -186,7 +205,7 @@ Based on this information, how do you interpret her condition?
     ~ clinical_score = 5
     "Aling Corazon, your blood pressure is consistently high. This is not a one-time thing. Your readings, your family history, and your previous history all point to chronic hypertension. This is a long-term condition that needs ongoing management. The good news is that with the right treatment and lifestyle changes, we can control it and reduce your risk of stroke and heart attack."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_2
     "Doc... kailangan ko bang uminom ng gamot habang-buhay?"
 
     # speaker: Player # portrait_left: residentVN_0 # portrait_right: Clear
@@ -198,7 +217,7 @@ Based on this information, how do you interpret her condition?
     ~ clinical_score = 2
     "Aling Corazon, your blood pressure is high, but it may be related to stress and anxiety. You mentioned you're scared about your mother's stroke. Let's focus on relaxation and stress management first before starting medication."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_2
     "Doc... pero yung nanay ko, namatay sa stroke. Hindi naman stress lang iyon. At yung BP ko, mataas talaga kahit hindi ako stressed."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -209,7 +228,7 @@ Based on this information, how do you interpret her condition?
     ~ clinical_score = 2
     "Aling Corazon, your blood pressure is dangerously high. We need to bring it down immediately. I'm going to give you IV medication to lower it right now."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_2
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_0
     "Doc! Ganyan po talaga ang sinabi ng doktor dati. Bigla akong binigyan ng gamot at nahilo ako. Natakot ako. Hindi ko na gusto iyon."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -220,7 +239,7 @@ Based on this information, how do you interpret her condition?
     ~ clinical_score = 3
     "Aling Corazon, your blood pressure is high. Before we start treatment, I want to rule out other causes. Let's do an ECG, kidney function tests, and thyroid function tests."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_2
     "Doc... magkano po ang mga test na iyon? Wala akong trabaho ngayon. Mahirap lang po ako."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -236,16 +255,16 @@ With the diagnosis considered, how do you proceed?
 # speaker: Player # portrait_left: residentVN_0 # portrait_right: Clear
 
 * [Choice A: Start ARB + Lifestyle Counseling + PhilHealth Konsulta + BP Logbook]
-    ~ safety_score = 5
+    ~ safety_score = 4
     "Aling Corazon, I'm going to start you on a medication called an ARB. It's a very common and well-tolerated blood pressure medicine. ARBs are the most commonly prescribed antihypertensive in the Philippines. I will also give you a referral to PhilHealth's Konsulta package, which covers your medicines and follow-up visits. We'll also talk about lifestyle changes: reducing salt in your diet, walking for 30 minutes a day, and losing weight gradually. I'll give you a BP logbook so you can monitor your BP at home. Come back in 2 weeks so we can check your progress."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_2
     "Doc... magkano po ang gamot? Wala po akong trabaho ngayon."
 
     # speaker: Player # portrait_left: residentVN_0 # portrait_right: Clear
     "PhilHealth's Konsulta package covers the cost of medicines for hypertension. You won't have to pay out of pocket for the medication. We'll also give you a BP logbook so you can monitor your BP at home. Come back in 2 weeks so we can check your progress."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_0
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_4
     "Salamat, Doc. Akala ko wala nang pag-asa. Ngayon, may ginagawa na ako para sa sarili ko."
 
     -> education_phase
@@ -254,7 +273,7 @@ With the diagnosis considered, how do you proceed?
     ~ safety_score = 3
     "I'm going to start you on medication. Take this once a day. Come back in a month."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_2
     "Doc... ano pong dapat kong kainin? Dapat ba akong mag-ehersisyo? At paano kung hindi ko kayang bilhin ang gamot?"
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -262,10 +281,10 @@ With the diagnosis considered, how do you proceed?
     -> education_phase
 
 * [Choice C: Recommend Lifestyle Changes Only + No Medication]
-    ~ safety_score = 2
+    ~ safety_score = 1
     "Aling Corazon, let's try lifestyle changes first. Reduce your salt intake, exercise more, and lose weight. If your BP doesn't improve, we can start medication."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_2
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_0
     "Doc! 165/100 ang BP ko! Hindi ba masyadong mataas na para sa lifestyle lang? Yung nanay ko, namatay sa stroke!"
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -276,7 +295,7 @@ With the diagnosis considered, how do you proceed?
     ~ safety_score = 2
     "Aling Corazon, I'm going to refer you to a cardiologist. They can decide on the best treatment for you."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_2
     "Doc... kailan po ako makakakita ng cardiologist? Mahirap po ang schedule. At baka masayang ang oras ko."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -284,55 +303,55 @@ With the diagnosis considered, how do you proceed?
     -> education_phase
 
 
-// --- SCENE 7: PATIENT EDUCATION (EDUCATION SCORE) ---
+// --- SCENE 7: PATIENT EDUCATION (ADDS TO SAFETY SCORE) ---
 == education_phase ==
 # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
-Before Aling Corazon leaves, you have an opportunity to educate her about her condition. This is your chance to ensure she understands and can manage her health.
+Before Aling Corazon leaves, you have an opportunity to educate her about her condition. This is your chance to ensure she understands and can manage her health. Good patient education is part of patient safety.
 
 # speaker: Player # portrait_left: residentVN_0 # portrait_right: Clear
 
 * [Choice A: Explain hypertension and its complications in simple terms]
-    ~ education_score = 5
+    ~ safety_score += 1
     "Aling Corazon, let me explain. Hypertension is like too much pressure in a water pipe. Over time, the pressure damages the pipe. In your body, it damages your heart, your brain, and your kidneys. That's why it's important to take your medicine every day, even if you feel fine. The medicine keeps the pressure normal so your organs stay safe."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_0
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_9
     "Ah, ganun pala iyon, Doc. Akala ko kasi kapag wala akong nararamdaman, okay lang. Ngayon, naiintindihan ko na."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
-    Effect: Patient understands the importance of medication adherence. Education score high.
+    Effect: Patient understands the importance of medication adherence. Safety score increased.
     -> ending
 
 * [Choice B: Tell her to just take the medicine and come back]
-    ~ education_score = 2
+    ~ safety_score += 0
     "Just take the medicine as prescribed and come back in 2 weeks. Any questions?"
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
     "Wala na po, Doc. Salamat."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
-    Effect: Patient leaves without understanding why she needs medication. Education score low.
+    Effect: Patient leaves without understanding why she needs medication. Safety score unchanged.
     -> ending
 
 * [Choice C: Use a metaphor to explain BP and stroke risk]
-    ~ education_score = 4
+    ~ safety_score += 1
     "Aling Corazon, think of your blood vessels like a hose. If the water pressure is too high all the time, the hose can burst. In your body, if your blood pressure is too high, a vessel in your brain can burst. That's what happened to your mother. Taking your medicine keeps the pressure normal so that doesn't happen to you."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_0
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_9
     "Doc, salamat. Ngayon alam ko na kung bakit importante ang gamot. Hindi ko na ito titigilan."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
-    Effect: Patient understands the connection between BP and stroke. Education score high.
+    Effect: Patient understands the connection between BP and stroke. Safety score increased.
     -> ending
 
 * [Choice D: Give her a pamphlet and tell her to read it]
-    ~ education_score = 1
+    ~ safety_score += 0
     "Here's a pamphlet about hypertension. Read it when you get home. It explains everything."
 
-    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Aling Corazon # portrait_left: Clear # portrait_right: Corazon_Hypertension_1
     "Doc... hindi po ako masyadong marunong magbasa ng Ingles. At malabo ang mata ko."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
-    Effect: Patient cannot understand the pamphlet. Education score very low. You did not address her literacy or vision barriers.
+    Effect: Patient cannot understand the pamphlet. You did not address her literacy or vision barriers. Safety score unchanged.
     -> ending
 
 
@@ -349,14 +368,13 @@ Clinical Reasoning: {clinical_score}/5
 Information Gathering: {info_score}/5
 Empathy & Trust: {empathy_score}/5
 Patient Safety: {safety_score}/5
-Patient Education: {education_score}/5
 --------------------------------------------------
-TOTAL SCORE: {clinical_score + info_score + empathy_score + safety_score + education_score}/25
+TOTAL SCORE: {clinical_score + info_score + empathy_score + safety_score}/20
 --------------------------------------------------
 
 # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
 {
-    - clinical_score == 5 and empathy_score == 5 and safety_score == 5 and education_score >= 4:
+    - clinical_score == 5 and empathy_score == 5 and safety_score == 5:
         "Excellent work! You recognized Stage 2 Hypertension, addressed Aling Corazon's fears with empathy, provided comprehensive management including lifestyle counseling and financial support, and ensured she understood her condition. Hypertension is the silent killer, affecting 1 in 3 Filipino adults, and you demonstrated true primary care excellence."
     - clinical_score == 5 and empathy_score < 5 and safety_score == 5:
         "You made the correct diagnosis and appropriate management, but Aling Corazon left feeling judged. Remember, patients with chronic conditions need empathy, not lectures."

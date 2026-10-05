@@ -3,6 +3,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using Firebase.Auth;
+using Firebase.Firestore;
+using Firebase.Extensions;
 
 public class LibraryManager : MonoBehaviour
 {
@@ -18,7 +21,7 @@ public class LibraryManager : MonoBehaviour
 
     [Header("Database (Drag ScriptableObjects Here)")]
     public List<MedicalCase> allCases;
-    private List<MedicalCase> unlockedCases = new List<MedicalCase>(); // The filtered list
+    private List<MedicalCase> unlockedCases = new List<MedicalCase>();
 
     [Header("Navigation")]
     public Button backButton;
@@ -29,23 +32,14 @@ public class LibraryManager : MonoBehaviour
 
     void Start()
     {
-        // 1. Check player progress (0 = Tutorial, 1 = Stage 1, etc.)
-        int currentUnlockedLevel = PlayerPrefs.GetInt("UnlockedStageLevel", 0);
-
-        // 2. Filter the database so players only see what they have unlocked
-        foreach (MedicalCase medCase in allCases)
+        // 1. Navigation Listeners
+        if (backButton != null)
         {
-            if (medCase.requiredStageLevel <= currentUnlockedLevel)
-            {
-                unlockedCases.Add(medCase);
-            }
+            backButton.onClick.AddListener(() => {
+                PlayClickSound();
+                SceneManager.LoadScene("MenuScene");
+            });
         }
-
-        // 3. Navigation Listeners
-        backButton.onClick.AddListener(() => {
-            PlayClickSound();
-            SceneManager.LoadScene("MenuScene");
-        });
 
         if (nextCaseButton != null)
         {
@@ -71,23 +65,75 @@ public class LibraryManager : MonoBehaviour
             });
         }
 
-        // 4. Initial Display
+        // 2. Load unlocked cases immediately from local PlayerPrefs
+        RefreshUnlockedCases(PlayerPrefs.GetInt("UnlockedStageLevel", 0));
+
+        // 3. Verify with Firebase Cloud (works for both Guest and Registered users)
+        SyncLibraryLevelFromCloud();
+    }
+
+    private void RefreshUnlockedCases(int unlockedLevel)
+    {
+        unlockedCases.Clear();
+
+        foreach (MedicalCase medCase in allCases)
+        {
+            if (medCase != null && medCase.requiredStageLevel <= unlockedLevel)
+            {
+                unlockedCases.Add(medCase);
+            }
+        }
+
         if (unlockedCases.Count > 0)
         {
-            currentCaseIndex = 0;
-            ShowDisease(unlockedCases[0]); // Show first unlocked case
+            if (currentCaseIndex >= unlockedCases.Count) currentCaseIndex = 0;
+            if (nextCaseButton != null) nextCaseButton.interactable = true;
+            if (prevCaseButton != null) prevCaseButton.interactable = true;
+
+            ShowDisease(unlockedCases[currentCaseIndex]);
         }
         else
         {
-            // If they haven't unlocked anything yet
             UpdateReadingPanel("📚 Diagnostic Dossier", "Welcome to the Clinical Reference Library.\n\nYou have not unlocked any cases yet. Complete shifts to unlock medical files.");
             if (caseCounterText != null) caseCounterText.text = "0 Cases Unlocked";
             if (progressSlider != null) progressSlider.value = 0;
 
-            // Disable buttons so they don't break the UI
+            if (caseImageDisplay1 != null) caseImageDisplay1.gameObject.SetActive(false);
+            if (caseImageDisplay2 != null) caseImageDisplay2.gameObject.SetActive(false);
+
             if (nextCaseButton != null) nextCaseButton.interactable = false;
             if (prevCaseButton != null) prevCaseButton.interactable = false;
         }
+    }
+
+    private void SyncLibraryLevelFromCloud()
+    {
+        string docId = PlayerPrefs.GetString("ActiveDocumentId", "");
+        if (string.IsNullOrEmpty(docId) && FirebaseAuth.DefaultInstance != null && FirebaseAuth.DefaultInstance.CurrentUser != null)
+        {
+            docId = FirebaseAuth.DefaultInstance.CurrentUser.UserId;
+        }
+
+        if (string.IsNullOrEmpty(docId)) return;
+
+        FirebaseFirestore db = FirebaseFirestore.DefaultInstance;
+        db.Collection("Users").Document(docId).GetSnapshotAsync().ContinueWithOnMainThread(task =>
+        {
+            if (task.IsCompleted && !task.IsFaulted)
+            {
+                DocumentSnapshot snapshot = task.Result;
+                if (snapshot.Exists && snapshot.ContainsField("HighestUnlockedLevel"))
+                {
+                    int cloudLevel = snapshot.GetValue<int>("HighestUnlockedLevel");
+                    if (cloudLevel != PlayerPrefs.GetInt("UnlockedStageLevel", 0))
+                    {
+                        PlayerPrefs.SetInt("UnlockedStageLevel", cloudLevel);
+                        PlayerPrefs.Save();
+                        RefreshUnlockedCases(cloudLevel);
+                    }
+                }
+            }
+        });
     }
 
     private void ShowDisease(MedicalCase disease)
@@ -103,17 +149,17 @@ public class LibraryManager : MonoBehaviour
         UpdateReadingPanel(disease.title, displayText);
         UpdateCaseCounter();
 
-        // --- ADD THIS NEW IMAGE LOGIC ---
+        // Handle Image 1
         if (caseImageDisplay1 != null)
         {
             if (disease.caseImage1 != null)
             {
                 caseImageDisplay1.sprite = disease.caseImage1;
-                caseImageDisplay1.gameObject.SetActive(true); // Turn it ON
+                caseImageDisplay1.gameObject.SetActive(true);
             }
             else
             {
-                caseImageDisplay1.gameObject.SetActive(false); // Turn it OFF if empty
+                caseImageDisplay1.gameObject.SetActive(false);
             }
         }
 
@@ -123,14 +169,15 @@ public class LibraryManager : MonoBehaviour
             if (disease.caseImage2 != null)
             {
                 caseImageDisplay2.sprite = disease.caseImage2;
-                caseImageDisplay2.gameObject.SetActive(true); // Turn it ON
+                caseImageDisplay2.gameObject.SetActive(true);
             }
             else
             {
-                caseImageDisplay2.gameObject.SetActive(false); // Turn it OFF if empty
+                caseImageDisplay2.gameObject.SetActive(false);
             }
         }
     }
+
     private void UpdateReadingPanel(string newTitle, string newDetails)
     {
         if (titleText != null) titleText.text = newTitle;

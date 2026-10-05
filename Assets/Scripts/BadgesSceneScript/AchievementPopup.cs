@@ -16,15 +16,49 @@ public class AchievementPopup : MonoBehaviour
     public float fadeInTime = 0.5f; // Seconds it takes to appear
     public float fadeOutTime = 1f;  // Seconds it takes to disappear
 
+    [Header("Badge Audio")]
+    public AudioSource badgeAudioSource;
+    public AudioClip badgeUnlockClip;
+    [Range(0f, 1f)] public float badgeVolume = 0.5f;
+
     public void SetupAndShow(string title, string desc, Sprite icon)
     {
         if (titleText) titleText.text = title;
         if (descriptionText) descriptionText.text = desc;
         if (badgeIcon && icon != null) badgeIcon.sprite = icon;
 
-        if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
+        PlayBadgeSound();
 
         StartCoroutine(FadeRoutine());
+    }
+
+    private void PlayBadgeSound()
+    {
+        // Get the current SFX slider volume (works even if testing a scene directly)
+        float globalSFX = (AudioManager.Instance != null && AudioManager.Instance.sfxSource != null)
+            ? AudioManager.Instance.sfxSource.volume
+            : PlayerPrefs.GetFloat("SFXVolume", 1f);
+
+        if (badgeUnlockClip != null)
+        {
+            // Automatically grab the AudioSource on the prefab if not manually dragged in
+            if (badgeAudioSource == null) badgeAudioSource = GetComponent<AudioSource>();
+
+            if (badgeAudioSource != null)
+            {
+                badgeAudioSource.PlayOneShot(badgeUnlockClip, badgeVolume * globalSFX);
+            }
+            else if (AudioManager.Instance != null && AudioManager.Instance.sfxSource != null)
+            {
+                // Plays through AudioManager if no AudioSource is attached to the prefab
+                AudioManager.Instance.sfxSource.PlayOneShot(badgeUnlockClip, badgeVolume);
+            }
+        }
+        else if (AudioManager.Instance != null)
+        {
+            // Fallback to button click if no badge sound clip is assigned
+            AudioManager.Instance.PlayClick();
+        }
     }
 
     private IEnumerator FadeRoutine()

@@ -1134,9 +1134,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1221,8 +1221,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.14, y: -104.99}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 241.50052, y: -98.18574}
+  m_SizeDelta: {x: 208.4061, y: 46.3465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &980917842
 CanvasGroup:
@@ -1447,8 +1447,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.14, y: -4.7669}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 241.50052, y: -5.286}
+  m_SizeDelta: {x: 208.4061, y: 46.3465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1000986698
 CanvasGroup:
@@ -1704,8 +1704,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -530.43, y: -356.85}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -527.06976, y: -331.64227}
+  m_SizeDelta: {x: 166.7249, y: 27.8079}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1135547854
 GameObject:
@@ -2433,6 +2433,12 @@ MonoBehaviour:
   bgmSource: {fileID: 1810069421}
   sfxSource: {fileID: 1810069421}
   buttonClickSound: {fileID: 8300000, guid: a82cb43555d01384ab1126eda3119b17, type: 3}
+  defaultMenuBGM: {fileID: 0}
+  bgmBaseVolume: 0.08
+  sfxBaseVolume: 0.35
+  dialogueDuckingMultiplier: 0.25
+  bgmFadeInDuration: 2
+  customSceneMusic: []
 --- !u!4 &1810069423
 Transform:
   m_ObjectHideFlags: 0
@@ -2596,8 +2602,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.14, y: -192.37}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 241.50052, y: -179.18088}
+  m_SizeDelta: {x: 208.4061, y: 46.3465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1880038634
 CanvasGroup:
@@ -2747,8 +2753,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.14, y: 82.611}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 241.50052, y: 75.70722}
+  m_SizeDelta: {x: 208.4061, y: 46.3465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1941895567
 CanvasGroup:
@@ -2976,8 +2982,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 86.354, y: 360.16}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 25, y: 332.97568}
+  m_SizeDelta: {x: 208.4061, y: 46.3465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1979719010
 MonoBehaviour:
@@ -3026,13 +3032,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535

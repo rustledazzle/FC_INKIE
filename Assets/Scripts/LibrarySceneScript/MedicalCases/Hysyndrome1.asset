@@ -30,4 +30,4 @@ MonoBehaviour:
     therapies like trametinib.   Laser hair removal for hypertrichosis.
   keyFeatures: 'Features starting with ''H'': Hyperpigmentation, hypertrichosis,
     hepatosplenomegaly, hypogonadism, hearing loss, and heart abnormalities.'
-  requiredStageLevel: 1
+  requiredStageLevel: 2

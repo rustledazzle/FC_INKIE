@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fe8defaa7fa0d8147b0a2481d278ef90
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Prefabs/InputManager.prefab
+  uploadId: 750413

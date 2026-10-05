@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
   m_Name: Leptospirosis
   m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: -6366081592632494656, guid: 34358e9960723fd4988e14a246ef916c, type: 3}
+  caseImage2: {fileID: -4947013683145954308, guid: 43f85cdf306b89c4a84e495ba60c9e3c, type: 3}
   title: Leptospirosis (Weil Syndrome)
   type: Common / Emergency
   category: Infectious - Bacterial
@@ -31,4 +33,4 @@ MonoBehaviour:
     those requiring hemodialysis.   '
   keyFeatures: he classic clinical picture involves fever, jaundice, red eyes, and
     kidney failure following exposure to floodwater with an open wound.
-  requiredStageLevel: 1
+  requiredStageLevel: 0

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
@@ -9,6 +7,8 @@ using UnityEngine.EventSystems;
 using Firebase.Auth;
 using Firebase.Firestore;
 using Firebase.Extensions;
+using System.Collections;
+using System.Collections.Generic;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -47,6 +47,16 @@ public class DialogueManager : MonoBehaviour
     [Header("UI Text Components")]
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI speakerNameText;
+    [SerializeField] private float typingSpeed = 0.025f;
+
+    [Header("Typewriter Audio")]
+    [SerializeField] private AudioSource typingAudioSource;
+    [SerializeField] private AudioClip typingSoundClip;
+    [SerializeField] private int soundFrequency = 3;
+    [SerializeField][Range(0f, 1f)] private float typingVolume = 0.4f;
+
+    private Coroutine typingCoroutine;
+    private bool isTyping = false;
 
     [Header("UI Portrait Components")]
     [SerializeField] private Image leftPortraitImage;
@@ -63,6 +73,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI totalScoreText;
     [SerializeField] private TextMeshProUGUI gradeText;
     [SerializeField] private GameObject proceedToStagesButton;
+    public GameObject endOfStoryPanel;
 
     [Header("Tutorial Completion UI")]
     public GameObject tutorialCompletePanel;
@@ -91,7 +102,7 @@ public class DialogueManager : MonoBehaviour
     private Dictionary<string, Sprite> portraitDictionary;
 
     public bool isDialogueActive { get; private set; } = false;
-    public bool isShiftComplete { get; private set; } = false; // NEW: Stage lock
+    public bool isShiftComplete { get; private set; } = false;
     private bool isWaitingForChoice = false;
 
     public int unlocksLevelIndex = 0;
@@ -141,13 +152,17 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         isDialogueActive = false;
-        isShiftComplete = false; // Reset lock
+        isShiftComplete = false;
         openedCaseFileThisShift = false;
 
         if (dialoguePanel != null) dialoguePanel.SetActive(false);
         if (caseFilePanel != null) caseFilePanel.SetActive(false);
 
-        // NEW: Force GameManager wipe on restart
+        UpdateBackground("clear");
+        UpdateCloseUp("clear");
+        UpdatePortrait(leftPortraitImage, "clear");
+        UpdatePortrait(rightPortraitImage, "clear");
+
         if (GameManager.Instance != null)
         {
             GameManager.Instance.clinicalReasoningScore = 0;
@@ -160,25 +175,79 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0f) return;
         if (!isDialogueActive) return;
         if (caseFilePanel != null && caseFilePanel.activeInHierarchy) return;
 
-        if (!isWaitingForChoice && currentStory != null)
+        if ((!isWaitingForChoice || isTyping) && currentStory != null)
         {
             bool spacePressed = Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame;
             bool enterPressed = Keyboard.current != null && (Keyboard.current.enterKey.wasPressedThisFrame || Keyboard.current.numpadEnterKey.wasPressedThisFrame);
+
+            // PC Mouse Click
             bool mouseClicked = Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame;
 
-            if (mouseClicked && EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+            // --- ANDROID TOUCH SUPPORT: Detect primary finger tap ---
+            bool screenTapped = Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame;
+
+            // --- CROSS-PLATFORM UI OVER HANG / BUTTON CLICK CHECK ---
+            if ((mouseClicked || screenTapped) && IsPointerOverButton())
             {
                 mouseClicked = false;
+                screenTapped = false;
             }
 
-            if (spacePressed || enterPressed || mouseClicked)
+            if (spacePressed || enterPressed || mouseClicked || screenTapped)
             {
                 OnContinueClicked();
             }
         }
+    }
+
+    // --- Checks if the pointer/touch is interacting with a UI Button (Case File, Choices, etc.) ---
+    private bool IsPointerOverButton()
+    {
+        if (EventSystem.current == null) return false;
+
+        PointerEventData eventData = new PointerEventData(EventSystem.current);
+
+        // Handle both Mouse position and Touch position for UI Raycasting
+        if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.isPressed)
+        {
+            eventData.position = Touchscreen.current.primaryTouch.position.ReadValue();
+        }
+        else if (Mouse.current != null)
+        {
+            eventData.position = Mouse.current.position.ReadValue();
+        }
+        else
+        {
+            return false;
+        }
+
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventData, results);
+
+        foreach (RaycastResult result in results)
+        {
+            if (result.gameObject.GetComponentInParent<Button>() != null)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private string GetActiveUserDocumentId()
+    {
+        string activeDocId = PlayerPrefs.GetString("ActiveDocumentId", "");
+        if (!string.IsNullOrEmpty(activeDocId))
+        {
+            return activeDocId;
+        }
+
+        FirebaseUser currentUser = FirebaseAuth.DefaultInstance != null ? FirebaseAuth.DefaultInstance.CurrentUser : null;
+        return currentUser != null ? currentUser.UserId : "";
     }
 
     public void EnterDialogueMode(TextAsset inkAsset, string patientNotes)
@@ -189,18 +258,42 @@ public class DialogueManager : MonoBehaviour
         if (dialoguePanel != null) dialoguePanel.SetActive(true);
         if (caseFileBodyText != null) caseFileBodyText.text = patientNotes;
 
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.SetDialogueDucking(true);
+        }
+
         ContinueStory();
     }
 
     private void ExitDialogueMode()
     {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.SetDialogueDucking(false);
+        }
+
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+        isTyping = false;
+
         isDialogueActive = false;
         if (dialoguePanel != null) dialoguePanel.SetActive(false);
         if (caseFilePanel != null) caseFilePanel.SetActive(false);
-        if (dialogueText != null) dialogueText.text = "";
+        if (dialogueText != null)
+        {
+            dialogueText.text = "";
+            dialogueText.maxVisibleCharacters = 99999;
+        }
         if (speakerNameText != null) speakerNameText.text = "";
         UpdatePortrait(leftPortraitImage, "clear");
         UpdatePortrait(rightPortraitImage, "clear");
+        UpdateBackground("clear");
+        UpdateCloseUp("clear");
+
+        if (endOfStoryPanel != null)
+        {
+            endOfStoryPanel.SetActive(true);
+        }
     }
 
     public void OpenCaseFile()
@@ -219,13 +312,19 @@ public class DialogueManager : MonoBehaviour
 
     public void CloseFeedbackSummary()
     {
-        if (isShiftComplete) return; // NEW: Block closing if shift is complete!
+        if (isShiftComplete) return;
 
         if (feedbackSummaryPanel != null) feedbackSummaryPanel.SetActive(false);
     }
 
     public void OnContinueClicked()
     {
+        if (isTyping)
+        {
+            CompleteTypingImmediately();
+            return;
+        }
+
         if (!isWaitingForChoice) ContinueStory();
     }
 
@@ -237,18 +336,14 @@ public class DialogueManager : MonoBehaviour
         {
             UpdateCloseUp("clear");
 
-            if (dialogueText != null) dialogueText.text = currentStory.Continue();
+            string nextLine = currentStory.Continue();
             HandleTags(currentStory.currentTags);
 
-            if (currentStory.currentChoices.Count > 0)
-            {
-                DisplayChoices();
-            }
-            else
-            {
-                ClearChoices();
-                SetWaitingForChoice(false);
-            }
+            ClearChoices();
+            SetWaitingForChoice(false);
+
+            if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+            typingCoroutine = StartCoroutine(TypeDialogueText(nextLine));
         }
         else if (currentStory.currentChoices.Count > 0)
         {
@@ -260,6 +355,68 @@ public class DialogueManager : MonoBehaviour
             SetWaitingForChoice(false);
             EvaluateAndPushScores();
             ExitDialogueMode();
+        }
+    }
+
+    private IEnumerator TypeDialogueText(string line)
+    {
+        isTyping = true;
+        if (continuePrompt != null) continuePrompt.SetActive(false);
+
+        if (dialogueText != null)
+        {
+            dialogueText.text = line;
+            dialogueText.ForceMeshUpdate();
+            int totalVisibleCharacters = dialogueText.textInfo.characterCount;
+            dialogueText.maxVisibleCharacters = 0;
+
+            for (int i = 0; i <= totalVisibleCharacters; i++)
+            {
+                dialogueText.maxVisibleCharacters = i;
+
+                if (typingAudioSource != null && typingSoundClip != null && i > 0 && i < line.Length)
+                {
+                    if (i % soundFrequency == 0 && !char.IsWhiteSpace(line[i]))
+                    {
+                        float globalSFX = (AudioManager.Instance != null && AudioManager.Instance.sfxSource != null)
+                            ? AudioManager.Instance.sfxSource.volume
+                            : PlayerPrefs.GetFloat("SFXVolume", 1f);
+
+                        typingAudioSource.pitch = Random.Range(0.95f, 1.05f);
+                        typingAudioSource.PlayOneShot(typingSoundClip, typingVolume * globalSFX);
+                    }
+                }
+
+                yield return new WaitForSeconds(typingSpeed);
+            }
+        }
+
+        FinishLineAndCheckChoices();
+    }
+
+    private void CompleteTypingImmediately()
+    {
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+
+        if (dialogueText != null)
+        {
+            dialogueText.maxVisibleCharacters = 99999;
+        }
+
+        FinishLineAndCheckChoices();
+    }
+
+    private void FinishLineAndCheckChoices()
+    {
+        isTyping = false;
+
+        if (currentStory != null && currentStory.currentChoices.Count > 0)
+        {
+            DisplayChoices();
+        }
+        else
+        {
+            SetWaitingForChoice(false);
         }
     }
 
@@ -375,15 +532,15 @@ public class DialogueManager : MonoBehaviour
     private void SetWaitingForChoice(bool state)
     {
         isWaitingForChoice = state;
-        if (continuePrompt != null) continuePrompt.SetActive(!state && currentStory.canContinue);
+        if (continuePrompt != null) continuePrompt.SetActive(!state && !isTyping && currentStory != null && currentStory.canContinue);
     }
 
     private void EvaluateAndPushScores()
     {
-        int clinical = GetInkVariableInt("clinical_score");
-        int info = GetInkVariableInt("info_score");
-        int empathy = GetInkVariableInt("empathy_score");
-        int safety = GetInkVariableInt("safety_score");
+        int clinical = Mathf.Clamp(GetInkVariableInt("clinical_score"), 0, 5);
+        int info = Mathf.Clamp(GetInkVariableInt("info_score"), 0, 5);
+        int empathy = Mathf.Clamp(GetInkVariableInt("empathy_score"), 0, 5);
+        int safety = Mathf.Clamp(GetInkVariableInt("safety_score"), 0, 5);
         string trust = GetInkVariableString("trust_level");
 
         if (GameManager.Instance != null)
@@ -424,9 +581,9 @@ public class DialogueManager : MonoBehaviour
             if (GameManager.Instance != null)
             {
                 totalScore = GameManager.Instance.clinicalReasoningScore +
-                             GameManager.Instance.informationGatheringScore +
-                             GameManager.Instance.empathyTrustScore +
-                             GameManager.Instance.patientSafetyScore;
+                           GameManager.Instance.informationGatheringScore +
+                           GameManager.Instance.empathyTrustScore +
+                           GameManager.Instance.patientSafetyScore;
 
                 patientsDone = Mathf.Max(1, GameManager.Instance.patientsDiagnosed);
                 maxScore = patientsDone * 20;
@@ -444,11 +601,10 @@ public class DialogueManager : MonoBehaviour
 
                 if (GameManager.Instance != null && GameManager.Instance.patientsDiagnosed >= requiredPatientsToPass)
                 {
-                    isShiftComplete = true; // NEW: Lock the stage
+                    isShiftComplete = true;
                     gradeText.text += "\n\n<color=#00FF00>SHIFT COMPLETE!</color>";
                     if (proceedToStagesButton != null) proceedToStagesButton.SetActive(true);
 
-                    // Achievements block...
                     if (!isTutorialScene)
                     {
                         if (GameManager.Instance.empathyTrustScore >= (patientsDone * 5))
@@ -497,30 +653,31 @@ public class DialogueManager : MonoBehaviour
         if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
 
         if (GameManager.Instance != null) GameManager.Instance.hasCompletedTutorial = true;
+        PlayerPrefs.SetInt("Badge_Tutorial", 1);
 
         int currentUnlockedLevel = PlayerPrefs.GetInt("UnlockedStageLevel", 0);
         if (unlocksLevelIndex > currentUnlockedLevel)
         {
             PlayerPrefs.SetInt("UnlockedStageLevel", unlocksLevelIndex);
         }
+        PlayerPrefs.Save();
+
+        string docId = GetActiveUserDocumentId();
 
         if (!isTutorialScene)
         {
-            int finalClinical = GameManager.Instance.clinicalReasoningScore;
-            int finalInfo = GameManager.Instance.informationGatheringScore;
-            int finalEmpathy = GameManager.Instance.empathyTrustScore;
-            int finalSafety = GameManager.Instance.patientSafetyScore;
+            int finalClinical = GameManager.Instance != null ? GameManager.Instance.clinicalReasoningScore : 0;
+            int finalInfo = GameManager.Instance != null ? GameManager.Instance.informationGatheringScore : 0;
+            int finalEmpathy = GameManager.Instance != null ? GameManager.Instance.empathyTrustScore : 0;
+            int finalSafety = GameManager.Instance != null ? GameManager.Instance.patientSafetyScore : 0;
 
-            // 1. Local Save
             PlayerPrefs.SetInt(stagePrefix + "_Clinical", Mathf.Max(PlayerPrefs.GetInt(stagePrefix + "_Clinical", 0), finalClinical));
             PlayerPrefs.SetInt(stagePrefix + "_Info", Mathf.Max(PlayerPrefs.GetInt(stagePrefix + "_Info", 0), finalInfo));
             PlayerPrefs.SetInt(stagePrefix + "_Empathy", Mathf.Max(PlayerPrefs.GetInt(stagePrefix + "_Empathy", 0), finalEmpathy));
             PlayerPrefs.SetInt(stagePrefix + "_Safety", Mathf.Max(PlayerPrefs.GetInt(stagePrefix + "_Safety", 0), finalSafety));
             PlayerPrefs.Save();
 
-            // 2. NEW: Granular Cloud Save & Progress Tracker
-            FirebaseUser currentUser = FirebaseAuth.DefaultInstance.CurrentUser;
-            if (currentUser != null)
+            if (!string.IsNullOrEmpty(docId))
             {
                 FirebaseFirestore db = FirebaseFirestore.DefaultInstance;
 
@@ -536,21 +693,33 @@ public class DialogueManager : MonoBehaviour
                 Dictionary<string, object> userUpdate = new Dictionary<string, object>
                 {
                     { stagePrefix, currentStageData },
+                    { "TutorialCompleted", true },
                     { "HighestUnlockedLevel", PlayerPrefs.GetInt("UnlockedStageLevel", 0) },
                     { "LastActive", FieldValue.ServerTimestamp }
                 };
 
-                db.Collection("Users").Document(currentUser.UserId)
+                db.Collection("Users").Document(docId)
                   .SetAsync(userUpdate, SetOptions.MergeAll)
                   .ContinueWithOnMainThread(task =>
                   {
                       if (task.IsFaulted) Debug.LogError("Cloud Save Failed: " + task.Exception);
-                      else if (task.IsCompleted) Debug.Log($"Successfully backed up {stagePrefix} to the cloud!");
+                      else if (task.IsCompleted) Debug.Log($"Successfully backed up {stagePrefix} to the cloud for {docId}!");
                   });
             }
         }
+        else if (!string.IsNullOrEmpty(docId))
+        {
+            FirebaseFirestore db = FirebaseFirestore.DefaultInstance;
+            Dictionary<string, object> tutorialUpdate = new Dictionary<string, object>
+            {
+                { "TutorialCompleted", true },
+                { "HighestUnlockedLevel", PlayerPrefs.GetInt("UnlockedStageLevel", 0) },
+                { "LastActive", FieldValue.ServerTimestamp }
+            };
 
-        // 3. Reset the GameManager for the next shift
+            db.Collection("Users").Document(docId).SetAsync(tutorialUpdate, SetOptions.MergeAll);
+        }
+
         if (GameManager.Instance != null)
         {
             GameManager.Instance.clinicalReasoningScore = 0;
@@ -560,8 +729,13 @@ public class DialogueManager : MonoBehaviour
             GameManager.Instance.patientsDiagnosed = 0;
         }
 
-        // 4. Transition Scenes
         UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneName);
+    }
+
+    public void LoadNextSceneOnly()
+    {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MenuScene");
     }
 
     public void SetDialogueActiveState(bool state)
@@ -593,6 +767,31 @@ public class DialogueManager : MonoBehaviour
         {
             PlayerPrefs.SetInt(badgeKey, 1);
             PlayerPrefs.Save();
+
+            string docId = GetActiveUserDocumentId();
+            if (!string.IsNullOrEmpty(docId))
+            {
+                FirebaseFirestore db = FirebaseFirestore.DefaultInstance;
+
+                Dictionary<string, object> badgeUpdate = new Dictionary<string, object>
+                {
+                    { badgeKey, true }
+                };
+
+                Dictionary<string, object> userUpdate = new Dictionary<string, object>
+                {
+                    { "Badges", badgeUpdate },
+                    { "LastActive", FieldValue.ServerTimestamp }
+                };
+
+                db.Collection("Users").Document(docId)
+                  .SetAsync(userUpdate, SetOptions.MergeAll)
+                  .ContinueWithOnMainThread(task =>
+                  {
+                      if (task.IsFaulted) Debug.LogError("Failed to save badge to cloud: " + task.Exception);
+                      else Debug.Log($"Badge '{badgeKey}' saved to Firebase for {docId}!");
+                  });
+            }
 
             BadgeData newBadge = new BadgeData { title = title, desc = desc, icon = icon };
             popupQueue.Enqueue(newBadge);

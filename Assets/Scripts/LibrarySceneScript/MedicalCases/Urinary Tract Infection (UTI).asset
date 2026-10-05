@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
   m_Name: Urinary Tract Infection (UTI)
   m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: -1936366908232312489, guid: 1b89f8ebc5ad52a45abc221696da4c39, type: 3}
+  caseImage2: {fileID: -5381545259882411665, guid: 28316d5c1c44ca447bcdbedc500f16cd, type: 3}
   title: Acute Uncomplicated Cystitis (UTI)
   type: Common
   category: Infectious - Bacterial
@@ -26,4 +28,4 @@ MonoBehaviour:
     bladder emptying. '
   keyFeatures: Characterized by dysuria and frequency without red flags like fever,
     systemic symptoms, or flank pain, which would otherwise suggest pyelonephritis.
-  requiredStageLevel: 1
+  requiredStageLevel: 0

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 888a88d9e89b57948b96ed1a03215317
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Scripts/InputHandler.cs
+  uploadId: 750413

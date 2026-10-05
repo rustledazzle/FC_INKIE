@@ -2405,7 +2405,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2479,13 +2479,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 230a14c94d4519b46bc0b6161b17e093, type: 2}
   - {fileID: 11400000, guid: 01e7e576c74f2c54bb97025a0cd96a92, type: 2}
   - {fileID: 11400000, guid: d45b74428a7569b409d7e7afd0ca35a5, type: 2}
-  - {fileID: 11400000, guid: 6a02b7efe66535546a55ca6c6d08eb75, type: 2}
   - {fileID: 11400000, guid: 8a7abd09e34d17647a9a8cf82df81ab5, type: 2}
   - {fileID: 11400000, guid: 0292e39e3b4673f4199bfe3ccabaac1b, type: 2}
   - {fileID: 11400000, guid: 2dcbe2cb468d99b409e3a5dfa71e7d5e, type: 2}
   - {fileID: 11400000, guid: d98fb4a11119b2b40ac2d9cd59bf01e7, type: 2}
   - {fileID: 11400000, guid: 42a89ced3d7872d4c958b7fd608e89a0, type: 2}
   - {fileID: 11400000, guid: 49dafabb8bbf61241b886124aa515928, type: 2}
+  - {fileID: 11400000, guid: 76ad5ae959729544daf4c19c24a69f06, type: 2}
+  - {fileID: 11400000, guid: 42a89ced3d7872d4c958b7fd608e89a0, type: 2}
   backButton: {fileID: 454026204}
   nextCaseButton: {fileID: 590072215}
   prevCaseButton: {fileID: 1116448600}
@@ -4290,6 +4291,12 @@ MonoBehaviour:
   bgmSource: {fileID: 1566160328}
   sfxSource: {fileID: 1566160328}
   buttonClickSound: {fileID: 8300000, guid: a82cb43555d01384ab1126eda3119b17, type: 3}
+  defaultMenuBGM: {fileID: 0}
+  bgmBaseVolume: 0.08
+  sfxBaseVolume: 0.35
+  dialogueDuckingMultiplier: 0.25
+  bgmFadeInDuration: 2
+  customSceneMusic: []
 --- !u!4 &1566160330
 Transform:
   m_ObjectHideFlags: 0

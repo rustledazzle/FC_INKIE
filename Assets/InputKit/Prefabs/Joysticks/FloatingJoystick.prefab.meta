@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a08e6af2a5093574da01dad46145bf43
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Prefabs/Joysticks/FloatingJoystick.prefab
+  uploadId: 750413

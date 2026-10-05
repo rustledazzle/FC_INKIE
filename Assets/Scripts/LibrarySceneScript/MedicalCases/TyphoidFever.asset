@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
   m_Name: TyphoidFever
   m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: -7875768760302676027, guid: 543512ee2ca822c4e8b018340f0dc59a, type: 3}
+  caseImage2: {fileID: -1822863494881657306, guid: 02af29fc202d2be4db0bfa0cfe7f3a7e, type: 3}
   title: Typhoid Fever
   type: Common
   category: Infectious - Bacterial
@@ -27,4 +29,4 @@ MonoBehaviour:
     via blood culture (the Widal test is no longer recommended). '
   keyFeatures: A fever persisting for 5 or more days combined with gastrointestinal
     symptoms is the classic clinical presentation.
-  requiredStageLevel: 1
+  requiredStageLevel: 3

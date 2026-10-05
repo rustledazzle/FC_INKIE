@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4c85cc0b3468b0b4592a1e84a81a4c97
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Editor/JoystickEditor.cs
+  uploadId: 750413

@@ -1,0 +1,23 @@
+# ninja log v5
+95	31081	8125253059820531	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	8a85f596731625fc
+32209	33221	8125253081578935	D:/GithubProjects/FC_INKIE-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/614o1m4t/obj/arm64-v8a/libswappywrapper.so	3b16edd6b1e234df
+31081	33605	8125253085756391	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	34c6d856a72c5c67
+150	31044	8125253059866178	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	283ab5fc8dcb9438
+132	31138	8125253060929176	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	58bd59d8ce51f1d4
+192	31177	8125253060919007	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	f83c886f416a5e7c
+320	31785	8125253066795628	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	8f45bf7c523f00a4
+170	32276	8125253072206580	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	68bd5a87c59299a2
+31147	32208	8125253069835999	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	e03d6256a6417ead
+31054	34143	8125253091122889	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	ca5e4dab3a4b4143
+34143	34547	8125253095594012	D:/GithubProjects/FC_INKIE-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/614o1m4t/obj/arm64-v8a/libgame.so	215538876d115f18
+318	8013	8127406124025414	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	34c6d856a72c5c67
+150	8066	8127406124025414	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	8a85f596731625fc
+211	8093	8127406124351981	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	283ab5fc8dcb9438
+94	8267	8127406126189336	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	58bd59d8ce51f1d4
+8093	9007	8127406134485412	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	e03d6256a6417ead
+9007	9860	8127406142262720	D:/GithubProjects/FC_INKIE-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/614o1m4t/obj/arm64-v8a/libswappywrapper.so	3b16edd6b1e234df
+339	10150	8127406145096408	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	8f45bf7c523f00a4
+8066	11947	8127406163982151	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	f83c886f416a5e7c
+69	12167	8127406166035928	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	68bd5a87c59299a2
+8014	12815	8127406172568592	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	ca5e4dab3a4b4143
+12815	13192	8127406176384591	D:/GithubProjects/FC_INKIE-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/614o1m4t/obj/arm64-v8a/libgame.so	215538876d115f18

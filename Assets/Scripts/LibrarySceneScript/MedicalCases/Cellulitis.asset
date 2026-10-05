@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
   m_Name: Cellulitis
   m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: 8946594280209514249, guid: 8bdc565d26b780a48b0b3c56786a4e4d, type: 3}
+  caseImage2: {fileID: -6431611185717048733, guid: c3764854afdf049438379c8da4dadc56, type: 3}
   title: 'Uncomplicated Cellulitis   '
   type: Common
   category: Skin and Soft Tissue Infection
@@ -28,4 +30,4 @@ MonoBehaviour:
   keyFeatures: Uncomplicated cases lack red flags like crepitation, skin necrosis,
     or intense pain disproportionate to the skin lesion (which would suggest necrotizing
     fasciitis).
-  requiredStageLevel: 1
+  requiredStageLevel: 2

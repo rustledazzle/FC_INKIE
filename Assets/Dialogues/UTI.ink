@@ -5,17 +5,35 @@ VAR info_score = 0
 VAR empathy_score = 0
 VAR safety_score = 0
 
+// --- IMAGE ASSET REFERENCE ---
+// Maria (Patient) Sprites:
+//   UNCOMFORTABLE/NEUTRAL = Maria_U_0
+//   GUARDED/DEFENSIVE = Maria_U_1
+//   RELIEVED = Maria_U_2
+//   GRATEFUL = Maria_U_3
+//
+// Close-Up Images:
+//   Urinalysis Strip = Maria_Closeup_test_0
+//   Urine Sample = Maria_Closeup_sample_0
+//
+// Resident (Player) Sprites:
+//   Neutral = residentVN_0
+//   Happy = residentVN_1
+//   Sad/Disappointed = residentVN_2
+
+
 // --- SCENE 1: INTRODUCTION ---
+# bg: BG (288)
 # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
 The primary care clinic is busy. Maria, a 28-year-old call center agent, enters quickly. She looks uncomfortable and is shifting her weight from foot to foot. She sits down carefully, grimacing.
 
-# speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+# speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
 "Doc, salamat po sa pagtanggap sa akin. Masakit po kapag umiihi ako. Parang may nasusunog. Tapos, kahit kaka-CR ko lang, parang gusto ko na naman umihi."
 
 # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
 You notice Maria looks tired. She mentions she works night shifts and often holds her urine for long periods because she is busy taking calls.
 
-# speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+# speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
 "Doc, mga tatlong araw na ito. Hindi naman ako nilalagnat. Wala rin akong sakit sa likod. Pero yung pag-ihi ko, sobrang sakit na. Nahihirapan na ako magtrabaho."
 
 
@@ -33,7 +51,7 @@ Maria is clearly uncomfortable and frustrated. She has been enduring this for th
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
     Maria answers your questions but she seems guarded. She provides clinical facts but does not elaborate.
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Yung pag-ihi ko, masakit. Parang may nasusunog. Kahit kaka-CR ko lang, parang gusto ko na naman umihi. Hindi ko alam kung na-e-empty ko ba talaga."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -48,7 +66,7 @@ Maria is clearly uncomfortable and frustrated. She has been enduring this for th
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
     Maria sighs deeply. She looks relieved that someone is asking about her situation.
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Doc, grabe. Twelve-hour shifts ako. Minsan, hindi ako makapag-CR kasi sunod-sunod ang calls. Tapos, konti lang ang iniinom ko na tubig kasi ayaw ko mag-CR nang mag-CR. Ngayon, eto, nagkasakit ako."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -63,7 +81,7 @@ Maria is clearly uncomfortable and frustrated. She has been enduring this for th
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
     Maria becomes defensive and crosses her arms.
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_2
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_1
     "Doc, hindi naman po ako madumi. Nag-aalaga naman po ako ng sarili ko. Bakit niyo po ako tinatanong niyan?"
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -78,7 +96,7 @@ Maria is clearly uncomfortable and frustrated. She has been enduring this for th
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
     Maria thinks for a moment. She seems willing to share but remains cautious.
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Dati po, mga dalawang taon na. Binigyan ako ng gamot. Nainom ko naman. Pero ngayon, parang mas malala ito."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -97,7 +115,7 @@ You proceed with the consultation. Maria has given you some initial information.
     ~ info_score += 2
     "Maria, I need to check for warning signs. Have you had any fever, chills, pain on your side or back, nausea, or vomiting?"
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Wala naman po fever. Wala rin sakit sa likod. Hindi naman ako nagsusuka. Yung pag-ihi lang talaga ang problema."
 
     -> information_gathering_2
@@ -106,7 +124,7 @@ You proceed with the consultation. Maria has given you some initial information.
     ~ info_score += 2
     "Maria, how much water do you drink in a day? How often do you urinate? Do you hold your urine for long periods?"
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Konti lang po iniinom ko. Mga dalawang baso lang sa isang shift. Minsan, apat na oras akong hindi nakaka-CR kasi busy. Alam ko naman na mali, pero wala akong choice."
 
     -> information_gathering_2
@@ -115,7 +133,7 @@ You proceed with the consultation. Maria has given you some initial information.
     ~ info_score += 1
     "Maria, have you noticed any vaginal discharge, itching, or irritation? Any new sexual partner or change in contraception?"
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Wala naman po discharge. Wala ring itching. Hindi naman nagbago ang partner ko. Yung pag-ihi lang talaga ang problema."
 
     -> information_gathering_2
@@ -124,7 +142,7 @@ You proceed with the consultation. Maria has given you some initial information.
     ~ info_score += 2
     "Maria, do you have any medical conditions like diabetes or kidney problems? Is there any chance you might be pregnant?"
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Wala naman po akong diabetes o sakit sa bato. Hindi rin po ako buntis. Regular naman ang menstruation ko."
 
     -> information_gathering_2
@@ -141,7 +159,7 @@ You have gathered initial information. Now you can ask one more set of questions
     ~ info_score += 1
     "Maria, how has this affected your work and daily life? Are you able to function at your job?"
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Doc, nahihirapan na ako. Puro CR ako. Hindi ako makapag-focus sa trabaho. Yung supervisor ko, napapansin na. Natatakot ako na ma-terminate."
 
     -> diagnosis_phase
@@ -150,7 +168,7 @@ You have gathered initial information. Now you can ask one more set of questions
     ~ info_score += 2
     "Maria, have you taken any antibiotics recently? Any self-medication for this current episode?"
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Wala naman po akong iniinom na antibiotic. Hindi rin ako nag-self-medicate. Ngayon lang talaga ako nagpatingin."
 
     -> diagnosis_phase
@@ -159,7 +177,7 @@ You have gathered initial information. Now you can ask one more set of questions
     ~ info_score += 1
     "Maria, what do you know about UTI? What have you heard about how it's treated?"
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Ang alam ko po, dahil sa hindi pag-inom ng tubig at pagpigil ng ihi. Sabi ng kaibigan ko, dapat daw uminom ng antibiotics. Pero hindi ko alam kung alin."
 
     -> diagnosis_phase
@@ -184,11 +202,15 @@ Based on this information, how do you interpret her condition?
     ~ clinical_score = 5
     "Maria, you have Acute Uncomplicated Cystitis. This is a bladder infection without complications. The burning, frequency, and urgency are classic signs. Because you have no fever, no flank pain, and no other medical conditions, we can treat this as an uncomplicated UTI."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Doc... kailangan ko bang magpa-test muna?"
 
     # speaker: Player # portrait_left: residentVN_0 # portrait_right: Clear
     "Yes, we should do a urinalysis first to confirm the diagnosis before starting antibiotics. The Philippine CPG recommends urinalysis to confirm UTI before treatment."
+
+    # closeup: Maria_Closeup_test_0
+    # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
+    You show Maria the urinalysis test strip. The results confirm the presence of leukocytes and nitrites—consistent with a urinary tract infection.
 
     -> management_phase
 
@@ -196,7 +218,7 @@ Based on this information, how do you interpret her condition?
     ~ clinical_score = 2
     "Maria, this could be a kidney infection. We should check your flank and consider admission."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Doc... pero wala naman akong sakit sa likod o lagnat. Sa pantog lang ang problema ko."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -207,7 +229,7 @@ Based on this information, how do you interpret her condition?
     ~ clinical_score = 2
     "Maria, the burning could be from a vaginal infection. Let's do a pelvic exam and test for STIs."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Doc... wala naman akong discharge o itching. Yung pag-ihi lang talaga ang masakit."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -218,7 +240,7 @@ Based on this information, how do you interpret her condition?
     ~ clinical_score = 1
     "Maria, you may have bacteria in your urine without a true infection. Let's just monitor."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_2
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_1
     "Doc! Masakit nga po ang pag-ihi ko! Hindi naman ako walang nararamdaman!"
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -234,16 +256,20 @@ With the diagnosis considered, how do you proceed?
 # speaker: Player # portrait_left: residentVN_0 # portrait_right: Clear
 
 * [Choice A: Order Urinalysis + Start Antibiotics + Hydration Counseling]
-    ~ safety_score = 5
+    ~ safety_score = 4
     "Maria, I'm going to order a urinalysis to confirm the UTI. The Philippine CPG recommends urinalysis before starting treatment. Once confirmed, I'll start you on antibiotics. First-line options include nitrofurantoin or fosfomycin. You also need to increase your water intake—at least 8 glasses a day. And please don't hold your urine. Take breaks at work, even if it's just for a few minutes."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Doc... magkano po ang gamot? Pasensya na, nagtitipid ako."
 
     # speaker: Player # portrait_left: residentVN_0 # portrait_right: Clear
     "The antibiotics are affordable. You can also use your PhilHealth Konsulta benefits. The most important thing is to treat this now before it gets worse. Let's also talk about how to prevent this from happening again."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_0
+    # closeup: Maria_Closeup_sample_0
+    # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
+    You show Maria the urine sample. It appears cloudy and slightly dark—consistent with a urinary tract infection.
+
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_2
     "Salamat, Doc. Akala ko magiging komplikado pa. Ngayon, alam ko na ang gagawin ko."
 
     -> education_phase
@@ -252,7 +278,7 @@ With the diagnosis considered, how do you proceed?
     ~ safety_score = 3
     "I'll start you on antibiotics right away. No need for tests."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Doc... hindi ba dapat i-test muna? Baka mali ang gamot?"
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -263,7 +289,7 @@ With the diagnosis considered, how do you proceed?
     ~ safety_score = 1
     "Just drink more water and cranberry juice. That should clear it up."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_2
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_1
     "Doc! Tatlong araw na akong nagtitiis! Hindi ba dapat gamutin ito nang maayos? Yung kaibigan ko, na-ospital dahil dito!"
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -274,7 +300,7 @@ With the diagnosis considered, how do you proceed?
     ~ safety_score = 2
     "I'm going to refer you to a urologist. They can manage this better."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Doc... kailan po ako makakakita ng urologist? Ang mahal po ng consultation. At baka hindi na kaya ng oras ko."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -293,16 +319,18 @@ Before Maria leaves, you have an opportunity to educate her about prevention. Th
     ~ safety_score += 1
     "Maria, holding your urine for long periods allows bacteria to multiply in your bladder. That's why you got this infection. At work, please take bathroom breaks, even if it's just for two minutes. And drink water throughout your shift, not just when you remember."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_0
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_3
     "Doc, naiintindihan ko na. Akala ko kasi okay lang na pigilin. Ngayon, alam ko na ang gagawin ko."
 
+    # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
+    Effect: Patient understands prevention. Safety score increased.
     -> ending
 
 * [Choice B: Just tell her to take the medicine and come back]
     ~ safety_score += 0
     "Take the medicine as prescribed and come back if it doesn't improve."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Wala na po, Doc. Salamat."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -313,7 +341,7 @@ Before Maria leaves, you have an opportunity to educate her about prevention. Th
     ~ safety_score += 1
     "Maria, think of your bladder like a water bottle. If you don't empty it regularly, bacteria grow. Drinking water and urinating often flushes them out. It's that simple."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_0
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_3
     "Ah, ganun pala iyon, Doc. Parang hugasan lang ang bote. Salamat, naiintindihan ko na."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear
@@ -324,7 +352,7 @@ Before Maria leaves, you have an opportunity to educate her about prevention. Th
     ~ safety_score += 0
     "Here's a pamphlet about UTI. Read it when you get home."
 
-    # speaker: Maria # portrait_left: Clear # portrait_right: patientVN_1
+    # speaker: Maria # portrait_left: Clear # portrait_right: Maria_U_0
     "Doc... hindi po ako masyadong nagbabasa ng Ingles. At wala akong oras ngayon."
 
     # speaker: Narrator # portrait_left: Clear # portrait_right: Clear

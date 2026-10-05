@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 96f261011a7a2c54eafa19270de2ea1e
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Editor/InputKit.Editor.asmdef
+  uploadId: 750413

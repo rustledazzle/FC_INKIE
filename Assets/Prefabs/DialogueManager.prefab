@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &765905496646804216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6167649273791765644}
+  - component: {fileID: 4429799731693935383}
+  - component: {fileID: 2585949241903673966}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6167649273791765644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765905496646804216}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 765.83026, y: 379.60236, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4429799731693935383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765905496646804216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2e56b66e2a67748854f2f798822b33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
+  achievementPrefab: {fileID: 2972755747795209143, guid: 0f11b6ee39d87ca4e9869c76f6e673ab, type: 3}
+  mainCanvas: {fileID: 0}
+  tutorialBadgeIcon: {fileID: 5531158624255248298, guid: e48327a50ed5a3e4ba17419041c3b299, type: 3}
+  perfectStage1Icon: {fileID: 2652268231704309907, guid: 4429e2dfa31437e4e990d956b0713d19, type: 3}
+  perfectEmpathyIcon: {fileID: -8565885526770667554, guid: d54a5a2d1ad75a1489c5bf6ce9da1ae8, type: 3}
+  perfectSafetyIcon: {fileID: 528089494515366856, guid: ffce6b213587d13498c864d594fca300, type: 3}
+  outstandingGradeIcon: {fileID: 7727435745367370724, guid: 051e7963bb581fa4fa2fbcf50fd2f870, type: 3}
+  noCaseFileIcon: {fileID: -835824704294041803, guid: 7aea07cd356ad4848afd876ac2939875, type: 3}
+  chiefResidentIcon: {fileID: 3031259618910499949, guid: 4be1c9fde3f8cd34eb9e077c898e0e77, type: 3}
+  diagnosticDetectiveIcon: {fileID: 0}
+  dialoguePanel: {fileID: 0}
+  caseFilePanel: {fileID: 0}
+  caseFileBodyText: {fileID: 0}
+  dialogueText: {fileID: 0}
+  speakerNameText: {fileID: 0}
+  typingSpeed: 0.025
+  typingAudioSource: {fileID: 2585949241903673966}
+  typingSoundClip: {fileID: 8300000, guid: f428b9bc6dad1f2449f8b079f68ed7b6, type: 3}
+  soundFrequency: 4
+  typingVolume: 0.4
+  leftPortraitImage: {fileID: 0}
+  rightPortraitImage: {fileID: 0}
+  portraitSprites:
+  - {fileID: 1651629390, guid: cdbd123bb32916449a17b2e59ae28651, type: 3}
+  - {fileID: -1478952539, guid: cdbd123bb32916449a17b2e59ae28651, type: 3}
+  - {fileID: 1654483367, guid: cdbd123bb32916449a17b2e59ae28651, type: 3}
+  - {fileID: -1812582263, guid: 06f517567de7ae2468bbc17ddfb9a6e2, type: 3}
+  - {fileID: -728139801, guid: 06f517567de7ae2468bbc17ddfb9a6e2, type: 3}
+  - {fileID: -760668957, guid: 06f517567de7ae2468bbc17ddfb9a6e2, type: 3}
+  - {fileID: 21300000, guid: 9e7744765810bff449527e8fe80e9300, type: 2}
+  - {fileID: -1385782255289638461, guid: 2eda5db7caf6ed443b3951228e903022, type: 3}
+  - {fileID: 77251806, guid: 2eda5db7caf6ed443b3951228e903022, type: 3}
+  - {fileID: 1403510857, guid: 2eda5db7caf6ed443b3951228e903022, type: 3}
+  - {fileID: 7888822717324845620, guid: 13b915de2ab0870439993dd7f2d8567d, type: 3}
+  - {fileID: -1900390652, guid: 13b915de2ab0870439993dd7f2d8567d, type: 3}
+  - {fileID: 1163201756, guid: 13b915de2ab0870439993dd7f2d8567d, type: 3}
+  - {fileID: 481297611042541856, guid: b76c5b83091412b4e919a6a645436cb7, type: 3}
+  - {fileID: -2435797733634400483, guid: b76c5b83091412b4e919a6a645436cb7, type: 3}
+  - {fileID: -7119542886026862704, guid: b76c5b83091412b4e919a6a645436cb7, type: 3}
+  - {fileID: -6083044102261829598, guid: b76c5b83091412b4e919a6a645436cb7, type: 3}
+  - {fileID: 3815033490834663818, guid: b76c5b83091412b4e919a6a645436cb7, type: 3}
+  - {fileID: -4374322727611421963, guid: b76c5b83091412b4e919a6a645436cb7, type: 3}
+  - {fileID: -2365651026945344698, guid: 6788fe8cf1d85e049ac4d3b61eb08e14, type: 3}
+  - {fileID: -4374322727611421963, guid: b76c5b83091412b4e919a6a645436cb7, type: 3}
+  - {fileID: -467814268085375519, guid: 62a089e6ccf996a4297c9b2a56a54c16, type: 3}
+  - {fileID: 9138039028101118064, guid: d53d83c4440528e4691156d2b8ac56b7, type: 3}
+  - {fileID: 5428183486504872084, guid: d53d83c4440528e4691156d2b8ac56b7, type: 3}
+  - {fileID: -5391052414667100105, guid: d53d83c4440528e4691156d2b8ac56b7, type: 3}
+  - {fileID: 7801844671109326451, guid: 8c7735dbbc717ba438bfa8ddba651b2e, type: 3}
+  - {fileID: 2719785977084493136, guid: 8c7735dbbc717ba438bfa8ddba651b2e, type: 3}
+  - {fileID: -1647312640618173491, guid: 8c7735dbbc717ba438bfa8ddba651b2e, type: 3}
+  - {fileID: 7384517257211638045, guid: 8c7735dbbc717ba438bfa8ddba651b2e, type: 3}
+  - {fileID: -4905119580485771836, guid: 99158af8ff50b2448acdbf112758d9cd, type: 3}
+  - {fileID: 789575718963616278, guid: 99158af8ff50b2448acdbf112758d9cd, type: 3}
+  - {fileID: -5315994318187879376, guid: 99158af8ff50b2448acdbf112758d9cd, type: 3}
+  - {fileID: 7150114412880087511, guid: 99158af8ff50b2448acdbf112758d9cd, type: 3}
+  - {fileID: 2036705373672970239, guid: fcd4372cd9fddd44d8f415e410742d7c, type: 3}
+  - {fileID: -3344088105097014250, guid: fcd4372cd9fddd44d8f415e410742d7c, type: 3}
+  - {fileID: 4916421489466620099, guid: fcd4372cd9fddd44d8f415e410742d7c, type: 3}
+  - {fileID: -3908477560350639300, guid: fcd4372cd9fddd44d8f415e410742d7c, type: 3}
+  - {fileID: 266077810842087170, guid: 88d252ba2d0a51e45a69f2c03002cf88, type: 3}
+  - {fileID: -6845908826831597137, guid: 88d252ba2d0a51e45a69f2c03002cf88, type: 3}
+  - {fileID: -2882293619569572559, guid: 88d252ba2d0a51e45a69f2c03002cf88, type: 3}
+  - {fileID: -8814818387405101193, guid: 88d252ba2d0a51e45a69f2c03002cf88, type: 3}
+  choiceButtonContainer: {fileID: 0}
+  choiceButtonPrefab: {fileID: 6500127358629673342, guid: b379611b97bf18342a6b8c38eac3c98c, type: 3}
+  continuePrompt: {fileID: 6697425722491888566, guid: 2391e7c68d8878d4192c0d150b47fa59, type: 3}
+  feedbackSummaryPanel: {fileID: 0}
+  totalScoreText: {fileID: 0}
+  gradeText: {fileID: 0}
+  proceedToStagesButton: {fileID: 0}
+  tutorialCompletePanel: {fileID: 0}
+  requiredPatientsToPass: 3
+  backgroundImage: {fileID: 0}
+  backgroundSprites:
+  - {fileID: 21300000, guid: c25f086ba7c2bd5478b0e3782228a1db, type: 3}
+  - {fileID: 21300000, guid: ec6ee91e24fd1904da2a5f01e0bc9ea1, type: 3}
+  closeUpPanel: {fileID: 0}
+  closeUpImage: {fileID: 0}
+  closeUpSprites:
+  - {fileID: -2347178359709390054, guid: b421af29ab03256468d720ea8a6c01ce, type: 3}
+  - {fileID: 4176715774331371334, guid: ba9f77a3ebdf9914589773c91ea6fb8e, type: 3}
+  - {fileID: -2365651026945344698, guid: 6788fe8cf1d85e049ac4d3b61eb08e14, type: 3}
+  - {fileID: -467814268085375519, guid: 62a089e6ccf996a4297c9b2a56a54c16, type: 3}
+  - {fileID: 7827948505003657099, guid: 9ddf281c4b0ccd149a55987ed6e47dd8, type: 3}
+  - {fileID: 156562166627008718, guid: af37274c1965d3b4ba5329b68320f150, type: 3}
+  - {fileID: 389100531820766258, guid: 6b8bc514f17695c48a487a9b0163b663, type: 3}
+  - {fileID: -7291763587462560872, guid: 2f37bf0ff9c1c7e4490dbd7ecf0d5e08, type: 3}
+  isTutorialScene: 0
+  isSpecialCaseScene: 0
+  stagePrefix: Stage1_Morning
+  nextSceneName: StagesScene
+  unlocksLevelIndex: 1
+--- !u!82 &2585949241903673966
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765905496646804216}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

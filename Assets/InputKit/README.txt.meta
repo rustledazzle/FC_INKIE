@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7d95203ca070d7f4c893eff0739b079d
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/README.txt
+  uploadId: 750413

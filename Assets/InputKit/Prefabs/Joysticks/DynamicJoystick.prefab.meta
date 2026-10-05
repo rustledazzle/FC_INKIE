@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3a40ec8aeac58b2449192591d8d3f3c1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Prefabs/Joysticks/DynamicJoystick.prefab
+  uploadId: 750413

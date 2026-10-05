@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 55cd93f7473c5ad4ea07e336e4b4cd9e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317746
+  packageName: 'Input Kit: Universal Input Manager'
+  packageVersion: 1.0.0
+  assetPath: Assets/InputKit/Prefabs/Joysticks/FixedJoystick.prefab
+  uploadId: 750413

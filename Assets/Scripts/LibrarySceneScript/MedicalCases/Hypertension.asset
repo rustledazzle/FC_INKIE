@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2314216386f93e848b802d3e5aa8e609, type: 3}
   m_Name: Hypertension
   m_EditorClassIdentifier: Assembly-CSharp::MedicalCase
+  caseImage1: {fileID: -2644397216444127970, guid: 6d49d53443a8d064c90e9687749acb51, type: 3}
+  caseImage2: {fileID: 0}
   title: Stage 2 Hypertension
   type: Common
   category: Cardiovascular
